@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hyA9aXHiyw4ApmxROhHrg/kKWtixtJ8vIVh5JU+7j8By+hkE8ivMbfhi8aUntSH5PMZod3O70VmAeoVCwI3FXA==",
+  "dgSpecHash": "KJBEtJ5kKsKGfkr+yesLR+QwZufCxy+Rn2C98ZyhhqCrTySFxTp7X87d7xAwC60c1DNRtvUK/AhKeHGcsqGWYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

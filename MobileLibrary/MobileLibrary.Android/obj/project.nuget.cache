@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Nhw/Zz3uzKi2axc5oV4Gmgr0f9bFeT+zfvFPJyiajPxWjRrtM9Qrbt6ckH/aBFV+Vo+yIpJYB2Jt8y2HqHiCA==",
+  "dgSpecHash": "t86XDdps6tBJ/aP7pzs0vt9xaq7o35OjTDdHLyOzFg5h5sehdcOEtrQmVTCkxQ9LPsgAUeymERbk83DsnqW3Vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary.Android\\MobileLibrary.Android.csproj",
+  "projectFilePath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary.Android\\MobileLibrary.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniil\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

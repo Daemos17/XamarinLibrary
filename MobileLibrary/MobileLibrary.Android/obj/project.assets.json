@@ -2149,11 +2149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary.Android\\MobileLibrary.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary.Android\\MobileLibrary.Android.csproj",
       "projectName": "MobileLibrary.Android",
-      "projectPath": "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary.Android\\MobileLibrary.Android.csproj",
+      "projectPath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary.Android\\MobileLibrary.Android.csproj",
       "packagesPath": "C:\\Users\\Daniil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary.Android\\obj\\",
+      "outputPath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2176,8 +2176,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj": {
-              "projectPath": "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj"
+            "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj": {
+              "projectPath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj"
             }
           }
         }

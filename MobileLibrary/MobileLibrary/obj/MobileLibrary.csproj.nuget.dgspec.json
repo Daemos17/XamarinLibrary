@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj": {}
+    "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj": {
+    "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj",
         "projectName": "MobileLibrary",
-        "projectPath": "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj",
+        "projectPath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj",
         "packagesPath": "C:\\Users\\Daniil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniil\\source\\repos\\MobileLibrary\\MobileLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
