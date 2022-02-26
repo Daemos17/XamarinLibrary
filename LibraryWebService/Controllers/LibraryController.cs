@@ -26,9 +26,6 @@ namespace LibraryWebService.Controllers
         public async Task <ActionResult<IEnumerable<Book>>> Get()
         {
             return await db.Books
-                .Include(a => a.IdAuthorFkNavigation)
-                .Include(g => g.IdGenreFkNavigation)
-                .Include(t => t.IdTypeFkNavigation)
                 .ToListAsync();
         }
 

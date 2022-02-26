@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 
 
-namespace LibraryWebService.Models
+namespace MobileLibrary.Models
 {
     public partial class Student
     {
