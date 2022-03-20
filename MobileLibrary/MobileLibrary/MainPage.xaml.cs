@@ -6,9 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using MobileLibrary.ViewModels;
+using Xamarin.Forms.Xaml;
 
 namespace MobileLibrary
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
 
@@ -16,16 +18,20 @@ namespace MobileLibrary
         public MainPage()
         {
             InitializeComponent();
-            viewModel = new MainPageViewModel() { Navigation = this.Navigation};
-            BindingContext = viewModel;
 
+    
         }
 
-
-        protected override async void OnAppearing()
+        public async void button_Clicked(object sender,EventArgs e)
         {
-            await viewModel.GetBooks();
+
+        }
+        protected override void OnAppearing()
+        {
+           
             base.OnAppearing();
         }
+
+
     }
 }

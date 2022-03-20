@@ -19,7 +19,6 @@ namespace LibraryWebService.Models
 
         public virtual DbSet<Author> Authors { get; set; }
         public virtual DbSet<Book> Books { get; set; }
-        public virtual DbSet<Comment> Comments { get; set; }
         public virtual DbSet<Genre> Genres { get; set; }
         public virtual DbSet<Group> Groups { get; set; }
         public virtual DbSet<LibrariesBook> LibrariesBooks { get; set; }
@@ -35,7 +34,7 @@ namespace LibraryWebService.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=localhost;Database=library;Trusted_Connection=true;");
+                optionsBuilder.UseSqlServer("Server=localhost;Database=library;Trusted_Connection=True;");
             }
         }
 
@@ -66,16 +65,19 @@ namespace LibraryWebService.Models
 
                 entity.Property(e => e.Amount).HasColumnName("amount");
 
+                entity.Property(e => e.Bookname)
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.IdAuthorFk).HasColumnName("Id_authorFk");
 
                 entity.Property(e => e.IdGenreFk).HasColumnName("id_genreFk");
 
                 entity.Property(e => e.IdTypeFk).HasColumnName("id_typeFk");
 
-                entity.Property(e => e.ImagePath)
-                    .HasMaxLength(100)
-                    .IsUnicode(false)
-                    .HasColumnName("imagePath");
+                entity.Property(e => e.ImageCode)
+                    .HasColumnType("image")
+                    .HasColumnName("imageCode");
 
                 entity.Property(e => e.Year)
                     .HasMaxLength(50)
@@ -99,31 +101,6 @@ namespace LibraryWebService.Models
                     .HasConstraintName("FK_Books_Types");
             });
 
-            modelBuilder.Entity<Comment>(entity =>
-            {
-                entity.HasKey(e => e.IdComment);
-
-                entity.Property(e => e.IdComment)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id_comment");
-
-                entity.Property(e => e.Commnet).HasColumnType("text");
-
-                entity.Property(e => e.IdBookCom).HasColumnName("id_bookCom");
-
-                entity.Property(e => e.IdStudentCom).HasColumnName("id_studentCom");
-
-                entity.HasOne(d => d.IdBookComNavigation)
-                    .WithMany(p => p.Comments)
-                    .HasForeignKey(d => d.IdBookCom)
-                    .HasConstraintName("FK_Comments_Books");
-
-                entity.HasOne(d => d.IdStudentComNavigation)
-                    .WithMany(p => p.Comments)
-                    .HasForeignKey(d => d.IdStudentCom)
-                    .HasConstraintName("FK_Comments_Comments");
-            });
-
             modelBuilder.Entity<Genre>(entity =>
             {
                 entity.HasKey(e => e.IdGenre);
@@ -145,6 +122,11 @@ namespace LibraryWebService.Models
                 entity.Property(e => e.IdGroup)
                     .ValueGeneratedNever()
                     .HasColumnName("Id_group");
+
+                entity.Property(e => e.GroupAlias)
+                    .HasMaxLength(10)
+                    .IsUnicode(false)
+                    .HasColumnName("groupAlias");
 
                 entity.Property(e => e.GroupName)
                     .HasMaxLength(50)

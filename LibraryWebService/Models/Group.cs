@@ -14,6 +14,7 @@ namespace LibraryWebService.Models
 
         public int IdGroup { get; set; }
         public string GroupName { get; set; }
+        public string GroupAlias { get; set; }
 
         public virtual ICollection<Student> Students { get; set; }
     }

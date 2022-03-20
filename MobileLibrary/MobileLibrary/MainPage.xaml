@@ -1,30 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:MobileLibrary.ViewModels"
              x:Class="MobileLibrary.MainPage">
-    <StackLayout>
-        <ListView x:Name="friendsList" ItemsSource="{Binding Books}"
-              SelectedItem="{Binding SelectedBook, Mode=TwoWay}" HasUnevenRows="True">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <ViewCell.View>
-                            <StackLayout>
-                                <Label Text="{Binding BookName}" FontSize="Medium" />
-                                <Label Text="{Binding Year}" FontSize="Small" />
-                                <Label Text="{Binding Amount}" FontSize="Small" />
-                            </StackLayout>
-                        </ViewCell.View>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        <StackLayout IsVisible="{Binding IsBusy}"
-                    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Padding="20">
-            <Label Text="Загрузка данных..." TextColor="Gray" HorizontalOptions="Center" />
-            <ActivityIndicator IsRunning="{Binding IsBusy}" Color="Red" >
-            </ActivityIndicator>
-        </StackLayout>
-    </StackLayout>
 
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Go" Clicked="button_Clicked" VerticalOptions="FillAndExpand" />
+           
+        </StackLayout>
+        <WebView x:Name="webView" Source="http://192.168.1.33:8555" VerticalOptions="FillAndExpand" />
+    </StackLayout>
 </ContentPage>

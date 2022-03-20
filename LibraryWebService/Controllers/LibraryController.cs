@@ -25,7 +25,27 @@ namespace LibraryWebService.Controllers
         [HttpGet]
         public async Task <ActionResult<IEnumerable<Book>>> Get()
         {
-            return await db.Books
+            var query = (from bok in db.Set<Book>()
+                         from gen in db.Set<Genre>().Where(x => x.IdGenre == bok.IdGenreFk)
+                         from type in db.Set<Models.Type>().Where(x => x.IdType == bok.IdTypeFk)
+                         from atu in db.Set<Author>().Where(x => x.IdAuthor == bok.IdAuthorFk)
+                         select new Book
+                         {
+                             IdBook=bok.IdBook,
+                             BookName = bok.BookName,
+                             Amount=bok.Amount,
+                             Year=bok.Year,
+                            IdAuthorFkNavigation=atu,
+                            ImagePath=bok.ImagePath,
+                            IdGenreFkNavigation=gen,
+                            IdTypeFkNavigation=type,
+                            IdAuthorFk=atu.IdAuthor,
+                            IdGenreFk=gen.IdGenre,
+                            IdTypeFk=type.IdType
+                            
+
+                         }) ;
+            return await query
                 .ToListAsync();
         }
 

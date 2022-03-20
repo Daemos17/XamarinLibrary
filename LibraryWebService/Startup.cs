@@ -9,7 +9,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using LibraryWebService.Models;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.OpenApi.Models;
 
 namespace LibraryWebService
 {
@@ -25,6 +25,13 @@ namespace LibraryWebService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
+
+
             services.AddDbContext<libraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddControllers(); // используем контроллеры без представлений
@@ -42,9 +49,17 @@ namespace LibraryWebService
                 app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             app.UseStaticFiles();
-            app.UseHttpsRedirection();
+           // app.UseHttpsRedirection();
             
             app.UseRouting();
 

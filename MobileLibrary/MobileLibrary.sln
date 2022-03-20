@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileLibrary.Android", "MobileLibrary.Android\MobileLibrary.Android.csproj", "{9908AC20-46C6-43D2-ABB1-5E994DED22A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileLibrary", "MobileLibrary\MobileLibrary.csproj", "{6D8C65E3-11E3-4C36-9EDB-2FD764B34053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobileLibrary", "MobileLibrary\MobileLibrary.csproj", "{6D8C65E3-11E3-4C36-9EDB-2FD764B34053}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

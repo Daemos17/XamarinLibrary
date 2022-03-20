@@ -1,4 +1,6 @@
+BarcodeScanner.XF.dll
 FormsViewGroup.dll
+Plugin.Media.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll
@@ -30,7 +32,9 @@ Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll
 Xamarin.AndroidX.Loader.dll
 Xamarin.AndroidX.LocalBroadcastManager.dll
 Xamarin.AndroidX.Media.dll
+Xamarin.AndroidX.MediaRouter.dll
 Xamarin.AndroidX.MultiDex.dll
+Xamarin.AndroidX.Palette.dll
 Xamarin.AndroidX.Print.dll
 Xamarin.AndroidX.RecyclerView.dll
 Xamarin.AndroidX.SavedState.dll
@@ -47,13 +51,20 @@ Xamarin.Forms.Platform.Android.dll
 Xamarin.Forms.Platform.dll
 Xamarin.Google.Android.Material.dll
 Xamarin.Google.Guava.ListenableFuture.dll
+Xamarin.GooglePlayServices.Base.dll
+Xamarin.GooglePlayServices.Basement.dll
+Xamarin.GooglePlayServices.Clearcut.dll
+Xamarin.GooglePlayServices.Flags.dll
+Xamarin.GooglePlayServices.Phenotype.dll
+Xamarin.GooglePlayServices.Tasks.dll
+Xamarin.GooglePlayServices.Vision.Common.dll
+Xamarin.GooglePlayServices.Vision.dll
 androidx.versionedparcelable.versionedparcelable.aar
 androidx.lifecycle.lifecycle-runtime.aar
 androidx.core.core.aar
 androidx.customview.customview.aar
 androidx.viewpager.viewpager.aar
 androidx.savedstate.savedstate.aar
-androidx.recyclerview.recyclerview.aar
 androidx.lifecycle.lifecycle-viewmodel.aar
 androidx.arch.core.core-runtime.aar
 androidx.lifecycle.lifecycle-livedata-core.aar
@@ -61,6 +72,7 @@ androidx.loader.loader.aar
 androidx.lifecycle.lifecycle-viewmodel-savedstate.aar
 androidx.activity.activity.aar
 androidx.fragment.fragment.aar
+androidx.recyclerview.recyclerview.aar
 androidx.viewpager2.viewpager2.aar
 androidx.vectordrawable.vectordrawable.aar
 androidx.interpolator.interpolator.aar
@@ -86,3 +98,5 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
+androidx.palette.palette.aar
+androidx.mediarouter.mediarouter.aar

@@ -2,7 +2,6 @@ C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\MobileLibrary.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\ref\MobileLibrary.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\MobileLibrary.pdb
-C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\MobileLibrary.csproj.AssemblyReference.cache
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\MobileLibrary.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
@@ -13,3 +12,8 @@ C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\MobileLibrary.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\ref\MobileLibrary.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\MobileLibrary.pdb
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\MobileLibrary.csproj.AssemblyReference.cache
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\Views\ListAllBooks.xaml.g.cs
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\Mono.Android.xml

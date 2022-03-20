@@ -70,3 +70,8 @@ C:\Users\Daniil\Documents\GitHub\XamarinLibrary\LibraryWebService\obj\Debug\net5
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\LibraryWebService\obj\Debug\net5.0\ref\LibraryWebService.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\LibraryWebService\obj\Debug\net5.0\LibraryWebService.pdb
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\LibraryWebService\obj\Debug\net5.0\LibraryWebService.genruntimeconfig.cache
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\LibraryWebService\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\LibraryWebService\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\LibraryWebService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\LibraryWebService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\LibraryWebService\obj\Debug\net5.0\LibraryWebService.MvcApplicationPartsAssemblyInfo.cs
