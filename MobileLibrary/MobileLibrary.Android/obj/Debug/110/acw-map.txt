@@ -1,24 +1,30 @@
 MobileLibrary.Droid.MainActivity, MobileLibrary.Android;crc649361f96e697756cb.MainActivity
 MobileLibrary.Droid.MainActivity;crc649361f96e697756cb.MainActivity
 mobilelibrary.droid.MainActivity;crc649361f96e697756cb.MainActivity
-GoogleVisionBarCodeScanner.CameraPreview, BarcodeScanner.XF;crc6406d57bc67a4dd4fc.CameraPreview
-GoogleVisionBarCodeScanner.CameraPreview;crc6406d57bc67a4dd4fc.CameraPreview
-googlevisionbarcodescanner.CameraPreview;crc6406d57bc67a4dd4fc.CameraPreview
-GoogleVisionBarCodeScanner.CameraPreview+DetectorProcessor, BarcodeScanner.XF;crc6406d57bc67a4dd4fc.CameraPreview_DetectorProcessor
-GoogleVisionBarCodeScanner.CameraPreview.DetectorProcessor;crc6406d57bc67a4dd4fc.CameraPreview_DetectorProcessor
-googlevisionbarcodescanner.CameraPreview_DetectorProcessor;crc6406d57bc67a4dd4fc.CameraPreview_DetectorProcessor
-GoogleVisionBarCodeScanner.CameraPreview+SurfaceHolderCallback, BarcodeScanner.XF;crc6406d57bc67a4dd4fc.CameraPreview_SurfaceHolderCallback
-GoogleVisionBarCodeScanner.CameraPreview.SurfaceHolderCallback;crc6406d57bc67a4dd4fc.CameraPreview_SurfaceHolderCallback
-googlevisionbarcodescanner.CameraPreview_SurfaceHolderCallback;crc6406d57bc67a4dd4fc.CameraPreview_SurfaceHolderCallback
-GoogleVisionBarCodeScanner.Renderer.CameraViewRenderer, BarcodeScanner.XF;crc64572abb00d954e03d.CameraViewRenderer
-GoogleVisionBarCodeScanner.Renderer.CameraViewRenderer;crc64572abb00d954e03d.CameraViewRenderer
-googlevisionbarcodescanner.renderer.CameraViewRenderer;crc64572abb00d954e03d.CameraViewRenderer
 Plugin.Media.MediaPickerActivity, Plugin.Media;crc646957603ea1820544.MediaPickerActivity
 Plugin.Media.MediaPickerActivity;crc646957603ea1820544.MediaPickerActivity
 plugin.media.MediaPickerActivity;crc646957603ea1820544.MediaPickerActivity
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
+AndroidX.Activity.ContextAware.IContextAware, Xamarin.AndroidX.Activity;androidx.activity.contextaware.ContextAware
+AndroidX.Activity.ContextAware.IContextAware;androidx.activity.contextaware.ContextAware
+androidx.activity.contextaware.ContextAware;androidx.activity.contextaware.ContextAware
+AndroidX.Activity.ContextAware.IOnContextAvailableListener, Xamarin.AndroidX.Activity;androidx.activity.contextaware.OnContextAvailableListener
+AndroidX.Activity.ContextAware.IOnContextAvailableListener;androidx.activity.contextaware.OnContextAvailableListener
+androidx.activity.contextaware.OnContextAvailableListener;androidx.activity.contextaware.OnContextAvailableListener
+AndroidX.Activity.ContextAware.IOnContextAvailableListenerImplementor, Xamarin.AndroidX.Activity;mono.androidx.activity.contextaware.OnContextAvailableListenerImplementor
+AndroidX.Activity.ContextAware.IOnContextAvailableListenerImplementor;mono.androidx.activity.contextaware.OnContextAvailableListenerImplementor
+mono.androidx.activity.contextaware.OnContextAvailableListenerImplementor;mono.androidx.activity.contextaware.OnContextAvailableListenerImplementor
+AndroidX.Activity.Result.IActivityResultCallback, Xamarin.AndroidX.Activity;androidx.activity.result.ActivityResultCallback
+AndroidX.Activity.Result.IActivityResultCallback;androidx.activity.result.ActivityResultCallback
+androidx.activity.result.ActivityResultCallback;androidx.activity.result.ActivityResultCallback
+AndroidX.Activity.Result.IActivityResultCaller, Xamarin.AndroidX.Activity;androidx.activity.result.ActivityResultCaller
+AndroidX.Activity.Result.IActivityResultCaller;androidx.activity.result.ActivityResultCaller
+androidx.activity.result.ActivityResultCaller;androidx.activity.result.ActivityResultCaller
+AndroidX.Activity.Result.IActivityResultRegistryOwner, Xamarin.AndroidX.Activity;androidx.activity.result.ActivityResultRegistryOwner
+AndroidX.Activity.Result.IActivityResultRegistryOwner;androidx.activity.result.ActivityResultRegistryOwner
+androidx.activity.result.ActivityResultRegistryOwner;androidx.activity.result.ActivityResultRegistryOwner
 AndroidX.Annotations.IAnimatorRes, Xamarin.AndroidX.Annotation;androidx.annotation.AnimatorRes
 AndroidX.Annotations.IAnimatorRes;androidx.annotation.AnimatorRes
 androidx.annotation.AnimatorRes;androidx.annotation.AnimatorRes
@@ -49,6 +55,9 @@ androidx.annotation.CallSuper;androidx.annotation.CallSuper
 AndroidX.Annotations.ICheckResult, Xamarin.AndroidX.Annotation;androidx.annotation.CheckResult
 AndroidX.Annotations.ICheckResult;androidx.annotation.CheckResult
 androidx.annotation.CheckResult;androidx.annotation.CheckResult
+AndroidX.Annotations.IChecksSdkIntAtLeast, Xamarin.AndroidX.Annotation;androidx.annotation.ChecksSdkIntAtLeast
+AndroidX.Annotations.IChecksSdkIntAtLeast;androidx.annotation.ChecksSdkIntAtLeast
+androidx.annotation.ChecksSdkIntAtLeast;androidx.annotation.ChecksSdkIntAtLeast
 AndroidX.Annotations.IColorInt, Xamarin.AndroidX.Annotation;androidx.annotation.ColorInt
 AndroidX.Annotations.IColorInt;androidx.annotation.ColorInt
 androidx.annotation.ColorInt;androidx.annotation.ColorInt
@@ -67,6 +76,9 @@ androidx.annotation.DimenRes;androidx.annotation.DimenRes
 AndroidX.Annotations.IDimension, Xamarin.AndroidX.Annotation;androidx.annotation.Dimension
 AndroidX.Annotations.IDimension;androidx.annotation.Dimension
 androidx.annotation.Dimension;androidx.annotation.Dimension
+AndroidX.Annotations.IDoNotInline, Xamarin.AndroidX.Annotation;androidx.annotation.DoNotInline
+AndroidX.Annotations.IDoNotInline;androidx.annotation.DoNotInline
+androidx.annotation.DoNotInline;androidx.annotation.DoNotInline
 AndroidX.Annotations.IDrawableRes, Xamarin.AndroidX.Annotation;androidx.annotation.DrawableRes
 AndroidX.Annotations.IDrawableRes;androidx.annotation.DrawableRes
 androidx.annotation.DrawableRes;androidx.annotation.DrawableRes
@@ -190,12 +202,21 @@ androidx.annotation.WorkerThread;androidx.annotation.WorkerThread
 AndroidX.Annotations.IXmlRes, Xamarin.AndroidX.Annotation;androidx.annotation.XmlRes
 AndroidX.Annotations.IXmlRes;androidx.annotation.XmlRes
 androidx.annotation.XmlRes;androidx.annotation.XmlRes
+AndroidX.Annotations.IOptIn, Xamarin.AndroidX.Annotation.Experimental;androidx.annotation.OptIn
+AndroidX.Annotations.IOptIn;androidx.annotation.OptIn
+androidx.annotation.OptIn;androidx.annotation.OptIn
+AndroidX.Annotations.IRequiresOptIn, Xamarin.AndroidX.Annotation.Experimental;androidx.annotation.RequiresOptIn
+AndroidX.Annotations.IRequiresOptIn;androidx.annotation.RequiresOptIn
+androidx.annotation.RequiresOptIn;androidx.annotation.RequiresOptIn
 AndroidX.Annotations.Experimental.IExperimental, Xamarin.AndroidX.Annotation.Experimental;androidx.annotation.experimental.Experimental
 AndroidX.Annotations.Experimental.IExperimental;androidx.annotation.experimental.Experimental
 androidx.annotation.experimental.Experimental;androidx.annotation.experimental.Experimental
 AndroidX.Annotations.Experimental.IUseExperimental, Xamarin.AndroidX.Annotation.Experimental;androidx.annotation.experimental.UseExperimental
 AndroidX.Annotations.Experimental.IUseExperimental;androidx.annotation.experimental.UseExperimental
 androidx.annotation.experimental.UseExperimental;androidx.annotation.experimental.UseExperimental
+AndroidX.AppCompat.Widget.ResourceManagerInternal+IResourceManagerHooks, Xamarin.AndroidX.AppCompat.AppCompatResources;androidx.appcompat.widget.ResourceManagerInternal$ResourceManagerHooks
+AndroidX.AppCompat.Widget.ResourceManagerInternal.IResourceManagerHooks;androidx.appcompat.widget.ResourceManagerInternal$ResourceManagerHooks
+androidx.appcompat.widget.ResourceManagerInternal$ResourceManagerHooks;androidx.appcompat.widget.ResourceManagerInternal$ResourceManagerHooks
 AndroidX.AppCompat.Graphics.Drawable.DrawerArrowDrawable+IArrowDirection, Xamarin.AndroidX.AppCompat;androidx.appcompat.graphics.drawable.DrawerArrowDrawable$ArrowDirection
 AndroidX.AppCompat.Graphics.Drawable.DrawerArrowDrawable.IArrowDirection;androidx.appcompat.graphics.drawable.DrawerArrowDrawable$ArrowDirection
 androidx.appcompat.graphics.drawable.DrawerArrowDrawable$ArrowDirection;androidx.appcompat.graphics.drawable.DrawerArrowDrawable$ArrowDirection
@@ -244,6 +265,9 @@ androidx.appcompat.app.AppCompatDelegate$NightMode;androidx.appcompat.app.AppCom
 AndroidX.AppCompat.App.IAppCompatCallback, Xamarin.AndroidX.AppCompat;androidx.appcompat.app.AppCompatCallback
 AndroidX.AppCompat.App.IAppCompatCallback;androidx.appcompat.app.AppCompatCallback
 androidx.appcompat.app.AppCompatCallback;androidx.appcompat.app.AppCompatCallback
+AndroidX.AppCompat.Widget.ActionBarOverlayLayout+IActionBarVisibilityCallback, Xamarin.AndroidX.AppCompat;androidx.appcompat.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback
+AndroidX.AppCompat.Widget.ActionBarOverlayLayout.IActionBarVisibilityCallback;androidx.appcompat.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback
+androidx.appcompat.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback;androidx.appcompat.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback
 AndroidX.AppCompat.Widget.Toolbar+NavigationOnClickEventDispatcher, Xamarin.AndroidX.AppCompat;androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher
 AndroidX.AppCompat.Widget.Toolbar.NavigationOnClickEventDispatcher;androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher
 androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher;androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher
@@ -253,9 +277,6 @@ androidx.appcompat.widget.Toolbar$OnMenuItemClickListener;androidx.appcompat.wid
 AndroidX.AppCompat.Widget.Toolbar+IOnMenuItemClickListenerImplementor, Xamarin.AndroidX.AppCompat;mono.androidx.appcompat.widget.Toolbar_OnMenuItemClickListenerImplementor
 AndroidX.AppCompat.Widget.Toolbar.IOnMenuItemClickListenerImplementor;mono.androidx.appcompat.widget.Toolbar_OnMenuItemClickListenerImplementor
 mono.androidx.appcompat.widget.Toolbar_OnMenuItemClickListenerImplementor;mono.androidx.appcompat.widget.Toolbar_OnMenuItemClickListenerImplementor
-AndroidX.AppCompat.Widget.ActionBarOverlayLayout+IActionBarVisibilityCallback, Xamarin.AndroidX.AppCompat;androidx.appcompat.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback
-AndroidX.AppCompat.Widget.ActionBarOverlayLayout.IActionBarVisibilityCallback;androidx.appcompat.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback
-androidx.appcompat.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback;androidx.appcompat.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback
 AndroidX.AppCompat.Widget.ActionMenuView+IActionMenuChildView, Xamarin.AndroidX.AppCompat;androidx.appcompat.widget.ActionMenuView$ActionMenuChildView
 AndroidX.AppCompat.Widget.ActionMenuView.IActionMenuChildView;androidx.appcompat.widget.ActionMenuView$ActionMenuChildView
 androidx.appcompat.widget.ActionMenuView$ActionMenuChildView;androidx.appcompat.widget.ActionMenuView$ActionMenuChildView
@@ -445,6 +466,375 @@ androidx.browser.customtabs.CustomTabsService$Result;androidx.browser.customtabs
 AndroidX.Browser.CustomTabs.IPostMessageBackend, Xamarin.AndroidX.Browser;androidx.browser.customtabs.PostMessageBackend
 AndroidX.Browser.CustomTabs.IPostMessageBackend;androidx.browser.customtabs.PostMessageBackend
 androidx.browser.customtabs.PostMessageBackend;androidx.browser.customtabs.PostMessageBackend
+AndroidX.Camera.Camera2Internal.Compat.Params.SessionConfigurationCompat+ISessionMode, Xamarin.AndroidX.Camera.Camera2;androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat$SessionMode
+AndroidX.Camera.Camera2Internal.Compat.Params.SessionConfigurationCompat.ISessionMode;androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat$SessionMode
+androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat$SessionMode;androidx.camera.camera2.internal.compat.params.SessionConfigurationCompat$SessionMode
+AndroidX.Camera.Camera2.InterOp.Camera2CameraFilter+ICamera2Filter, Xamarin.AndroidX.Camera.Camera2;androidx.camera.camera2.interop.Camera2CameraFilter$Camera2Filter
+AndroidX.Camera.Camera2.InterOp.Camera2CameraFilter.ICamera2Filter;androidx.camera.camera2.interop.Camera2CameraFilter$Camera2Filter
+androidx.camera.camera2.interop.Camera2CameraFilter$Camera2Filter;androidx.camera.camera2.interop.Camera2CameraFilter$Camera2Filter
+AndroidX.Camera.Camera2.InterOp.IExperimentalCamera2Interop, Xamarin.AndroidX.Camera.Camera2;androidx.camera.camera2.interop.ExperimentalCamera2Interop
+AndroidX.Camera.Camera2.InterOp.IExperimentalCamera2Interop;androidx.camera.camera2.interop.ExperimentalCamera2Interop
+androidx.camera.camera2.interop.ExperimentalCamera2Interop;androidx.camera.camera2.interop.ExperimentalCamera2Interop
+AndroidX.Camera.Camera2.Internal.Camera2CameraControlImpl+ICaptureResultListener, Xamarin.AndroidX.Camera.Camera2;androidx.camera.camera2.internal.Camera2CameraControlImpl$CaptureResultListener
+AndroidX.Camera.Camera2.Internal.Camera2CameraControlImpl.ICaptureResultListener;androidx.camera.camera2.internal.Camera2CameraControlImpl$CaptureResultListener
+androidx.camera.camera2.internal.Camera2CameraControlImpl$CaptureResultListener;androidx.camera.camera2.internal.Camera2CameraControlImpl$CaptureResultListener
+AndroidX.Camera.Camera2.Internal.Camera2CameraControlImpl+ICaptureResultListenerImplementor, Xamarin.AndroidX.Camera.Camera2;mono.androidx.camera.camera2.internal.Camera2CameraControlImpl_CaptureResultListenerImplementor
+AndroidX.Camera.Camera2.Internal.Camera2CameraControlImpl.ICaptureResultListenerImplementor;mono.androidx.camera.camera2.internal.Camera2CameraControlImpl_CaptureResultListenerImplementor
+mono.androidx.camera.camera2.internal.Camera2CameraControlImpl_CaptureResultListenerImplementor;mono.androidx.camera.camera2.internal.Camera2CameraControlImpl_CaptureResultListenerImplementor
+AndroidX.Camera.Camera2.Internal.Compat.CameraAccessExceptionCompat+IAccessError, Xamarin.AndroidX.Camera.Camera2;androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat$AccessError
+AndroidX.Camera.Camera2.Internal.Compat.CameraAccessExceptionCompat.IAccessError;androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat$AccessError
+androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat$AccessError;androidx.camera.camera2.internal.compat.CameraAccessExceptionCompat$AccessError
+AndroidX.Camera.Camera2.Internal.Compat.CameraManagerCompat+ICameraManagerCompatImpl, Xamarin.AndroidX.Camera.Camera2;androidx.camera.camera2.internal.compat.CameraManagerCompat$CameraManagerCompatImpl
+AndroidX.Camera.Camera2.Internal.Compat.CameraManagerCompat.ICameraManagerCompatImpl;androidx.camera.camera2.internal.compat.CameraManagerCompat$CameraManagerCompatImpl
+androidx.camera.camera2.internal.compat.CameraManagerCompat$CameraManagerCompatImpl;androidx.camera.camera2.internal.compat.CameraManagerCompat$CameraManagerCompatImpl
+AndroidX.Camera.Camera2.Internal.Compat.Workaround.TargetAspectRatio+IRatio, Xamarin.AndroidX.Camera.Camera2;androidx.camera.camera2.internal.compat.workaround.TargetAspectRatio$Ratio
+AndroidX.Camera.Camera2.Internal.Compat.Workaround.TargetAspectRatio.IRatio;androidx.camera.camera2.internal.compat.workaround.TargetAspectRatio$Ratio
+androidx.camera.camera2.internal.compat.workaround.TargetAspectRatio$Ratio;androidx.camera.camera2.internal.compat.workaround.TargetAspectRatio$Ratio
+AndroidX.Camera.Camera2.Internal.Annotation.ICameraExecutor, Xamarin.AndroidX.Camera.Camera2;androidx.camera.camera2.internal.annotation.CameraExecutor
+AndroidX.Camera.Camera2.Internal.Annotation.ICameraExecutor;androidx.camera.camera2.internal.annotation.CameraExecutor
+androidx.camera.camera2.internal.annotation.CameraExecutor;androidx.camera.camera2.internal.annotation.CameraExecutor
+AndroidX.Camera.Core.ImageAnalysis+IAnalyzer, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ImageAnalysis$Analyzer
+AndroidX.Camera.Core.ImageAnalysis.IAnalyzer;androidx.camera.core.ImageAnalysis$Analyzer
+androidx.camera.core.ImageAnalysis$Analyzer;androidx.camera.core.ImageAnalysis$Analyzer
+AndroidX.Camera.Core.ImageAnalysis+IBackpressureStrategy, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ImageAnalysis$BackpressureStrategy
+AndroidX.Camera.Core.ImageAnalysis.IBackpressureStrategy;androidx.camera.core.ImageAnalysis$BackpressureStrategy
+androidx.camera.core.ImageAnalysis$BackpressureStrategy;androidx.camera.core.ImageAnalysis$BackpressureStrategy
+AndroidX.Camera.Core.ImageCapture+ICaptureMode, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ImageCapture$CaptureMode
+AndroidX.Camera.Core.ImageCapture.ICaptureMode;androidx.camera.core.ImageCapture$CaptureMode
+androidx.camera.core.ImageCapture$CaptureMode;androidx.camera.core.ImageCapture$CaptureMode
+AndroidX.Camera.Core.ImageCapture+IFlashMode, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ImageCapture$FlashMode
+AndroidX.Camera.Core.ImageCapture.IFlashMode;androidx.camera.core.ImageCapture$FlashMode
+androidx.camera.core.ImageCapture$FlashMode;androidx.camera.core.ImageCapture$FlashMode
+AndroidX.Camera.Core.ImageCapture+IImageCaptureError, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ImageCapture$ImageCaptureError
+AndroidX.Camera.Core.ImageCapture.IImageCaptureError;androidx.camera.core.ImageCapture$ImageCaptureError
+androidx.camera.core.ImageCapture$ImageCaptureError;androidx.camera.core.ImageCapture$ImageCaptureError
+AndroidX.Camera.Core.ImageCapture+IOnImageSavedCallback, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ImageCapture$OnImageSavedCallback
+AndroidX.Camera.Core.ImageCapture.IOnImageSavedCallback;androidx.camera.core.ImageCapture$OnImageSavedCallback
+androidx.camera.core.ImageCapture$OnImageSavedCallback;androidx.camera.core.ImageCapture$OnImageSavedCallback
+AndroidX.Camera.Core.Preview+ISurfaceProvider, Xamarin.AndroidX.Camera.Core;androidx.camera.core.Preview$SurfaceProvider
+AndroidX.Camera.Core.Preview.ISurfaceProvider;androidx.camera.core.Preview$SurfaceProvider
+androidx.camera.core.Preview$SurfaceProvider;androidx.camera.core.Preview$SurfaceProvider
+AndroidX.Camera.Core.VideoCapture+IOnVideoSavedCallback, Xamarin.AndroidX.Camera.Core;androidx.camera.core.VideoCapture$OnVideoSavedCallback
+AndroidX.Camera.Core.VideoCapture.IOnVideoSavedCallback;androidx.camera.core.VideoCapture$OnVideoSavedCallback
+androidx.camera.core.VideoCapture$OnVideoSavedCallback;androidx.camera.core.VideoCapture$OnVideoSavedCallback
+AndroidX.Camera.Core.VideoCapture+IVideoCaptureError, Xamarin.AndroidX.Camera.Core;androidx.camera.core.VideoCapture$VideoCaptureError
+AndroidX.Camera.Core.VideoCapture.IVideoCaptureError;androidx.camera.core.VideoCapture$VideoCaptureError
+androidx.camera.core.VideoCapture$VideoCaptureError;androidx.camera.core.VideoCapture$VideoCaptureError
+AndroidX.Camera.Core.AspectRatio+IRatio, Xamarin.AndroidX.Camera.Core;androidx.camera.core.AspectRatio$Ratio
+AndroidX.Camera.Core.AspectRatio.IRatio;androidx.camera.core.AspectRatio$Ratio
+androidx.camera.core.AspectRatio$Ratio;androidx.camera.core.AspectRatio$Ratio
+AndroidX.Camera.Core.CameraSelector+ILensFacing, Xamarin.AndroidX.Camera.Core;androidx.camera.core.CameraSelector$LensFacing
+AndroidX.Camera.Core.CameraSelector.ILensFacing;androidx.camera.core.CameraSelector$LensFacing
+androidx.camera.core.CameraSelector$LensFacing;androidx.camera.core.CameraSelector$LensFacing
+AndroidX.Camera.Core.CameraUnavailableException+IReason, Xamarin.AndroidX.Camera.Core;androidx.camera.core.CameraUnavailableException$Reason
+AndroidX.Camera.Core.CameraUnavailableException.IReason;androidx.camera.core.CameraUnavailableException$Reason
+androidx.camera.core.CameraUnavailableException$Reason;androidx.camera.core.CameraUnavailableException$Reason
+AndroidX.Camera.Core.CameraXConfig+IProvider, Xamarin.AndroidX.Camera.Core;androidx.camera.core.CameraXConfig$Provider
+AndroidX.Camera.Core.CameraXConfig.IProvider;androidx.camera.core.CameraXConfig$Provider
+androidx.camera.core.CameraXConfig$Provider;androidx.camera.core.CameraXConfig$Provider
+AndroidX.Camera.Core.FocusMeteringAction+IMeteringMode, Xamarin.AndroidX.Camera.Core;androidx.camera.core.FocusMeteringAction$MeteringMode
+AndroidX.Camera.Core.FocusMeteringAction.IMeteringMode;androidx.camera.core.FocusMeteringAction$MeteringMode
+androidx.camera.core.FocusMeteringAction$MeteringMode;androidx.camera.core.FocusMeteringAction$MeteringMode
+AndroidX.Camera.Core.ICamera, Xamarin.AndroidX.Camera.Core;androidx.camera.core.Camera
+AndroidX.Camera.Core.ICamera;androidx.camera.core.Camera
+androidx.camera.core.Camera;androidx.camera.core.Camera
+AndroidX.Camera.Core.ICameraControl, Xamarin.AndroidX.Camera.Core;androidx.camera.core.CameraControl
+AndroidX.Camera.Core.ICameraControl;androidx.camera.core.CameraControl
+androidx.camera.core.CameraControl;androidx.camera.core.CameraControl
+AndroidX.Camera.Core.ICameraFilter, Xamarin.AndroidX.Camera.Core;androidx.camera.core.CameraFilter
+AndroidX.Camera.Core.ICameraFilter;androidx.camera.core.CameraFilter
+androidx.camera.core.CameraFilter;androidx.camera.core.CameraFilter
+AndroidX.Camera.Core.ICameraInfoImplementationType, Xamarin.AndroidX.Camera.Core;androidx.camera.core.CameraInfo$ImplementationType
+AndroidX.Camera.Core.ICameraInfoImplementationType;androidx.camera.core.CameraInfo$ImplementationType
+androidx.camera.core.CameraInfo$ImplementationType;androidx.camera.core.CameraInfo$ImplementationType
+AndroidX.Camera.Core.ICameraInfo, Xamarin.AndroidX.Camera.Core;androidx.camera.core.CameraInfo
+AndroidX.Camera.Core.ICameraInfo;androidx.camera.core.CameraInfo
+androidx.camera.core.CameraInfo;androidx.camera.core.CameraInfo
+AndroidX.Camera.Core.IExperimentalAvailableCamerasLimiter, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ExperimentalAvailableCamerasLimiter
+AndroidX.Camera.Core.IExperimentalAvailableCamerasLimiter;androidx.camera.core.ExperimentalAvailableCamerasLimiter
+androidx.camera.core.ExperimentalAvailableCamerasLimiter;androidx.camera.core.ExperimentalAvailableCamerasLimiter
+AndroidX.Camera.Core.IExperimentalCameraFilter, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ExperimentalCameraFilter
+AndroidX.Camera.Core.IExperimentalCameraFilter;androidx.camera.core.ExperimentalCameraFilter
+androidx.camera.core.ExperimentalCameraFilter;androidx.camera.core.ExperimentalCameraFilter
+AndroidX.Camera.Core.IExperimentalCustomizableThreads, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ExperimentalCustomizableThreads
+AndroidX.Camera.Core.IExperimentalCustomizableThreads;androidx.camera.core.ExperimentalCustomizableThreads
+androidx.camera.core.ExperimentalCustomizableThreads;androidx.camera.core.ExperimentalCustomizableThreads
+AndroidX.Camera.Core.IExperimentalExposureCompensation, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ExperimentalExposureCompensation
+AndroidX.Camera.Core.IExperimentalExposureCompensation;androidx.camera.core.ExperimentalExposureCompensation
+androidx.camera.core.ExperimentalExposureCompensation;androidx.camera.core.ExperimentalExposureCompensation
+AndroidX.Camera.Core.IExperimentalGetImage, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ExperimentalGetImage
+AndroidX.Camera.Core.IExperimentalGetImage;androidx.camera.core.ExperimentalGetImage
+androidx.camera.core.ExperimentalGetImage;androidx.camera.core.ExperimentalGetImage
+AndroidX.Camera.Core.IExperimentalLogging, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ExperimentalLogging
+AndroidX.Camera.Core.IExperimentalLogging;androidx.camera.core.ExperimentalLogging
+androidx.camera.core.ExperimentalLogging;androidx.camera.core.ExperimentalLogging
+AndroidX.Camera.Core.IExperimentalUseCaseGroup, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ExperimentalUseCaseGroup
+AndroidX.Camera.Core.IExperimentalUseCaseGroup;androidx.camera.core.ExperimentalUseCaseGroup
+androidx.camera.core.ExperimentalUseCaseGroup;androidx.camera.core.ExperimentalUseCaseGroup
+AndroidX.Camera.Core.IExposureState, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ExposureState
+AndroidX.Camera.Core.IExposureState;androidx.camera.core.ExposureState
+androidx.camera.core.ExposureState;androidx.camera.core.ExposureState
+AndroidX.Camera.Core.IExtendableBuilder, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ExtendableBuilder
+AndroidX.Camera.Core.IExtendableBuilder;androidx.camera.core.ExtendableBuilder
+androidx.camera.core.ExtendableBuilder;androidx.camera.core.ExtendableBuilder
+AndroidX.Camera.Core.IImageInfo, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ImageInfo
+AndroidX.Camera.Core.IImageInfo;androidx.camera.core.ImageInfo
+androidx.camera.core.ImageInfo;androidx.camera.core.ImageInfo
+AndroidX.Camera.Core.IImageProxyPlaneProxy, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ImageProxy$PlaneProxy
+AndroidX.Camera.Core.IImageProxyPlaneProxy;androidx.camera.core.ImageProxy$PlaneProxy
+androidx.camera.core.ImageProxy$PlaneProxy;androidx.camera.core.ImageProxy$PlaneProxy
+AndroidX.Camera.Core.IImageProxy, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ImageProxy
+AndroidX.Camera.Core.IImageProxy;androidx.camera.core.ImageProxy
+androidx.camera.core.ImageProxy;androidx.camera.core.ImageProxy
+AndroidX.Camera.Core.IImageReaderProxyProvider, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ImageReaderProxyProvider
+AndroidX.Camera.Core.IImageReaderProxyProvider;androidx.camera.core.ImageReaderProxyProvider
+androidx.camera.core.ImageReaderProxyProvider;androidx.camera.core.ImageReaderProxyProvider
+AndroidX.Camera.Core.IZoomState, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ZoomState
+AndroidX.Camera.Core.IZoomState;androidx.camera.core.ZoomState
+androidx.camera.core.ZoomState;androidx.camera.core.ZoomState
+AndroidX.Camera.Core.SurfaceRequest+Result+IResultCode, Xamarin.AndroidX.Camera.Core;androidx.camera.core.SurfaceRequest$Result$ResultCode
+AndroidX.Camera.Core.SurfaceRequest.Result.IResultCode;androidx.camera.core.SurfaceRequest$Result$ResultCode
+androidx.camera.core.SurfaceRequest$Result$ResultCode;androidx.camera.core.SurfaceRequest$Result$ResultCode
+AndroidX.Camera.Core.SurfaceRequest+ITransformationInfoListener, Xamarin.AndroidX.Camera.Core;androidx.camera.core.SurfaceRequest$TransformationInfoListener
+AndroidX.Camera.Core.SurfaceRequest.ITransformationInfoListener;androidx.camera.core.SurfaceRequest$TransformationInfoListener
+androidx.camera.core.SurfaceRequest$TransformationInfoListener;androidx.camera.core.SurfaceRequest$TransformationInfoListener
+AndroidX.Camera.Core.SurfaceRequest+ITransformationInfoListenerImplementor, Xamarin.AndroidX.Camera.Core;mono.androidx.camera.core.SurfaceRequest_TransformationInfoListenerImplementor
+AndroidX.Camera.Core.SurfaceRequest.ITransformationInfoListenerImplementor;mono.androidx.camera.core.SurfaceRequest_TransformationInfoListenerImplementor
+mono.androidx.camera.core.SurfaceRequest_TransformationInfoListenerImplementor;mono.androidx.camera.core.SurfaceRequest_TransformationInfoListenerImplementor
+AndroidX.Camera.Core.TorchState+IState, Xamarin.AndroidX.Camera.Core;androidx.camera.core.TorchState$State
+AndroidX.Camera.Core.TorchState.IState;androidx.camera.core.TorchState$State
+androidx.camera.core.TorchState$State;androidx.camera.core.TorchState$State
+AndroidX.Camera.Core.UseCase+IEventCallback, Xamarin.AndroidX.Camera.Core;androidx.camera.core.UseCase$EventCallback
+AndroidX.Camera.Core.UseCase.IEventCallback;androidx.camera.core.UseCase$EventCallback
+androidx.camera.core.UseCase$EventCallback;androidx.camera.core.UseCase$EventCallback
+AndroidX.Camera.Core.UseCase+IStateChangeCallback, Xamarin.AndroidX.Camera.Core;androidx.camera.core.UseCase$StateChangeCallback
+AndroidX.Camera.Core.UseCase.IStateChangeCallback;androidx.camera.core.UseCase$StateChangeCallback
+androidx.camera.core.UseCase$StateChangeCallback;androidx.camera.core.UseCase$StateChangeCallback
+AndroidX.Camera.Core.ViewPort+ILayoutDirection, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ViewPort$LayoutDirection
+AndroidX.Camera.Core.ViewPort.ILayoutDirection;androidx.camera.core.ViewPort$LayoutDirection
+androidx.camera.core.ViewPort$LayoutDirection;androidx.camera.core.ViewPort$LayoutDirection
+AndroidX.Camera.Core.ViewPort+IScaleType, Xamarin.AndroidX.Camera.Core;androidx.camera.core.ViewPort$ScaleType
+AndroidX.Camera.Core.ViewPort.IScaleType;androidx.camera.core.ViewPort$ScaleType
+androidx.camera.core.ViewPort$ScaleType;androidx.camera.core.ViewPort$ScaleType
+AndroidX.Camera.Core.Internal.IIoConfigBuilder, Xamarin.AndroidX.Camera.Core;androidx.camera.core.internal.IoConfig$Builder
+AndroidX.Camera.Core.Internal.IIoConfigBuilder;androidx.camera.core.internal.IoConfig$Builder
+androidx.camera.core.internal.IoConfig$Builder;androidx.camera.core.internal.IoConfig$Builder
+AndroidX.Camera.Core.Internal.IIoConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.internal.IoConfig
+AndroidX.Camera.Core.Internal.IIoConfig;androidx.camera.core.internal.IoConfig
+androidx.camera.core.internal.IoConfig;androidx.camera.core.internal.IoConfig
+AndroidX.Camera.Core.Internal.ITargetConfigBuilder, Xamarin.AndroidX.Camera.Core;androidx.camera.core.internal.TargetConfig$Builder
+AndroidX.Camera.Core.Internal.ITargetConfigBuilder;androidx.camera.core.internal.TargetConfig$Builder
+androidx.camera.core.internal.TargetConfig$Builder;androidx.camera.core.internal.TargetConfig$Builder
+AndroidX.Camera.Core.Internal.ITargetConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.internal.TargetConfig
+AndroidX.Camera.Core.Internal.ITargetConfig;androidx.camera.core.internal.TargetConfig
+androidx.camera.core.internal.TargetConfig;androidx.camera.core.internal.TargetConfig
+AndroidX.Camera.Core.Internal.IThreadConfigBuilder, Xamarin.AndroidX.Camera.Core;androidx.camera.core.internal.ThreadConfig$Builder
+AndroidX.Camera.Core.Internal.IThreadConfigBuilder;androidx.camera.core.internal.ThreadConfig$Builder
+androidx.camera.core.internal.ThreadConfig$Builder;androidx.camera.core.internal.ThreadConfig$Builder
+AndroidX.Camera.Core.Internal.IThreadConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.internal.ThreadConfig
+AndroidX.Camera.Core.Internal.IThreadConfig;androidx.camera.core.internal.ThreadConfig
+androidx.camera.core.internal.ThreadConfig;androidx.camera.core.internal.ThreadConfig
+AndroidX.Camera.Core.Internal.IUseCaseEventConfigBuilder, Xamarin.AndroidX.Camera.Core;androidx.camera.core.internal.UseCaseEventConfig$Builder
+AndroidX.Camera.Core.Internal.IUseCaseEventConfigBuilder;androidx.camera.core.internal.UseCaseEventConfig$Builder
+androidx.camera.core.internal.UseCaseEventConfig$Builder;androidx.camera.core.internal.UseCaseEventConfig$Builder
+AndroidX.Camera.Core.Internal.IUseCaseEventConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.internal.UseCaseEventConfig
+AndroidX.Camera.Core.Internal.IUseCaseEventConfig;androidx.camera.core.internal.UseCaseEventConfig
+androidx.camera.core.internal.UseCaseEventConfig;androidx.camera.core.internal.UseCaseEventConfig
+AndroidX.Camera.Core.Internal.Compat.Quirk.ISoftwareJpegEncodingPreferredQuirk, Xamarin.AndroidX.Camera.Core;androidx.camera.core.internal.compat.quirk.SoftwareJpegEncodingPreferredQuirk
+AndroidX.Camera.Core.Internal.Compat.Quirk.ISoftwareJpegEncodingPreferredQuirk;androidx.camera.core.internal.compat.quirk.SoftwareJpegEncodingPreferredQuirk
+androidx.camera.core.internal.compat.quirk.SoftwareJpegEncodingPreferredQuirk;androidx.camera.core.internal.compat.quirk.SoftwareJpegEncodingPreferredQuirk
+AndroidX.Camera.Core.Internal.Compat.Quirk.IUseTorchAsFlashQuirk, Xamarin.AndroidX.Camera.Core;androidx.camera.core.internal.compat.quirk.UseTorchAsFlashQuirk
+AndroidX.Camera.Core.Internal.Compat.Quirk.IUseTorchAsFlashQuirk;androidx.camera.core.internal.compat.quirk.UseTorchAsFlashQuirk
+androidx.camera.core.internal.compat.quirk.UseTorchAsFlashQuirk;androidx.camera.core.internal.compat.quirk.UseTorchAsFlashQuirk
+AndroidX.Camera.Core.Impl.CameraStateRegistry+IOnOpenAvailableListener, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraStateRegistry$OnOpenAvailableListener
+AndroidX.Camera.Core.Impl.CameraStateRegistry.IOnOpenAvailableListener;androidx.camera.core.impl.CameraStateRegistry$OnOpenAvailableListener
+androidx.camera.core.impl.CameraStateRegistry$OnOpenAvailableListener;androidx.camera.core.impl.CameraStateRegistry$OnOpenAvailableListener
+AndroidX.Camera.Core.Impl.CameraStateRegistry+IOnOpenAvailableListenerImplementor, Xamarin.AndroidX.Camera.Core;mono.androidx.camera.core.impl.CameraStateRegistry_OnOpenAvailableListenerImplementor
+AndroidX.Camera.Core.Impl.CameraStateRegistry.IOnOpenAvailableListenerImplementor;mono.androidx.camera.core.impl.CameraStateRegistry_OnOpenAvailableListenerImplementor
+mono.androidx.camera.core.impl.CameraStateRegistry_OnOpenAvailableListenerImplementor;mono.androidx.camera.core.impl.CameraStateRegistry_OnOpenAvailableListenerImplementor
+AndroidX.Camera.Core.Impl.CaptureConfig+IOptionUnpacker, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CaptureConfig$OptionUnpacker
+AndroidX.Camera.Core.Impl.CaptureConfig.IOptionUnpacker;androidx.camera.core.impl.CaptureConfig$OptionUnpacker
+androidx.camera.core.impl.CaptureConfig$OptionUnpacker;androidx.camera.core.impl.CaptureConfig$OptionUnpacker
+AndroidX.Camera.Core.Impl.ICameraCaptureResult, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraCaptureResult
+AndroidX.Camera.Core.Impl.ICameraCaptureResult;androidx.camera.core.impl.CameraCaptureResult
+androidx.camera.core.impl.CameraCaptureResult;androidx.camera.core.impl.CameraCaptureResult
+AndroidX.Camera.Core.Impl.ICameraConfigBuilder, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraConfig$Builder
+AndroidX.Camera.Core.Impl.ICameraConfigBuilder;androidx.camera.core.impl.CameraConfig$Builder
+androidx.camera.core.impl.CameraConfig$Builder;androidx.camera.core.impl.CameraConfig$Builder
+AndroidX.Camera.Core.Impl.ICameraConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraConfig
+AndroidX.Camera.Core.Impl.ICameraConfig;androidx.camera.core.impl.CameraConfig
+androidx.camera.core.impl.CameraConfig;androidx.camera.core.impl.CameraConfig
+AndroidX.Camera.Core.Impl.ICameraControlInternalControlUpdateCallback, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraControlInternal$ControlUpdateCallback
+AndroidX.Camera.Core.Impl.ICameraControlInternalControlUpdateCallback;androidx.camera.core.impl.CameraControlInternal$ControlUpdateCallback
+androidx.camera.core.impl.CameraControlInternal$ControlUpdateCallback;androidx.camera.core.impl.CameraControlInternal$ControlUpdateCallback
+AndroidX.Camera.Core.Impl.ICameraControlInternal, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraControlInternal
+AndroidX.Camera.Core.Impl.ICameraControlInternal;androidx.camera.core.impl.CameraControlInternal
+androidx.camera.core.impl.CameraControlInternal;androidx.camera.core.impl.CameraControlInternal
+AndroidX.Camera.Core.Impl.ICameraDeviceSurfaceManagerProvider, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraDeviceSurfaceManager$Provider
+AndroidX.Camera.Core.Impl.ICameraDeviceSurfaceManagerProvider;androidx.camera.core.impl.CameraDeviceSurfaceManager$Provider
+androidx.camera.core.impl.CameraDeviceSurfaceManager$Provider;androidx.camera.core.impl.CameraDeviceSurfaceManager$Provider
+AndroidX.Camera.Core.Impl.ICameraDeviceSurfaceManager, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraDeviceSurfaceManager
+AndroidX.Camera.Core.Impl.ICameraDeviceSurfaceManager;androidx.camera.core.impl.CameraDeviceSurfaceManager
+androidx.camera.core.impl.CameraDeviceSurfaceManager;androidx.camera.core.impl.CameraDeviceSurfaceManager
+AndroidX.Camera.Core.Impl.ICameraFactoryProvider, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraFactory$Provider
+AndroidX.Camera.Core.Impl.ICameraFactoryProvider;androidx.camera.core.impl.CameraFactory$Provider
+androidx.camera.core.impl.CameraFactory$Provider;androidx.camera.core.impl.CameraFactory$Provider
+AndroidX.Camera.Core.Impl.ICameraFactory, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraFactory
+AndroidX.Camera.Core.Impl.ICameraFactory;androidx.camera.core.impl.CameraFactory
+androidx.camera.core.impl.CameraFactory;androidx.camera.core.impl.CameraFactory
+AndroidX.Camera.Core.Impl.ICameraInfoInternal, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraInfoInternal
+AndroidX.Camera.Core.Impl.ICameraInfoInternal;androidx.camera.core.impl.CameraInfoInternal
+androidx.camera.core.impl.CameraInfoInternal;androidx.camera.core.impl.CameraInfoInternal
+AndroidX.Camera.Core.Impl.ICameraInternal, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CameraInternal
+AndroidX.Camera.Core.Impl.ICameraInternal;androidx.camera.core.impl.CameraInternal
+androidx.camera.core.impl.CameraInternal;androidx.camera.core.impl.CameraInternal
+AndroidX.Camera.Core.Impl.ICaptureBundle, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CaptureBundle
+AndroidX.Camera.Core.Impl.ICaptureBundle;androidx.camera.core.impl.CaptureBundle
+androidx.camera.core.impl.CaptureBundle;androidx.camera.core.impl.CaptureBundle
+AndroidX.Camera.Core.Impl.ICaptureProcessor, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CaptureProcessor
+AndroidX.Camera.Core.Impl.ICaptureProcessor;androidx.camera.core.impl.CaptureProcessor
+androidx.camera.core.impl.CaptureProcessor;androidx.camera.core.impl.CaptureProcessor
+AndroidX.Camera.Core.Impl.ICaptureStage, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.CaptureStage
+AndroidX.Camera.Core.Impl.ICaptureStage;androidx.camera.core.impl.CaptureStage
+androidx.camera.core.impl.CaptureStage;androidx.camera.core.impl.CaptureStage
+AndroidX.Camera.Core.Impl.IConfigOptionMatcher, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.Config$OptionMatcher
+AndroidX.Camera.Core.Impl.IConfigOptionMatcher;androidx.camera.core.impl.Config$OptionMatcher
+androidx.camera.core.impl.Config$OptionMatcher;androidx.camera.core.impl.Config$OptionMatcher
+AndroidX.Camera.Core.Impl.IConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.Config
+AndroidX.Camera.Core.Impl.IConfig;androidx.camera.core.impl.Config
+androidx.camera.core.impl.Config;androidx.camera.core.impl.Config
+AndroidX.Camera.Core.Impl.IConfigProvider, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ConfigProvider
+AndroidX.Camera.Core.Impl.IConfigProvider;androidx.camera.core.impl.ConfigProvider
+androidx.camera.core.impl.ConfigProvider;androidx.camera.core.impl.ConfigProvider
+AndroidX.Camera.Core.Impl.IImageInfoProcessor, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ImageInfoProcessor
+AndroidX.Camera.Core.Impl.IImageInfoProcessor;androidx.camera.core.impl.ImageInfoProcessor
+androidx.camera.core.impl.ImageInfoProcessor;androidx.camera.core.impl.ImageInfoProcessor
+AndroidX.Camera.Core.Impl.IImageInputConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ImageInputConfig
+AndroidX.Camera.Core.Impl.IImageInputConfig;androidx.camera.core.impl.ImageInputConfig
+androidx.camera.core.impl.ImageInputConfig;androidx.camera.core.impl.ImageInputConfig
+AndroidX.Camera.Core.Impl.IImageOutputConfigBuilder, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ImageOutputConfig$Builder
+AndroidX.Camera.Core.Impl.IImageOutputConfigBuilder;androidx.camera.core.impl.ImageOutputConfig$Builder
+androidx.camera.core.impl.ImageOutputConfig$Builder;androidx.camera.core.impl.ImageOutputConfig$Builder
+AndroidX.Camera.Core.Impl.IImageOutputConfigRotationDegreesValue, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ImageOutputConfig$RotationDegreesValue
+AndroidX.Camera.Core.Impl.IImageOutputConfigRotationDegreesValue;androidx.camera.core.impl.ImageOutputConfig$RotationDegreesValue
+androidx.camera.core.impl.ImageOutputConfig$RotationDegreesValue;androidx.camera.core.impl.ImageOutputConfig$RotationDegreesValue
+AndroidX.Camera.Core.Impl.IImageOutputConfigRotationValue, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ImageOutputConfig$RotationValue
+AndroidX.Camera.Core.Impl.IImageOutputConfigRotationValue;androidx.camera.core.impl.ImageOutputConfig$RotationValue
+androidx.camera.core.impl.ImageOutputConfig$RotationValue;androidx.camera.core.impl.ImageOutputConfig$RotationValue
+AndroidX.Camera.Core.Impl.IImageOutputConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ImageOutputConfig
+AndroidX.Camera.Core.Impl.IImageOutputConfig;androidx.camera.core.impl.ImageOutputConfig
+androidx.camera.core.impl.ImageOutputConfig;androidx.camera.core.impl.ImageOutputConfig
+AndroidX.Camera.Core.Impl.IImageProxyBundle, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ImageProxyBundle
+AndroidX.Camera.Core.Impl.IImageProxyBundle;androidx.camera.core.impl.ImageProxyBundle
+androidx.camera.core.impl.ImageProxyBundle;androidx.camera.core.impl.ImageProxyBundle
+AndroidX.Camera.Core.Impl.IImageReaderProxyOnImageAvailableListener, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ImageReaderProxy$OnImageAvailableListener
+AndroidX.Camera.Core.Impl.IImageReaderProxyOnImageAvailableListener;androidx.camera.core.impl.ImageReaderProxy$OnImageAvailableListener
+androidx.camera.core.impl.ImageReaderProxy$OnImageAvailableListener;androidx.camera.core.impl.ImageReaderProxy$OnImageAvailableListener
+AndroidX.Camera.Core.Impl.IImageReaderProxyOnImageAvailableListenerImplementor, Xamarin.AndroidX.Camera.Core;mono.androidx.camera.core.impl.ImageReaderProxy_OnImageAvailableListenerImplementor
+AndroidX.Camera.Core.Impl.IImageReaderProxyOnImageAvailableListenerImplementor;mono.androidx.camera.core.impl.ImageReaderProxy_OnImageAvailableListenerImplementor
+mono.androidx.camera.core.impl.ImageReaderProxy_OnImageAvailableListenerImplementor;mono.androidx.camera.core.impl.ImageReaderProxy_OnImageAvailableListenerImplementor
+AndroidX.Camera.Core.Impl.IImageReaderProxy, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ImageReaderProxy
+AndroidX.Camera.Core.Impl.IImageReaderProxy;androidx.camera.core.impl.ImageReaderProxy
+androidx.camera.core.impl.ImageReaderProxy;androidx.camera.core.impl.ImageReaderProxy
+AndroidX.Camera.Core.Impl.IMutableConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.MutableConfig
+AndroidX.Camera.Core.Impl.IMutableConfig;androidx.camera.core.impl.MutableConfig
+androidx.camera.core.impl.MutableConfig;androidx.camera.core.impl.MutableConfig
+AndroidX.Camera.Core.Impl.IObservableObserver, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.Observable$Observer
+AndroidX.Camera.Core.Impl.IObservableObserver;androidx.camera.core.impl.Observable$Observer
+androidx.camera.core.impl.Observable$Observer;androidx.camera.core.impl.Observable$Observer
+AndroidX.Camera.Core.Impl.IObservable, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.Observable
+AndroidX.Camera.Core.Impl.IObservable;androidx.camera.core.impl.Observable
+androidx.camera.core.impl.Observable;androidx.camera.core.impl.Observable
+AndroidX.Camera.Core.Impl.IQuirk, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.Quirk
+AndroidX.Camera.Core.Impl.IQuirk;androidx.camera.core.impl.Quirk
+androidx.camera.core.impl.Quirk;androidx.camera.core.impl.Quirk
+AndroidX.Camera.Core.Impl.IReadableConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.ReadableConfig
+AndroidX.Camera.Core.Impl.IReadableConfig;androidx.camera.core.impl.ReadableConfig
+androidx.camera.core.impl.ReadableConfig;androidx.camera.core.impl.ReadableConfig
+AndroidX.Camera.Core.Impl.IUseCaseConfigBuilder, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.UseCaseConfig$Builder
+AndroidX.Camera.Core.Impl.IUseCaseConfigBuilder;androidx.camera.core.impl.UseCaseConfig$Builder
+androidx.camera.core.impl.UseCaseConfig$Builder;androidx.camera.core.impl.UseCaseConfig$Builder
+AndroidX.Camera.Core.Impl.IUseCaseConfig, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.UseCaseConfig
+AndroidX.Camera.Core.Impl.IUseCaseConfig;androidx.camera.core.impl.UseCaseConfig
+androidx.camera.core.impl.UseCaseConfig;androidx.camera.core.impl.UseCaseConfig
+AndroidX.Camera.Core.Impl.IUseCaseConfigFactoryProvider, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.UseCaseConfigFactory$Provider
+AndroidX.Camera.Core.Impl.IUseCaseConfigFactoryProvider;androidx.camera.core.impl.UseCaseConfigFactory$Provider
+androidx.camera.core.impl.UseCaseConfigFactory$Provider;androidx.camera.core.impl.UseCaseConfigFactory$Provider
+AndroidX.Camera.Core.Impl.IUseCaseConfigFactory, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.UseCaseConfigFactory
+AndroidX.Camera.Core.Impl.IUseCaseConfigFactory;androidx.camera.core.impl.UseCaseConfigFactory
+androidx.camera.core.impl.UseCaseConfigFactory;androidx.camera.core.impl.UseCaseConfigFactory
+AndroidX.Camera.Core.Impl.SessionConfig+IErrorListener, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.SessionConfig$ErrorListener
+AndroidX.Camera.Core.Impl.SessionConfig.IErrorListener;androidx.camera.core.impl.SessionConfig$ErrorListener
+androidx.camera.core.impl.SessionConfig$ErrorListener;androidx.camera.core.impl.SessionConfig$ErrorListener
+AndroidX.Camera.Core.Impl.SessionConfig+IErrorListenerImplementor, Xamarin.AndroidX.Camera.Core;mono.androidx.camera.core.impl.SessionConfig_ErrorListenerImplementor
+AndroidX.Camera.Core.Impl.SessionConfig.IErrorListenerImplementor;mono.androidx.camera.core.impl.SessionConfig_ErrorListenerImplementor
+mono.androidx.camera.core.impl.SessionConfig_ErrorListenerImplementor;mono.androidx.camera.core.impl.SessionConfig_ErrorListenerImplementor
+AndroidX.Camera.Core.Impl.SessionConfig+IOptionUnpacker, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.SessionConfig$OptionUnpacker
+AndroidX.Camera.Core.Impl.SessionConfig.IOptionUnpacker;androidx.camera.core.impl.SessionConfig$OptionUnpacker
+androidx.camera.core.impl.SessionConfig$OptionUnpacker;androidx.camera.core.impl.SessionConfig$OptionUnpacker
+AndroidX.Camera.Core.Impl.Utils.Futures.IAsyncFunction, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.utils.futures.AsyncFunction
+AndroidX.Camera.Core.Impl.Utils.Futures.IAsyncFunction;androidx.camera.core.impl.utils.futures.AsyncFunction
+androidx.camera.core.impl.utils.futures.AsyncFunction;androidx.camera.core.impl.utils.futures.AsyncFunction
+AndroidX.Camera.Core.Impl.Utils.Futures.IFutureCallback, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.utils.futures.FutureCallback
+AndroidX.Camera.Core.Impl.Utils.Futures.IFutureCallback;androidx.camera.core.impl.utils.futures.FutureCallback
+androidx.camera.core.impl.utils.futures.FutureCallback;androidx.camera.core.impl.utils.futures.FutureCallback
+AndroidX.Camera.Core.Impl.Annotation.IExecutedBy, Xamarin.AndroidX.Camera.Core;androidx.camera.core.impl.annotation.ExecutedBy
+AndroidX.Camera.Core.Impl.Annotation.IExecutedBy;androidx.camera.core.impl.annotation.ExecutedBy
+androidx.camera.core.impl.annotation.ExecutedBy;androidx.camera.core.impl.annotation.ExecutedBy
+AndroidX.Camera.Lifecycle.IExperimentalCameraProviderConfiguration, Xamarin.AndroidX.Camera.Lifecycle;androidx.camera.lifecycle.ExperimentalCameraProviderConfiguration
+AndroidX.Camera.Lifecycle.IExperimentalCameraProviderConfiguration;androidx.camera.lifecycle.ExperimentalCameraProviderConfiguration
+androidx.camera.lifecycle.ExperimentalCameraProviderConfiguration;androidx.camera.lifecycle.ExperimentalCameraProviderConfiguration
+AndroidX.Camera.Lifecycle.IExperimentalUseCaseGroupLifecycle, Xamarin.AndroidX.Camera.Lifecycle;androidx.camera.lifecycle.ExperimentalUseCaseGroupLifecycle
+AndroidX.Camera.Lifecycle.IExperimentalUseCaseGroupLifecycle;androidx.camera.lifecycle.ExperimentalUseCaseGroupLifecycle
+androidx.camera.lifecycle.ExperimentalUseCaseGroupLifecycle;androidx.camera.lifecycle.ExperimentalUseCaseGroupLifecycle
+AndroidX.Camera.View.CameraController+IUseCases, Xamarin.AndroidX.Camera.View;androidx.camera.view.CameraController$UseCases
+AndroidX.Camera.View.CameraController.IUseCases;androidx.camera.view.CameraController$UseCases
+androidx.camera.view.CameraController$UseCases;androidx.camera.view.CameraController$UseCases
+AndroidX.Camera.View.Video.IExperimentalVideo, Xamarin.AndroidX.Camera.View;androidx.camera.view.video.ExperimentalVideo
+AndroidX.Camera.View.Video.IExperimentalVideo;androidx.camera.view.video.ExperimentalVideo
+androidx.camera.view.video.ExperimentalVideo;androidx.camera.view.video.ExperimentalVideo
+AndroidX.Camera.View.Video.IOnVideoSavedCallbackVideoCaptureError, Xamarin.AndroidX.Camera.View;androidx.camera.view.video.OnVideoSavedCallback$VideoCaptureError
+AndroidX.Camera.View.Video.IOnVideoSavedCallbackVideoCaptureError;androidx.camera.view.video.OnVideoSavedCallback$VideoCaptureError
+androidx.camera.view.video.OnVideoSavedCallback$VideoCaptureError;androidx.camera.view.video.OnVideoSavedCallback$VideoCaptureError
+AndroidX.Camera.View.Video.IOnVideoSavedCallback, Xamarin.AndroidX.Camera.View;androidx.camera.view.video.OnVideoSavedCallback
+AndroidX.Camera.View.Video.IOnVideoSavedCallback;androidx.camera.view.video.OnVideoSavedCallback
+androidx.camera.view.video.OnVideoSavedCallback;androidx.camera.view.video.OnVideoSavedCallback
+AndroidX.Concurrent.Futures.CallbackToFutureAdapter+IResolver, Xamarin.AndroidX.Concurrent.Futures;androidx.concurrent.futures.CallbackToFutureAdapter$Resolver
+AndroidX.Concurrent.Futures.CallbackToFutureAdapter.IResolver;androidx.concurrent.futures.CallbackToFutureAdapter$Resolver
+androidx.concurrent.futures.CallbackToFutureAdapter$Resolver;androidx.concurrent.futures.CallbackToFutureAdapter$Resolver
+AndroidX.ConstraintLayout.Motion.Widget.IAnimatable, Xamarin.AndroidX.ConstraintLayout;androidx.constraintlayout.motion.widget.Animatable
+AndroidX.ConstraintLayout.Motion.Widget.IAnimatable;androidx.constraintlayout.motion.widget.Animatable
+androidx.constraintlayout.motion.widget.Animatable;androidx.constraintlayout.motion.widget.Animatable
+AndroidX.ConstraintLayout.Motion.Widget.ICustomFloatAttributes, Xamarin.AndroidX.ConstraintLayout;androidx.constraintlayout.motion.widget.CustomFloatAttributes
+AndroidX.ConstraintLayout.Motion.Widget.ICustomFloatAttributes;androidx.constraintlayout.motion.widget.CustomFloatAttributes
+androidx.constraintlayout.motion.widget.CustomFloatAttributes;androidx.constraintlayout.motion.widget.CustomFloatAttributes
+AndroidX.ConstraintLayout.Motion.Widget.MotionLayout+IMotionTracker, Xamarin.AndroidX.ConstraintLayout;androidx.constraintlayout.motion.widget.MotionLayout$MotionTracker
+AndroidX.ConstraintLayout.Motion.Widget.MotionLayout.IMotionTracker;androidx.constraintlayout.motion.widget.MotionLayout$MotionTracker
+androidx.constraintlayout.motion.widget.MotionLayout$MotionTracker;androidx.constraintlayout.motion.widget.MotionLayout$MotionTracker
+AndroidX.ConstraintLayout.Motion.Widget.MotionLayout+ITransitionListener, Xamarin.AndroidX.ConstraintLayout;androidx.constraintlayout.motion.widget.MotionLayout$TransitionListener
+AndroidX.ConstraintLayout.Motion.Widget.MotionLayout.ITransitionListener;androidx.constraintlayout.motion.widget.MotionLayout$TransitionListener
+androidx.constraintlayout.motion.widget.MotionLayout$TransitionListener;androidx.constraintlayout.motion.widget.MotionLayout$TransitionListener
+AndroidX.ConstraintLayout.Motion.Widget.MotionLayout+ITransitionListenerImplementor, Xamarin.AndroidX.ConstraintLayout;mono.androidx.constraintlayout.motion.widget.MotionLayout_TransitionListenerImplementor
+AndroidX.ConstraintLayout.Motion.Widget.MotionLayout.ITransitionListenerImplementor;mono.androidx.constraintlayout.motion.widget.MotionLayout_TransitionListenerImplementor
+mono.androidx.constraintlayout.motion.widget.MotionLayout_TransitionListenerImplementor;mono.androidx.constraintlayout.motion.widget.MotionLayout_TransitionListenerImplementor
+AndroidX.ConstraintLayout.Solver.ArrayRow+IArrayRowVariables, Xamarin.AndroidX.ConstraintLayout.Solver;androidx.constraintlayout.solver.ArrayRow$ArrayRowVariables
+AndroidX.ConstraintLayout.Solver.ArrayRow.IArrayRowVariables;androidx.constraintlayout.solver.ArrayRow$ArrayRowVariables
+androidx.constraintlayout.solver.ArrayRow$ArrayRowVariables;androidx.constraintlayout.solver.ArrayRow$ArrayRowVariables
+AndroidX.ConstraintLayout.Solver.State.ConstraintReference+IConstraintReferenceFactory, Xamarin.AndroidX.ConstraintLayout.Solver;androidx.constraintlayout.solver.state.ConstraintReference$ConstraintReferenceFactory
+AndroidX.ConstraintLayout.Solver.State.ConstraintReference.IConstraintReferenceFactory;androidx.constraintlayout.solver.state.ConstraintReference$ConstraintReferenceFactory
+androidx.constraintlayout.solver.state.ConstraintReference$ConstraintReferenceFactory;androidx.constraintlayout.solver.state.ConstraintReference$ConstraintReferenceFactory
+AndroidX.ConstraintLayout.Solver.State.IReference, Xamarin.AndroidX.ConstraintLayout.Solver;androidx.constraintlayout.solver.state.Reference
+AndroidX.ConstraintLayout.Solver.State.IReference;androidx.constraintlayout.solver.state.Reference
+androidx.constraintlayout.solver.state.Reference;androidx.constraintlayout.solver.state.Reference
+AndroidX.ConstraintLayout.Solver.Widgets.IHelper, Xamarin.AndroidX.ConstraintLayout.Solver;androidx.constraintlayout.solver.widgets.Helper
+AndroidX.ConstraintLayout.Solver.Widgets.IHelper;androidx.constraintlayout.solver.widgets.Helper
+androidx.constraintlayout.solver.widgets.Helper;androidx.constraintlayout.solver.widgets.Helper
+AndroidX.ConstraintLayout.Solver.Widgets.Analyzer.BasicMeasure+IMeasurer, Xamarin.AndroidX.ConstraintLayout.Solver;androidx.constraintlayout.solver.widgets.analyzer.BasicMeasure$Measurer
+AndroidX.ConstraintLayout.Solver.Widgets.Analyzer.BasicMeasure.IMeasurer;androidx.constraintlayout.solver.widgets.analyzer.BasicMeasure$Measurer
+androidx.constraintlayout.solver.widgets.analyzer.BasicMeasure$Measurer;androidx.constraintlayout.solver.widgets.analyzer.BasicMeasure$Measurer
+AndroidX.ConstraintLayout.Solver.Widgets.Analyzer.IDependency, Xamarin.AndroidX.ConstraintLayout.Solver;androidx.constraintlayout.solver.widgets.analyzer.Dependency
+AndroidX.ConstraintLayout.Solver.Widgets.Analyzer.IDependency;androidx.constraintlayout.solver.widgets.analyzer.Dependency
+androidx.constraintlayout.solver.widgets.analyzer.Dependency;androidx.constraintlayout.solver.widgets.analyzer.Dependency
 AndroidX.CoordinatorLayout.Widget.CoordinatorLayout+IAttachedBehavior, Xamarin.AndroidX.CoordinatorLayout;androidx.coordinatorlayout.widget.CoordinatorLayout$AttachedBehavior
 AndroidX.CoordinatorLayout.Widget.CoordinatorLayout.IAttachedBehavior;androidx.coordinatorlayout.widget.CoordinatorLayout$AttachedBehavior
 androidx.coordinatorlayout.widget.CoordinatorLayout$AttachedBehavior;androidx.coordinatorlayout.widget.CoordinatorLayout$AttachedBehavior
@@ -460,141 +850,6 @@ android.support.v4.os.IResultReceiver;android.support.v4.os.IResultReceiver
 Android.Support.V4.App.INotificationSideChannel, Xamarin.AndroidX.Core;android.support.v4.app.INotificationSideChannel
 Android.Support.V4.App.INotificationSideChannel;android.support.v4.app.INotificationSideChannel
 android.support.v4.app.INotificationSideChannel;android.support.v4.app.INotificationSideChannel
-AndroidX.Core.Widget.IAutoSizeableTextView, Xamarin.AndroidX.Core;androidx.core.widget.AutoSizeableTextView
-AndroidX.Core.Widget.IAutoSizeableTextView;androidx.core.widget.AutoSizeableTextView
-androidx.core.widget.AutoSizeableTextView;androidx.core.widget.AutoSizeableTextView
-AndroidX.Core.Widget.ITintableCompoundButton, Xamarin.AndroidX.Core;androidx.core.widget.TintableCompoundButton
-AndroidX.Core.Widget.ITintableCompoundButton;androidx.core.widget.TintableCompoundButton
-androidx.core.widget.TintableCompoundButton;androidx.core.widget.TintableCompoundButton
-AndroidX.Core.Widget.ITintableCompoundDrawablesView, Xamarin.AndroidX.Core;androidx.core.widget.TintableCompoundDrawablesView
-AndroidX.Core.Widget.ITintableCompoundDrawablesView;androidx.core.widget.TintableCompoundDrawablesView
-androidx.core.widget.TintableCompoundDrawablesView;androidx.core.widget.TintableCompoundDrawablesView
-AndroidX.Core.Widget.ITintableImageSourceView, Xamarin.AndroidX.Core;androidx.core.widget.TintableImageSourceView
-AndroidX.Core.Widget.ITintableImageSourceView;androidx.core.widget.TintableImageSourceView
-androidx.core.widget.TintableImageSourceView;androidx.core.widget.TintableImageSourceView
-AndroidX.Core.Widget.NestedScrollView+IOnScrollChangeListener, Xamarin.AndroidX.Core;androidx.core.widget.NestedScrollView$OnScrollChangeListener
-AndroidX.Core.Widget.NestedScrollView.IOnScrollChangeListener;androidx.core.widget.NestedScrollView$OnScrollChangeListener
-androidx.core.widget.NestedScrollView$OnScrollChangeListener;androidx.core.widget.NestedScrollView$OnScrollChangeListener
-AndroidX.Core.Widget.NestedScrollView+IOnScrollChangeListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.widget.NestedScrollView_OnScrollChangeListenerImplementor
-AndroidX.Core.Widget.NestedScrollView.IOnScrollChangeListenerImplementor;mono.androidx.core.widget.NestedScrollView_OnScrollChangeListenerImplementor
-mono.androidx.core.widget.NestedScrollView_OnScrollChangeListenerImplementor;mono.androidx.core.widget.NestedScrollView_OnScrollChangeListenerImplementor
-AndroidX.Core.Widget.TextViewCompat+IAutoSizeTextType, Xamarin.AndroidX.Core;androidx.core.widget.TextViewCompat$AutoSizeTextType
-AndroidX.Core.Widget.TextViewCompat.IAutoSizeTextType;androidx.core.widget.TextViewCompat$AutoSizeTextType
-androidx.core.widget.TextViewCompat$AutoSizeTextType;androidx.core.widget.TextViewCompat$AutoSizeTextType
-AndroidX.Core.View.ActionProvider+ISubUiVisibilityListener, Xamarin.AndroidX.Core;androidx.core.view.ActionProvider$SubUiVisibilityListener
-AndroidX.Core.View.ActionProvider.ISubUiVisibilityListener;androidx.core.view.ActionProvider$SubUiVisibilityListener
-androidx.core.view.ActionProvider$SubUiVisibilityListener;androidx.core.view.ActionProvider$SubUiVisibilityListener
-AndroidX.Core.View.ActionProvider+ISubUiVisibilityListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.ActionProvider_SubUiVisibilityListenerImplementor
-AndroidX.Core.View.ActionProvider.ISubUiVisibilityListenerImplementor;mono.androidx.core.view.ActionProvider_SubUiVisibilityListenerImplementor
-mono.androidx.core.view.ActionProvider_SubUiVisibilityListenerImplementor;mono.androidx.core.view.ActionProvider_SubUiVisibilityListenerImplementor
-AndroidX.Core.View.ActionProvider+IVisibilityListener, Xamarin.AndroidX.Core;androidx.core.view.ActionProvider$VisibilityListener
-AndroidX.Core.View.ActionProvider.IVisibilityListener;androidx.core.view.ActionProvider$VisibilityListener
-androidx.core.view.ActionProvider$VisibilityListener;androidx.core.view.ActionProvider$VisibilityListener
-AndroidX.Core.View.ActionProvider+IVisibilityListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.ActionProvider_VisibilityListenerImplementor
-AndroidX.Core.View.ActionProvider.IVisibilityListenerImplementor;mono.androidx.core.view.ActionProvider_VisibilityListenerImplementor
-mono.androidx.core.view.ActionProvider_VisibilityListenerImplementor;mono.androidx.core.view.ActionProvider_VisibilityListenerImplementor
-AndroidX.Core.View.DragStartHelper+IOnDragStartListener, Xamarin.AndroidX.Core;androidx.core.view.DragStartHelper$OnDragStartListener
-AndroidX.Core.View.DragStartHelper.IOnDragStartListener;androidx.core.view.DragStartHelper$OnDragStartListener
-androidx.core.view.DragStartHelper$OnDragStartListener;androidx.core.view.DragStartHelper$OnDragStartListener
-AndroidX.Core.View.DragStartHelper+IOnDragStartListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.DragStartHelper_OnDragStartListenerImplementor
-AndroidX.Core.View.DragStartHelper.IOnDragStartListenerImplementor;mono.androidx.core.view.DragStartHelper_OnDragStartListenerImplementor
-mono.androidx.core.view.DragStartHelper_OnDragStartListenerImplementor;mono.androidx.core.view.DragStartHelper_OnDragStartListenerImplementor
-AndroidX.Core.View.ILayoutInflaterFactory, Xamarin.AndroidX.Core;androidx.core.view.LayoutInflaterFactory
-AndroidX.Core.View.ILayoutInflaterFactory;androidx.core.view.LayoutInflaterFactory
-androidx.core.view.LayoutInflaterFactory;androidx.core.view.LayoutInflaterFactory
-AndroidX.Core.View.INestedScrollingChild, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingChild
-AndroidX.Core.View.INestedScrollingChild;androidx.core.view.NestedScrollingChild
-androidx.core.view.NestedScrollingChild;androidx.core.view.NestedScrollingChild
-AndroidX.Core.View.INestedScrollingChild2, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingChild2
-AndroidX.Core.View.INestedScrollingChild2;androidx.core.view.NestedScrollingChild2
-androidx.core.view.NestedScrollingChild2;androidx.core.view.NestedScrollingChild2
-AndroidX.Core.View.INestedScrollingChild3, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingChild3
-AndroidX.Core.View.INestedScrollingChild3;androidx.core.view.NestedScrollingChild3
-androidx.core.view.NestedScrollingChild3;androidx.core.view.NestedScrollingChild3
-AndroidX.Core.View.INestedScrollingParent, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingParent
-AndroidX.Core.View.INestedScrollingParent;androidx.core.view.NestedScrollingParent
-androidx.core.view.NestedScrollingParent;androidx.core.view.NestedScrollingParent
-AndroidX.Core.View.INestedScrollingParent2, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingParent2
-AndroidX.Core.View.INestedScrollingParent2;androidx.core.view.NestedScrollingParent2
-androidx.core.view.NestedScrollingParent2;androidx.core.view.NestedScrollingParent2
-AndroidX.Core.View.INestedScrollingParent3, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingParent3
-AndroidX.Core.View.INestedScrollingParent3;androidx.core.view.NestedScrollingParent3
-androidx.core.view.NestedScrollingParent3;androidx.core.view.NestedScrollingParent3
-AndroidX.Core.View.IOnApplyWindowInsetsListener, Xamarin.AndroidX.Core;androidx.core.view.OnApplyWindowInsetsListener
-AndroidX.Core.View.IOnApplyWindowInsetsListener;androidx.core.view.OnApplyWindowInsetsListener
-androidx.core.view.OnApplyWindowInsetsListener;androidx.core.view.OnApplyWindowInsetsListener
-AndroidX.Core.View.IOnApplyWindowInsetsListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.OnApplyWindowInsetsListenerImplementor
-AndroidX.Core.View.IOnApplyWindowInsetsListenerImplementor;mono.androidx.core.view.OnApplyWindowInsetsListenerImplementor
-mono.androidx.core.view.OnApplyWindowInsetsListenerImplementor;mono.androidx.core.view.OnApplyWindowInsetsListenerImplementor
-AndroidX.Core.View.IScrollingView, Xamarin.AndroidX.Core;androidx.core.view.ScrollingView
-AndroidX.Core.View.IScrollingView;androidx.core.view.ScrollingView
-androidx.core.view.ScrollingView;androidx.core.view.ScrollingView
-AndroidX.Core.View.ITintableBackgroundView, Xamarin.AndroidX.Core;androidx.core.view.TintableBackgroundView
-AndroidX.Core.View.ITintableBackgroundView;androidx.core.view.TintableBackgroundView
-androidx.core.view.TintableBackgroundView;androidx.core.view.TintableBackgroundView
-AndroidX.Core.View.IViewPropertyAnimatorListener, Xamarin.AndroidX.Core;androidx.core.view.ViewPropertyAnimatorListener
-AndroidX.Core.View.IViewPropertyAnimatorListener;androidx.core.view.ViewPropertyAnimatorListener
-androidx.core.view.ViewPropertyAnimatorListener;androidx.core.view.ViewPropertyAnimatorListener
-AndroidX.Core.View.IViewPropertyAnimatorListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.ViewPropertyAnimatorListenerImplementor
-AndroidX.Core.View.IViewPropertyAnimatorListenerImplementor;mono.androidx.core.view.ViewPropertyAnimatorListenerImplementor
-mono.androidx.core.view.ViewPropertyAnimatorListenerImplementor;mono.androidx.core.view.ViewPropertyAnimatorListenerImplementor
-AndroidX.Core.View.IViewPropertyAnimatorUpdateListener, Xamarin.AndroidX.Core;androidx.core.view.ViewPropertyAnimatorUpdateListener
-AndroidX.Core.View.IViewPropertyAnimatorUpdateListener;androidx.core.view.ViewPropertyAnimatorUpdateListener
-androidx.core.view.ViewPropertyAnimatorUpdateListener;androidx.core.view.ViewPropertyAnimatorUpdateListener
-AndroidX.Core.View.IViewPropertyAnimatorUpdateListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.ViewPropertyAnimatorUpdateListenerImplementor
-AndroidX.Core.View.IViewPropertyAnimatorUpdateListenerImplementor;mono.androidx.core.view.ViewPropertyAnimatorUpdateListenerImplementor
-mono.androidx.core.view.ViewPropertyAnimatorUpdateListenerImplementor;mono.androidx.core.view.ViewPropertyAnimatorUpdateListenerImplementor
-AndroidX.Core.View.KeyEventDispatcher+IComponent, Xamarin.AndroidX.Core;androidx.core.view.KeyEventDispatcher$Component
-AndroidX.Core.View.KeyEventDispatcher.IComponent;androidx.core.view.KeyEventDispatcher$Component
-androidx.core.view.KeyEventDispatcher$Component;androidx.core.view.KeyEventDispatcher$Component
-AndroidX.Core.View.MenuItemCompat+IOnActionExpandListener, Xamarin.AndroidX.Core;androidx.core.view.MenuItemCompat$OnActionExpandListener
-AndroidX.Core.View.MenuItemCompat.IOnActionExpandListener;androidx.core.view.MenuItemCompat$OnActionExpandListener
-androidx.core.view.MenuItemCompat$OnActionExpandListener;androidx.core.view.MenuItemCompat$OnActionExpandListener
-AndroidX.Core.View.MenuItemCompat+IOnActionExpandListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.MenuItemCompat_OnActionExpandListenerImplementor
-AndroidX.Core.View.MenuItemCompat.IOnActionExpandListenerImplementor;mono.androidx.core.view.MenuItemCompat_OnActionExpandListenerImplementor
-mono.androidx.core.view.MenuItemCompat_OnActionExpandListenerImplementor;mono.androidx.core.view.MenuItemCompat_OnActionExpandListenerImplementor
-AndroidX.Core.View.ViewCompat+IFocusDirection, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$FocusDirection
-AndroidX.Core.View.ViewCompat.IFocusDirection;androidx.core.view.ViewCompat$FocusDirection
-androidx.core.view.ViewCompat$FocusDirection;androidx.core.view.ViewCompat$FocusDirection
-AndroidX.Core.View.ViewCompat+IFocusRealDirection, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$FocusRealDirection
-AndroidX.Core.View.ViewCompat.IFocusRealDirection;androidx.core.view.ViewCompat$FocusRealDirection
-androidx.core.view.ViewCompat$FocusRealDirection;androidx.core.view.ViewCompat$FocusRealDirection
-AndroidX.Core.View.ViewCompat+IFocusRelativeDirection, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$FocusRelativeDirection
-AndroidX.Core.View.ViewCompat.IFocusRelativeDirection;androidx.core.view.ViewCompat$FocusRelativeDirection
-androidx.core.view.ViewCompat$FocusRelativeDirection;androidx.core.view.ViewCompat$FocusRelativeDirection
-AndroidX.Core.View.ViewCompat+INestedScrollType, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$NestedScrollType
-AndroidX.Core.View.ViewCompat.INestedScrollType;androidx.core.view.ViewCompat$NestedScrollType
-androidx.core.view.ViewCompat$NestedScrollType;androidx.core.view.ViewCompat$NestedScrollType
-AndroidX.Core.View.ViewCompat+IOnUnhandledKeyEventListenerCompat, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat
-AndroidX.Core.View.ViewCompat.IOnUnhandledKeyEventListenerCompat;androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat
-androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat;androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat
-AndroidX.Core.View.ViewCompat+IScrollAxis, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$ScrollAxis
-AndroidX.Core.View.ViewCompat.IScrollAxis;androidx.core.view.ViewCompat$ScrollAxis
-androidx.core.view.ViewCompat$ScrollAxis;androidx.core.view.ViewCompat$ScrollAxis
-AndroidX.Core.View.ViewCompat+IScrollIndicators, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$ScrollIndicators
-AndroidX.Core.View.ViewCompat.IScrollIndicators;androidx.core.view.ViewCompat$ScrollIndicators
-androidx.core.view.ViewCompat$ScrollIndicators;androidx.core.view.ViewCompat$ScrollIndicators
-AndroidX.Core.View.InputMethod.InputConnectionCompat+IOnCommitContentListener, Xamarin.AndroidX.Core;androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener
-AndroidX.Core.View.InputMethod.InputConnectionCompat.IOnCommitContentListener;androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener
-androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener;androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener
-AndroidX.Core.View.InputMethod.InputConnectionCompat+IOnCommitContentListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.inputmethod.InputConnectionCompat_OnCommitContentListenerImplementor
-AndroidX.Core.View.InputMethod.InputConnectionCompat.IOnCommitContentListenerImplementor;mono.androidx.core.view.inputmethod.InputConnectionCompat_OnCommitContentListenerImplementor
-mono.androidx.core.view.inputmethod.InputConnectionCompat_OnCommitContentListenerImplementor;mono.androidx.core.view.inputmethod.InputConnectionCompat_OnCommitContentListenerImplementor
-AndroidX.Core.View.Accessibiity.AccessibilityManagerCompat+IAccessibilityStateChangeListener, Xamarin.AndroidX.Core;androidx.core.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListener
-AndroidX.Core.View.Accessibiity.AccessibilityManagerCompat.IAccessibilityStateChangeListener;androidx.core.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListener
-androidx.core.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListener;androidx.core.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListener
-AndroidX.Core.View.Accessibiity.AccessibilityManagerCompat+IAccessibilityStateChangeListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor
-AndroidX.Core.View.Accessibiity.AccessibilityManagerCompat.IAccessibilityStateChangeListenerImplementor;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor
-mono.androidx.core.view.accessibility.AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor
-AndroidX.Core.View.Accessibiity.AccessibilityManagerCompat+ITouchExplorationStateChangeListener, Xamarin.AndroidX.Core;androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStateChangeListener
-AndroidX.Core.View.Accessibiity.AccessibilityManagerCompat.ITouchExplorationStateChangeListener;androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStateChangeListener
-androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStateChangeListener;androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStateChangeListener
-AndroidX.Core.View.Accessibiity.AccessibilityManagerCompat+ITouchExplorationStateChangeListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor
-AndroidX.Core.View.Accessibiity.AccessibilityManagerCompat.ITouchExplorationStateChangeListenerImplementor;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor
-mono.androidx.core.view.accessibility.AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor
-AndroidX.Core.View.Accessibiity.IAccessibilityViewCommand, Xamarin.AndroidX.Core;androidx.core.view.accessibility.AccessibilityViewCommand
-AndroidX.Core.View.Accessibiity.IAccessibilityViewCommand;androidx.core.view.accessibility.AccessibilityViewCommand
-androidx.core.view.accessibility.AccessibilityViewCommand;androidx.core.view.accessibility.AccessibilityViewCommand
 AndroidX.Core.Util.IConsumer, Xamarin.AndroidX.Core;androidx.core.util.Consumer
 AndroidX.Core.Util.IConsumer;androidx.core.util.Consumer
 androidx.core.util.Consumer;androidx.core.util.Consumer
@@ -613,6 +868,9 @@ androidx.core.provider.FontsContractCompat$FontRequestCallback$FontRequestFailRe
 AndroidX.Core.Provider.SelfDestructiveThread+IReplyCallback, Xamarin.AndroidX.Core;androidx.core.provider.SelfDestructiveThread$ReplyCallback
 AndroidX.Core.Provider.SelfDestructiveThread.IReplyCallback;androidx.core.provider.SelfDestructiveThread$ReplyCallback
 androidx.core.provider.SelfDestructiveThread$ReplyCallback;androidx.core.provider.SelfDestructiveThread$ReplyCallback
+AndroidX.Core.OS.BuildCompat+IPrereleaseSdkCheck, Xamarin.AndroidX.Core;androidx.core.os.BuildCompat$PrereleaseSdkCheck
+AndroidX.Core.OS.BuildCompat.IPrereleaseSdkCheck;androidx.core.os.BuildCompat$PrereleaseSdkCheck
+androidx.core.os.BuildCompat$PrereleaseSdkCheck;androidx.core.os.BuildCompat$PrereleaseSdkCheck
 AndroidX.Core.OS.CancellationSignal+IOnCancelListener, Xamarin.AndroidX.Core;androidx.core.os.CancellationSignal$OnCancelListener
 AndroidX.Core.OS.CancellationSignal.IOnCancelListener;androidx.core.os.CancellationSignal$OnCancelListener
 androidx.core.os.CancellationSignal$OnCancelListener;androidx.core.os.CancellationSignal$OnCancelListener
@@ -625,6 +883,9 @@ androidx.core.os.ParcelableCompatCreatorCallbacks;androidx.core.os.ParcelableCom
 AndroidX.Core.Net.ConnectivityManagerCompat+IRestrictBackgroundStatus, Xamarin.AndroidX.Core;androidx.core.net.ConnectivityManagerCompat$RestrictBackgroundStatus
 AndroidX.Core.Net.ConnectivityManagerCompat.IRestrictBackgroundStatus;androidx.core.net.ConnectivityManagerCompat$RestrictBackgroundStatus
 androidx.core.net.ConnectivityManagerCompat$RestrictBackgroundStatus;androidx.core.net.ConnectivityManagerCompat$RestrictBackgroundStatus
+AndroidX.Core.Location.GnssStatusCompat+IConstellationType, Xamarin.AndroidX.Core;androidx.core.location.GnssStatusCompat$ConstellationType
+AndroidX.Core.Location.GnssStatusCompat.IConstellationType;androidx.core.location.GnssStatusCompat$ConstellationType
+androidx.core.location.GnssStatusCompat$ConstellationType;androidx.core.location.GnssStatusCompat$ConstellationType
 AndroidX.Core.Internal.View.ISupportMenu, Xamarin.AndroidX.Core;androidx.core.internal.view.SupportMenu
 AndroidX.Core.Internal.View.ISupportMenu;androidx.core.internal.view.SupportMenu
 androidx.core.internal.view.SupportMenu;androidx.core.internal.view.SupportMenu
@@ -658,6 +919,9 @@ androidx.core.content.pm.PermissionInfoCompat$Protection;androidx.core.content.p
 AndroidX.Core.Content.PM.PermissionInfoCompat+IProtectionFlags, Xamarin.AndroidX.Core;androidx.core.content.pm.PermissionInfoCompat$ProtectionFlags
 AndroidX.Core.Content.PM.PermissionInfoCompat.IProtectionFlags;androidx.core.content.pm.PermissionInfoCompat$ProtectionFlags
 androidx.core.content.pm.PermissionInfoCompat$ProtectionFlags;androidx.core.content.pm.PermissionInfoCompat$ProtectionFlags
+AndroidX.Core.Content.PM.ShortcutManagerCompat+IShortcutMatchFlags, Xamarin.AndroidX.Core;androidx.core.content.pm.ShortcutManagerCompat$ShortcutMatchFlags
+AndroidX.Core.Content.PM.ShortcutManagerCompat.IShortcutMatchFlags;androidx.core.content.pm.ShortcutManagerCompat$ShortcutMatchFlags
+androidx.core.content.pm.ShortcutManagerCompat$ShortcutMatchFlags;androidx.core.content.pm.ShortcutManagerCompat$ShortcutMatchFlags
 AndroidX.Core.App.ActivityCompat+IOnRequestPermissionsResultCallback, Xamarin.AndroidX.Core;androidx.core.app.ActivityCompat$OnRequestPermissionsResultCallback
 AndroidX.Core.App.ActivityCompat.IOnRequestPermissionsResultCallback;androidx.core.app.ActivityCompat$OnRequestPermissionsResultCallback
 androidx.core.app.ActivityCompat$OnRequestPermissionsResultCallback;androidx.core.app.ActivityCompat$OnRequestPermissionsResultCallback
@@ -715,6 +979,177 @@ mono.androidx.core.app.SharedElementCallback_OnSharedElementsReadyListenerImplem
 AndroidX.Core.App.TaskStackBuilder+ISupportParentable, Xamarin.AndroidX.Core;androidx.core.app.TaskStackBuilder$SupportParentable
 AndroidX.Core.App.TaskStackBuilder.ISupportParentable;androidx.core.app.TaskStackBuilder$SupportParentable
 androidx.core.app.TaskStackBuilder$SupportParentable;androidx.core.app.TaskStackBuilder$SupportParentable
+AndroidX.Core.Widget.NestedScrollView+IOnScrollChangeListener, Xamarin.AndroidX.Core;androidx.core.widget.NestedScrollView$OnScrollChangeListener
+AndroidX.Core.Widget.NestedScrollView.IOnScrollChangeListener;androidx.core.widget.NestedScrollView$OnScrollChangeListener
+androidx.core.widget.NestedScrollView$OnScrollChangeListener;androidx.core.widget.NestedScrollView$OnScrollChangeListener
+AndroidX.Core.Widget.NestedScrollView+IOnScrollChangeListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.widget.NestedScrollView_OnScrollChangeListenerImplementor
+AndroidX.Core.Widget.NestedScrollView.IOnScrollChangeListenerImplementor;mono.androidx.core.widget.NestedScrollView_OnScrollChangeListenerImplementor
+mono.androidx.core.widget.NestedScrollView_OnScrollChangeListenerImplementor;mono.androidx.core.widget.NestedScrollView_OnScrollChangeListenerImplementor
+AndroidX.Core.Widget.IAutoSizeableTextView, Xamarin.AndroidX.Core;androidx.core.widget.AutoSizeableTextView
+AndroidX.Core.Widget.IAutoSizeableTextView;androidx.core.widget.AutoSizeableTextView
+androidx.core.widget.AutoSizeableTextView;androidx.core.widget.AutoSizeableTextView
+AndroidX.Core.Widget.ITintableCheckedTextView, Xamarin.AndroidX.Core;androidx.core.widget.TintableCheckedTextView
+AndroidX.Core.Widget.ITintableCheckedTextView;androidx.core.widget.TintableCheckedTextView
+androidx.core.widget.TintableCheckedTextView;androidx.core.widget.TintableCheckedTextView
+AndroidX.Core.Widget.ITintableCompoundButton, Xamarin.AndroidX.Core;androidx.core.widget.TintableCompoundButton
+AndroidX.Core.Widget.ITintableCompoundButton;androidx.core.widget.TintableCompoundButton
+androidx.core.widget.TintableCompoundButton;androidx.core.widget.TintableCompoundButton
+AndroidX.Core.Widget.ITintableCompoundDrawablesView, Xamarin.AndroidX.Core;androidx.core.widget.TintableCompoundDrawablesView
+AndroidX.Core.Widget.ITintableCompoundDrawablesView;androidx.core.widget.TintableCompoundDrawablesView
+androidx.core.widget.TintableCompoundDrawablesView;androidx.core.widget.TintableCompoundDrawablesView
+AndroidX.Core.Widget.ITintableImageSourceView, Xamarin.AndroidX.Core;androidx.core.widget.TintableImageSourceView
+AndroidX.Core.Widget.ITintableImageSourceView;androidx.core.widget.TintableImageSourceView
+androidx.core.widget.TintableImageSourceView;androidx.core.widget.TintableImageSourceView
+AndroidX.Core.Widget.TextViewCompat+IAutoSizeTextType, Xamarin.AndroidX.Core;androidx.core.widget.TextViewCompat$AutoSizeTextType
+AndroidX.Core.Widget.TextViewCompat.IAutoSizeTextType;androidx.core.widget.TextViewCompat$AutoSizeTextType
+androidx.core.widget.TextViewCompat$AutoSizeTextType;androidx.core.widget.TextViewCompat$AutoSizeTextType
+AndroidX.Core.View.INestedScrollingParent2, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingParent2
+AndroidX.Core.View.INestedScrollingParent2;androidx.core.view.NestedScrollingParent2
+androidx.core.view.NestedScrollingParent2;androidx.core.view.NestedScrollingParent2
+AndroidX.Core.View.ActionProvider+ISubUiVisibilityListener, Xamarin.AndroidX.Core;androidx.core.view.ActionProvider$SubUiVisibilityListener
+AndroidX.Core.View.ActionProvider.ISubUiVisibilityListener;androidx.core.view.ActionProvider$SubUiVisibilityListener
+androidx.core.view.ActionProvider$SubUiVisibilityListener;androidx.core.view.ActionProvider$SubUiVisibilityListener
+AndroidX.Core.View.ActionProvider+ISubUiVisibilityListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.ActionProvider_SubUiVisibilityListenerImplementor
+AndroidX.Core.View.ActionProvider.ISubUiVisibilityListenerImplementor;mono.androidx.core.view.ActionProvider_SubUiVisibilityListenerImplementor
+mono.androidx.core.view.ActionProvider_SubUiVisibilityListenerImplementor;mono.androidx.core.view.ActionProvider_SubUiVisibilityListenerImplementor
+AndroidX.Core.View.ActionProvider+IVisibilityListener, Xamarin.AndroidX.Core;androidx.core.view.ActionProvider$VisibilityListener
+AndroidX.Core.View.ActionProvider.IVisibilityListener;androidx.core.view.ActionProvider$VisibilityListener
+androidx.core.view.ActionProvider$VisibilityListener;androidx.core.view.ActionProvider$VisibilityListener
+AndroidX.Core.View.ActionProvider+IVisibilityListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.ActionProvider_VisibilityListenerImplementor
+AndroidX.Core.View.ActionProvider.IVisibilityListenerImplementor;mono.androidx.core.view.ActionProvider_VisibilityListenerImplementor
+mono.androidx.core.view.ActionProvider_VisibilityListenerImplementor;mono.androidx.core.view.ActionProvider_VisibilityListenerImplementor
+AndroidX.Core.View.ContentInfoCompat+IFlags, Xamarin.AndroidX.Core;androidx.core.view.ContentInfoCompat$Flags
+AndroidX.Core.View.ContentInfoCompat.IFlags;androidx.core.view.ContentInfoCompat$Flags
+androidx.core.view.ContentInfoCompat$Flags;androidx.core.view.ContentInfoCompat$Flags
+AndroidX.Core.View.ContentInfoCompat+ISource, Xamarin.AndroidX.Core;androidx.core.view.ContentInfoCompat$Source
+AndroidX.Core.View.ContentInfoCompat.ISource;androidx.core.view.ContentInfoCompat$Source
+androidx.core.view.ContentInfoCompat$Source;androidx.core.view.ContentInfoCompat$Source
+AndroidX.Core.View.DragStartHelper+IOnDragStartListener, Xamarin.AndroidX.Core;androidx.core.view.DragStartHelper$OnDragStartListener
+AndroidX.Core.View.DragStartHelper.IOnDragStartListener;androidx.core.view.DragStartHelper$OnDragStartListener
+androidx.core.view.DragStartHelper$OnDragStartListener;androidx.core.view.DragStartHelper$OnDragStartListener
+AndroidX.Core.View.DragStartHelper+IOnDragStartListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.DragStartHelper_OnDragStartListenerImplementor
+AndroidX.Core.View.DragStartHelper.IOnDragStartListenerImplementor;mono.androidx.core.view.DragStartHelper_OnDragStartListenerImplementor
+mono.androidx.core.view.DragStartHelper_OnDragStartListenerImplementor;mono.androidx.core.view.DragStartHelper_OnDragStartListenerImplementor
+AndroidX.Core.View.ILayoutInflaterFactory, Xamarin.AndroidX.Core;androidx.core.view.LayoutInflaterFactory
+AndroidX.Core.View.ILayoutInflaterFactory;androidx.core.view.LayoutInflaterFactory
+androidx.core.view.LayoutInflaterFactory;androidx.core.view.LayoutInflaterFactory
+AndroidX.Core.View.INestedScrollingChild, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingChild
+AndroidX.Core.View.INestedScrollingChild;androidx.core.view.NestedScrollingChild
+androidx.core.view.NestedScrollingChild;androidx.core.view.NestedScrollingChild
+AndroidX.Core.View.INestedScrollingChild2, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingChild2
+AndroidX.Core.View.INestedScrollingChild2;androidx.core.view.NestedScrollingChild2
+androidx.core.view.NestedScrollingChild2;androidx.core.view.NestedScrollingChild2
+AndroidX.Core.View.INestedScrollingChild3, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingChild3
+AndroidX.Core.View.INestedScrollingChild3;androidx.core.view.NestedScrollingChild3
+androidx.core.view.NestedScrollingChild3;androidx.core.view.NestedScrollingChild3
+AndroidX.Core.View.INestedScrollingParent, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingParent
+AndroidX.Core.View.INestedScrollingParent;androidx.core.view.NestedScrollingParent
+androidx.core.view.NestedScrollingParent;androidx.core.view.NestedScrollingParent
+AndroidX.Core.View.INestedScrollingParent3, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingParent3
+AndroidX.Core.View.INestedScrollingParent3;androidx.core.view.NestedScrollingParent3
+androidx.core.view.NestedScrollingParent3;androidx.core.view.NestedScrollingParent3
+AndroidX.Core.View.IOnApplyWindowInsetsListener, Xamarin.AndroidX.Core;androidx.core.view.OnApplyWindowInsetsListener
+AndroidX.Core.View.IOnApplyWindowInsetsListener;androidx.core.view.OnApplyWindowInsetsListener
+androidx.core.view.OnApplyWindowInsetsListener;androidx.core.view.OnApplyWindowInsetsListener
+AndroidX.Core.View.IOnApplyWindowInsetsListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.OnApplyWindowInsetsListenerImplementor
+AndroidX.Core.View.IOnApplyWindowInsetsListenerImplementor;mono.androidx.core.view.OnApplyWindowInsetsListenerImplementor
+mono.androidx.core.view.OnApplyWindowInsetsListenerImplementor;mono.androidx.core.view.OnApplyWindowInsetsListenerImplementor
+AndroidX.Core.View.IOnReceiveContentListener, Xamarin.AndroidX.Core;androidx.core.view.OnReceiveContentListener
+AndroidX.Core.View.IOnReceiveContentListener;androidx.core.view.OnReceiveContentListener
+androidx.core.view.OnReceiveContentListener;androidx.core.view.OnReceiveContentListener
+AndroidX.Core.View.IOnReceiveContentListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.OnReceiveContentListenerImplementor
+AndroidX.Core.View.IOnReceiveContentListenerImplementor;mono.androidx.core.view.OnReceiveContentListenerImplementor
+mono.androidx.core.view.OnReceiveContentListenerImplementor;mono.androidx.core.view.OnReceiveContentListenerImplementor
+AndroidX.Core.View.IOnReceiveContentViewBehavior, Xamarin.AndroidX.Core;androidx.core.view.OnReceiveContentViewBehavior
+AndroidX.Core.View.IOnReceiveContentViewBehavior;androidx.core.view.OnReceiveContentViewBehavior
+androidx.core.view.OnReceiveContentViewBehavior;androidx.core.view.OnReceiveContentViewBehavior
+AndroidX.Core.View.IScrollingView, Xamarin.AndroidX.Core;androidx.core.view.ScrollingView
+AndroidX.Core.View.IScrollingView;androidx.core.view.ScrollingView
+androidx.core.view.ScrollingView;androidx.core.view.ScrollingView
+AndroidX.Core.View.ITintableBackgroundView, Xamarin.AndroidX.Core;androidx.core.view.TintableBackgroundView
+AndroidX.Core.View.ITintableBackgroundView;androidx.core.view.TintableBackgroundView
+androidx.core.view.TintableBackgroundView;androidx.core.view.TintableBackgroundView
+AndroidX.Core.View.IViewPropertyAnimatorListener, Xamarin.AndroidX.Core;androidx.core.view.ViewPropertyAnimatorListener
+AndroidX.Core.View.IViewPropertyAnimatorListener;androidx.core.view.ViewPropertyAnimatorListener
+androidx.core.view.ViewPropertyAnimatorListener;androidx.core.view.ViewPropertyAnimatorListener
+AndroidX.Core.View.IViewPropertyAnimatorListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.ViewPropertyAnimatorListenerImplementor
+AndroidX.Core.View.IViewPropertyAnimatorListenerImplementor;mono.androidx.core.view.ViewPropertyAnimatorListenerImplementor
+mono.androidx.core.view.ViewPropertyAnimatorListenerImplementor;mono.androidx.core.view.ViewPropertyAnimatorListenerImplementor
+AndroidX.Core.View.IViewPropertyAnimatorUpdateListener, Xamarin.AndroidX.Core;androidx.core.view.ViewPropertyAnimatorUpdateListener
+AndroidX.Core.View.IViewPropertyAnimatorUpdateListener;androidx.core.view.ViewPropertyAnimatorUpdateListener
+androidx.core.view.ViewPropertyAnimatorUpdateListener;androidx.core.view.ViewPropertyAnimatorUpdateListener
+AndroidX.Core.View.IViewPropertyAnimatorUpdateListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.ViewPropertyAnimatorUpdateListenerImplementor
+AndroidX.Core.View.IViewPropertyAnimatorUpdateListenerImplementor;mono.androidx.core.view.ViewPropertyAnimatorUpdateListenerImplementor
+mono.androidx.core.view.ViewPropertyAnimatorUpdateListenerImplementor;mono.androidx.core.view.ViewPropertyAnimatorUpdateListenerImplementor
+AndroidX.Core.View.IWindowInsetsAnimationControlListenerCompat, Xamarin.AndroidX.Core;androidx.core.view.WindowInsetsAnimationControlListenerCompat
+AndroidX.Core.View.IWindowInsetsAnimationControlListenerCompat;androidx.core.view.WindowInsetsAnimationControlListenerCompat
+androidx.core.view.WindowInsetsAnimationControlListenerCompat;androidx.core.view.WindowInsetsAnimationControlListenerCompat
+AndroidX.Core.View.KeyEventDispatcher+IComponent, Xamarin.AndroidX.Core;androidx.core.view.KeyEventDispatcher$Component
+AndroidX.Core.View.KeyEventDispatcher.IComponent;androidx.core.view.KeyEventDispatcher$Component
+androidx.core.view.KeyEventDispatcher$Component;androidx.core.view.KeyEventDispatcher$Component
+AndroidX.Core.View.MenuItemCompat+IOnActionExpandListener, Xamarin.AndroidX.Core;androidx.core.view.MenuItemCompat$OnActionExpandListener
+AndroidX.Core.View.MenuItemCompat.IOnActionExpandListener;androidx.core.view.MenuItemCompat$OnActionExpandListener
+androidx.core.view.MenuItemCompat$OnActionExpandListener;androidx.core.view.MenuItemCompat$OnActionExpandListener
+AndroidX.Core.View.MenuItemCompat+IOnActionExpandListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.MenuItemCompat_OnActionExpandListenerImplementor
+AndroidX.Core.View.MenuItemCompat.IOnActionExpandListenerImplementor;mono.androidx.core.view.MenuItemCompat_OnActionExpandListenerImplementor
+mono.androidx.core.view.MenuItemCompat_OnActionExpandListenerImplementor;mono.androidx.core.view.MenuItemCompat_OnActionExpandListenerImplementor
+AndroidX.Core.View.ViewCompat+IFocusDirection, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$FocusDirection
+AndroidX.Core.View.ViewCompat.IFocusDirection;androidx.core.view.ViewCompat$FocusDirection
+androidx.core.view.ViewCompat$FocusDirection;androidx.core.view.ViewCompat$FocusDirection
+AndroidX.Core.View.ViewCompat+IFocusRealDirection, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$FocusRealDirection
+AndroidX.Core.View.ViewCompat.IFocusRealDirection;androidx.core.view.ViewCompat$FocusRealDirection
+androidx.core.view.ViewCompat$FocusRealDirection;androidx.core.view.ViewCompat$FocusRealDirection
+AndroidX.Core.View.ViewCompat+IFocusRelativeDirection, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$FocusRelativeDirection
+AndroidX.Core.View.ViewCompat.IFocusRelativeDirection;androidx.core.view.ViewCompat$FocusRelativeDirection
+androidx.core.view.ViewCompat$FocusRelativeDirection;androidx.core.view.ViewCompat$FocusRelativeDirection
+AndroidX.Core.View.ViewCompat+INestedScrollType, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$NestedScrollType
+AndroidX.Core.View.ViewCompat.INestedScrollType;androidx.core.view.ViewCompat$NestedScrollType
+androidx.core.view.ViewCompat$NestedScrollType;androidx.core.view.ViewCompat$NestedScrollType
+AndroidX.Core.View.ViewCompat+IOnUnhandledKeyEventListenerCompat, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat
+AndroidX.Core.View.ViewCompat.IOnUnhandledKeyEventListenerCompat;androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat
+androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat;androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat
+AndroidX.Core.View.ViewCompat+IScrollAxis, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$ScrollAxis
+AndroidX.Core.View.ViewCompat.IScrollAxis;androidx.core.view.ViewCompat$ScrollAxis
+androidx.core.view.ViewCompat$ScrollAxis;androidx.core.view.ViewCompat$ScrollAxis
+AndroidX.Core.View.ViewCompat+IScrollIndicators, Xamarin.AndroidX.Core;androidx.core.view.ViewCompat$ScrollIndicators
+AndroidX.Core.View.ViewCompat.IScrollIndicators;androidx.core.view.ViewCompat$ScrollIndicators
+androidx.core.view.ViewCompat$ScrollIndicators;androidx.core.view.ViewCompat$ScrollIndicators
+AndroidX.Core.View.WindowInsetsAnimationCompat+Callback+IDispatchMode, Xamarin.AndroidX.Core;androidx.core.view.WindowInsetsAnimationCompat$Callback$DispatchMode
+AndroidX.Core.View.WindowInsetsAnimationCompat.Callback.IDispatchMode;androidx.core.view.WindowInsetsAnimationCompat$Callback$DispatchMode
+androidx.core.view.WindowInsetsAnimationCompat$Callback$DispatchMode;androidx.core.view.WindowInsetsAnimationCompat$Callback$DispatchMode
+AndroidX.Core.View.WindowInsetsCompat+Type+IInsetsType, Xamarin.AndroidX.Core;androidx.core.view.WindowInsetsCompat$Type$InsetsType
+AndroidX.Core.View.WindowInsetsCompat.Type.IInsetsType;androidx.core.view.WindowInsetsCompat$Type$InsetsType
+androidx.core.view.WindowInsetsCompat$Type$InsetsType;androidx.core.view.WindowInsetsCompat$Type$InsetsType
+AndroidX.Core.View.WindowInsetsControllerCompat+IOnControllableInsetsChangedListener, Xamarin.AndroidX.Core;androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener
+AndroidX.Core.View.WindowInsetsControllerCompat.IOnControllableInsetsChangedListener;androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener
+androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener;androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener
+AndroidX.Core.View.WindowInsetsControllerCompat+IOnControllableInsetsChangedListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImplementor
+AndroidX.Core.View.WindowInsetsControllerCompat.IOnControllableInsetsChangedListenerImplementor;mono.androidx.core.view.WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImplementor
+mono.androidx.core.view.WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImplementor;mono.androidx.core.view.WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImplementor
+AndroidX.Core.View.InputMethod.InputConnectionCompat+IOnCommitContentListener, Xamarin.AndroidX.Core;androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener
+AndroidX.Core.View.InputMethod.InputConnectionCompat.IOnCommitContentListener;androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener
+androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener;androidx.core.view.inputmethod.InputConnectionCompat$OnCommitContentListener
+AndroidX.Core.View.InputMethod.InputConnectionCompat+IOnCommitContentListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.inputmethod.InputConnectionCompat_OnCommitContentListenerImplementor
+AndroidX.Core.View.InputMethod.InputConnectionCompat.IOnCommitContentListenerImplementor;mono.androidx.core.view.inputmethod.InputConnectionCompat_OnCommitContentListenerImplementor
+mono.androidx.core.view.inputmethod.InputConnectionCompat_OnCommitContentListenerImplementor;mono.androidx.core.view.inputmethod.InputConnectionCompat_OnCommitContentListenerImplementor
+AndroidX.Core.View.Accessibility.AccessibilityEventCompat+IContentChangeType, Xamarin.AndroidX.Core;androidx.core.view.accessibility.AccessibilityEventCompat$ContentChangeType
+AndroidX.Core.View.Accessibility.AccessibilityEventCompat.IContentChangeType;androidx.core.view.accessibility.AccessibilityEventCompat$ContentChangeType
+androidx.core.view.accessibility.AccessibilityEventCompat$ContentChangeType;androidx.core.view.accessibility.AccessibilityEventCompat$ContentChangeType
+AndroidX.Core.View.Accessibility.AccessibilityManagerCompat+IAccessibilityStateChangeListener, Xamarin.AndroidX.Core;androidx.core.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListener
+AndroidX.Core.View.Accessibility.AccessibilityManagerCompat.IAccessibilityStateChangeListener;androidx.core.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListener
+androidx.core.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListener;androidx.core.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListener
+AndroidX.Core.View.Accessibility.AccessibilityManagerCompat+IAccessibilityStateChangeListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor
+AndroidX.Core.View.Accessibility.AccessibilityManagerCompat.IAccessibilityStateChangeListenerImplementor;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor
+mono.androidx.core.view.accessibility.AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor
+AndroidX.Core.View.Accessibility.AccessibilityManagerCompat+ITouchExplorationStateChangeListener, Xamarin.AndroidX.Core;androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStateChangeListener
+AndroidX.Core.View.Accessibility.AccessibilityManagerCompat.ITouchExplorationStateChangeListener;androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStateChangeListener
+androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStateChangeListener;androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStateChangeListener
+AndroidX.Core.View.Accessibility.AccessibilityManagerCompat+ITouchExplorationStateChangeListenerImplementor, Xamarin.AndroidX.Core;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor
+AndroidX.Core.View.Accessibility.AccessibilityManagerCompat.ITouchExplorationStateChangeListenerImplementor;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor
+mono.androidx.core.view.accessibility.AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor;mono.androidx.core.view.accessibility.AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor
+AndroidX.Core.View.Accessibility.IAccessibilityViewCommand, Xamarin.AndroidX.Core;androidx.core.view.accessibility.AccessibilityViewCommand
+AndroidX.Core.View.Accessibility.IAccessibilityViewCommand;androidx.core.view.accessibility.AccessibilityViewCommand
+androidx.core.view.accessibility.AccessibilityViewCommand;androidx.core.view.accessibility.AccessibilityViewCommand
 AndroidX.Core.Text.ITextDirectionHeuristicCompat, Xamarin.AndroidX.Core;androidx.core.text.TextDirectionHeuristicCompat
 AndroidX.Core.Text.ITextDirectionHeuristicCompat;androidx.core.text.TextDirectionHeuristicCompat
 androidx.core.text.TextDirectionHeuristicCompat;androidx.core.text.TextDirectionHeuristicCompat
@@ -736,6 +1171,24 @@ androidx.drawerlayout.widget.DrawerLayout$DrawerListener;androidx.drawerlayout.w
 AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.AndroidX.DrawerLayout;mono.androidx.drawerlayout.widget.DrawerLayout_DrawerListenerImplementor
 AndroidX.DrawerLayout.Widget.DrawerLayout.IDrawerListenerImplementor;mono.androidx.drawerlayout.widget.DrawerLayout_DrawerListenerImplementor
 mono.androidx.drawerlayout.widget.DrawerLayout_DrawerListenerImplementor;mono.androidx.drawerlayout.widget.DrawerLayout_DrawerListenerImplementor
+AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationEndListener, Xamarin.AndroidX.DynamicAnimation;androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationEndListener
+AndroidX.DynamicAnimation.DynamicAnimation.IOnAnimationEndListener;androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationEndListener
+androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationEndListener;androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationEndListener
+AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationEndListenerImplementor, Xamarin.AndroidX.DynamicAnimation;mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationEndListenerImplementor
+AndroidX.DynamicAnimation.DynamicAnimation.IOnAnimationEndListenerImplementor;mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationEndListenerImplementor
+mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationEndListenerImplementor;mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationEndListenerImplementor
+AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListener, Xamarin.AndroidX.DynamicAnimation;androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationUpdateListener
+AndroidX.DynamicAnimation.DynamicAnimation.IOnAnimationUpdateListener;androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationUpdateListener
+androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationUpdateListener;androidx.dynamicanimation.animation.DynamicAnimation$OnAnimationUpdateListener
+AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListenerImplementor, Xamarin.AndroidX.DynamicAnimation;mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationUpdateListenerImplementor
+AndroidX.DynamicAnimation.DynamicAnimation.IOnAnimationUpdateListenerImplementor;mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationUpdateListenerImplementor
+mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationUpdateListenerImplementor;mono.androidx.dynamicanimation.animation.DynamicAnimation_OnAnimationUpdateListenerImplementor
+AndroidX.ExifInterface.Media.ExifInterface+IExifStreamType, Xamarin.AndroidX.ExifInterface;androidx.exifinterface.media.ExifInterface$ExifStreamType
+AndroidX.ExifInterface.Media.ExifInterface.IExifStreamType;androidx.exifinterface.media.ExifInterface$ExifStreamType
+androidx.exifinterface.media.ExifInterface$ExifStreamType;androidx.exifinterface.media.ExifInterface$ExifStreamType
+AndroidX.ExifInterface.Media.ExifInterface+IIfdType, Xamarin.AndroidX.ExifInterface;androidx.exifinterface.media.ExifInterface$IfdType
+AndroidX.ExifInterface.Media.ExifInterface.IIfdType;androidx.exifinterface.media.ExifInterface$IfdType
+androidx.exifinterface.media.ExifInterface$IfdType;androidx.exifinterface.media.ExifInterface$IfdType
 AndroidX.Fragment.App.FragmentManager+IBackStackEntry, Xamarin.AndroidX.Fragment;androidx.fragment.app.FragmentManager$BackStackEntry
 AndroidX.Fragment.App.FragmentManager.IBackStackEntry;androidx.fragment.app.FragmentManager$BackStackEntry
 androidx.fragment.app.FragmentManager$BackStackEntry;androidx.fragment.app.FragmentManager$BackStackEntry
@@ -745,6 +1198,24 @@ androidx.fragment.app.FragmentManager$OnBackStackChangedListener;androidx.fragme
 AndroidX.Fragment.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.AndroidX.Fragment;mono.androidx.fragment.app.FragmentManager_OnBackStackChangedListenerImplementor
 AndroidX.Fragment.App.FragmentManager.IOnBackStackChangedListenerImplementor;mono.androidx.fragment.app.FragmentManager_OnBackStackChangedListenerImplementor
 mono.androidx.fragment.app.FragmentManager_OnBackStackChangedListenerImplementor;mono.androidx.fragment.app.FragmentManager_OnBackStackChangedListenerImplementor
+AndroidX.Fragment.App.IFragmentOnAttachListener, Xamarin.AndroidX.Fragment;androidx.fragment.app.FragmentOnAttachListener
+AndroidX.Fragment.App.IFragmentOnAttachListener;androidx.fragment.app.FragmentOnAttachListener
+androidx.fragment.app.FragmentOnAttachListener;androidx.fragment.app.FragmentOnAttachListener
+AndroidX.Fragment.App.IFragmentOnAttachListenerImplementor, Xamarin.AndroidX.Fragment;mono.androidx.fragment.app.FragmentOnAttachListenerImplementor
+AndroidX.Fragment.App.IFragmentOnAttachListenerImplementor;mono.androidx.fragment.app.FragmentOnAttachListenerImplementor
+mono.androidx.fragment.app.FragmentOnAttachListenerImplementor;mono.androidx.fragment.app.FragmentOnAttachListenerImplementor
+AndroidX.Fragment.App.IFragmentResultListener, Xamarin.AndroidX.Fragment;androidx.fragment.app.FragmentResultListener
+AndroidX.Fragment.App.IFragmentResultListener;androidx.fragment.app.FragmentResultListener
+androidx.fragment.app.FragmentResultListener;androidx.fragment.app.FragmentResultListener
+AndroidX.Fragment.App.IFragmentResultListenerImplementor, Xamarin.AndroidX.Fragment;mono.androidx.fragment.app.FragmentResultListenerImplementor
+AndroidX.Fragment.App.IFragmentResultListenerImplementor;mono.androidx.fragment.app.FragmentResultListenerImplementor
+mono.androidx.fragment.app.FragmentResultListenerImplementor;mono.androidx.fragment.app.FragmentResultListenerImplementor
+AndroidX.Fragment.App.IFragmentResultOwner, Xamarin.AndroidX.Fragment;androidx.fragment.app.FragmentResultOwner
+AndroidX.Fragment.App.IFragmentResultOwner;androidx.fragment.app.FragmentResultOwner
+androidx.fragment.app.FragmentResultOwner;androidx.fragment.app.FragmentResultOwner
+AndroidX.Fragment.App.IFragmentStateManagerControl, Xamarin.AndroidX.Fragment;androidx.fragment.app.FragmentStateManagerControl
+AndroidX.Fragment.App.IFragmentStateManagerControl;androidx.fragment.app.FragmentStateManagerControl
+androidx.fragment.app.FragmentStateManagerControl;androidx.fragment.app.FragmentStateManagerControl
 AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegate, Xamarin.AndroidX.Legacy.Support.Core.UI;androidx.legacy.app.ActionBarDrawerToggle$Delegate
 AndroidX.Legacy.App.ActionBarDrawerToggle.IDelegate;androidx.legacy.app.ActionBarDrawerToggle$Delegate
 androidx.legacy.app.ActionBarDrawerToggle$Delegate;androidx.legacy.app.ActionBarDrawerToggle$Delegate
@@ -1096,6 +1567,60 @@ xamarin.essentials.WebAuthenticatorCallbackActivity;crc64a0e0a82d0db9a07d.WebAut
 Xamarin.Essentials.WebAuthenticatorIntermediateActivity, Xamarin.Essentials;crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity
 Xamarin.Essentials.WebAuthenticatorIntermediateActivity;crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity
 xamarin.essentials.WebAuthenticatorIntermediateActivity;crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity
+Firebase.Annotations.IDeferredApi, Xamarin.Firebase.Annotations;com.google.firebase.annotations.DeferredApi
+Firebase.Annotations.IDeferredApi;com.google.firebase.annotations.DeferredApi
+com.google.firebase.annotations.DeferredApi;com.google.firebase.annotations.DeferredApi
+Firebase.Inject.IDeferredDeferredHandler, Xamarin.Firebase.Components;com.google.firebase.inject.Deferred$DeferredHandler
+Firebase.Inject.IDeferredDeferredHandler;com.google.firebase.inject.Deferred$DeferredHandler
+com.google.firebase.inject.Deferred$DeferredHandler;com.google.firebase.inject.Deferred$DeferredHandler
+Firebase.Inject.IDeferred, Xamarin.Firebase.Components;com.google.firebase.inject.Deferred
+Firebase.Inject.IDeferred;com.google.firebase.inject.Deferred
+com.google.firebase.inject.Deferred;com.google.firebase.inject.Deferred
+Firebase.Inject.IProvider, Xamarin.Firebase.Components;com.google.firebase.inject.Provider
+Firebase.Inject.IProvider;com.google.firebase.inject.Provider
+com.google.firebase.inject.Provider;com.google.firebase.inject.Provider
+Firebase.Events.IEventHandler, Xamarin.Firebase.Components;com.google.firebase.events.EventHandler
+Firebase.Events.IEventHandler;com.google.firebase.events.EventHandler
+com.google.firebase.events.EventHandler;com.google.firebase.events.EventHandler
+Firebase.Events.IPublisher, Xamarin.Firebase.Components;com.google.firebase.events.Publisher
+Firebase.Events.IPublisher;com.google.firebase.events.Publisher
+com.google.firebase.events.Publisher;com.google.firebase.events.Publisher
+Firebase.Events.ISubscriber, Xamarin.Firebase.Components;com.google.firebase.events.Subscriber
+Firebase.Events.ISubscriber;com.google.firebase.events.Subscriber
+com.google.firebase.events.Subscriber;com.google.firebase.events.Subscriber
+Firebase.DynamicLoading.IComponentLoader, Xamarin.Firebase.Components;com.google.firebase.dynamicloading.ComponentLoader
+Firebase.DynamicLoading.IComponentLoader;com.google.firebase.dynamicloading.ComponentLoader
+com.google.firebase.dynamicloading.ComponentLoader;com.google.firebase.dynamicloading.ComponentLoader
+Firebase.Components.IComponentContainer, Xamarin.Firebase.Components;com.google.firebase.components.ComponentContainer
+Firebase.Components.IComponentContainer;com.google.firebase.components.ComponentContainer
+com.google.firebase.components.ComponentContainer;com.google.firebase.components.ComponentContainer
+Firebase.Components.IComponentFactory, Xamarin.Firebase.Components;com.google.firebase.components.ComponentFactory
+Firebase.Components.IComponentFactory;com.google.firebase.components.ComponentFactory
+com.google.firebase.components.ComponentFactory;com.google.firebase.components.ComponentFactory
+Firebase.Components.IComponentRegistrar, Xamarin.Firebase.Components;com.google.firebase.components.ComponentRegistrar
+Firebase.Components.IComponentRegistrar;com.google.firebase.components.ComponentRegistrar
+com.google.firebase.components.ComponentRegistrar;com.google.firebase.components.ComponentRegistrar
+Firebase.Encoders.IDataEncoder, Xamarin.Firebase.Encoders;com.google.firebase.encoders.DataEncoder
+Firebase.Encoders.IDataEncoder;com.google.firebase.encoders.DataEncoder
+com.google.firebase.encoders.DataEncoder;com.google.firebase.encoders.DataEncoder
+Firebase.Encoders.IObjectEncoderContext, Xamarin.Firebase.Encoders;com.google.firebase.encoders.ObjectEncoderContext
+Firebase.Encoders.IObjectEncoderContext;com.google.firebase.encoders.ObjectEncoderContext
+com.google.firebase.encoders.ObjectEncoderContext;com.google.firebase.encoders.ObjectEncoderContext
+Firebase.Encoders.IValueEncoderContext, Xamarin.Firebase.Encoders;com.google.firebase.encoders.ValueEncoderContext
+Firebase.Encoders.IValueEncoderContext;com.google.firebase.encoders.ValueEncoderContext
+com.google.firebase.encoders.ValueEncoderContext;com.google.firebase.encoders.ValueEncoderContext
+Firebase.Encoders.Annotations.IEncodableField, Xamarin.Firebase.Encoders;com.google.firebase.encoders.annotations.Encodable$Field
+Firebase.Encoders.Annotations.IEncodableField;com.google.firebase.encoders.annotations.Encodable$Field
+com.google.firebase.encoders.annotations.Encodable$Field;com.google.firebase.encoders.annotations.Encodable$Field
+Firebase.Encoders.Annotations.IEncodableIgnore, Xamarin.Firebase.Encoders;com.google.firebase.encoders.annotations.Encodable$Ignore
+Firebase.Encoders.Annotations.IEncodableIgnore;com.google.firebase.encoders.annotations.Encodable$Ignore
+com.google.firebase.encoders.annotations.Encodable$Ignore;com.google.firebase.encoders.annotations.Encodable$Ignore
+Firebase.Encoders.Annotations.IEncodable, Xamarin.Firebase.Encoders;com.google.firebase.encoders.annotations.Encodable
+Firebase.Encoders.Annotations.IEncodable;com.google.firebase.encoders.annotations.Encodable
+com.google.firebase.encoders.annotations.Encodable;com.google.firebase.encoders.annotations.Encodable
+Firebase.Encoders.Annotations.IExtraProperty, Xamarin.Firebase.Encoders;com.google.firebase.encoders.annotations.ExtraProperty
+Firebase.Encoders.Annotations.IExtraProperty;com.google.firebase.encoders.annotations.ExtraProperty
+com.google.firebase.encoders.annotations.ExtraProperty;com.google.firebase.encoders.annotations.ExtraProperty
 Xamarin.Forms.Platform.Android.AndroidActivity, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.AndroidActivity
 Xamarin.Forms.Platform.Android.AndroidActivity;crc643f46942d9dd1fff9.AndroidActivity
 xamarin.forms.platform.android.AndroidActivity;crc643f46942d9dd1fff9.AndroidActivity
@@ -1738,6 +2263,147 @@ xamarin.forms.platform.android.appcompat.TabbedPageRenderer;crc64720bb2db43a66fe
 Xamarin.Forms.Platform.Android.AppCompat.ViewRenderer`2, Xamarin.Forms.Platform.Android;crc64720bb2db43a66fe9.ViewRenderer_2
 Xamarin.Forms.Platform.Android.AppCompat.ViewRenderer`2;crc64720bb2db43a66fe9.ViewRenderer_2
 xamarin.forms.platform.android.appcompat.ViewRenderer_2;crc64720bb2db43a66fe9.ViewRenderer_2
+Xamarin.Google.Android.DataTransport.ITransformer, Xamarin.Google.Android.DataTransport.TransportApi;com.google.android.datatransport.Transformer
+Xamarin.Google.Android.DataTransport.ITransformer;com.google.android.datatransport.Transformer
+com.google.android.datatransport.Transformer;com.google.android.datatransport.Transformer
+Xamarin.Google.Android.DataTransport.ITransport, Xamarin.Google.Android.DataTransport.TransportApi;com.google.android.datatransport.Transport
+Xamarin.Google.Android.DataTransport.ITransport;com.google.android.datatransport.Transport
+com.google.android.datatransport.Transport;com.google.android.datatransport.Transport
+Xamarin.Google.Android.DataTransport.ITransportFactory, Xamarin.Google.Android.DataTransport.TransportApi;com.google.android.datatransport.TransportFactory
+Xamarin.Google.Android.DataTransport.ITransportFactory;com.google.android.datatransport.TransportFactory
+com.google.android.datatransport.TransportFactory;com.google.android.datatransport.TransportFactory
+Xamarin.Google.Android.DataTransport.ITransportScheduleCallback, Xamarin.Google.Android.DataTransport.TransportApi;com.google.android.datatransport.TransportScheduleCallback
+Xamarin.Google.Android.DataTransport.ITransportScheduleCallback;com.google.android.datatransport.TransportScheduleCallback
+com.google.android.datatransport.TransportScheduleCallback;com.google.android.datatransport.TransportScheduleCallback
+Xamarin.Google.Android.DataTransport.Runtime.IDestination, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.Destination
+Xamarin.Google.Android.DataTransport.Runtime.IDestination;com.google.android.datatransport.runtime.Destination
+com.google.android.datatransport.runtime.Destination;com.google.android.datatransport.runtime.Destination
+Xamarin.Google.Android.DataTransport.Runtime.IEncodedDestination, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.EncodedDestination
+Xamarin.Google.Android.DataTransport.Runtime.IEncodedDestination;com.google.android.datatransport.runtime.EncodedDestination
+com.google.android.datatransport.runtime.EncodedDestination;com.google.android.datatransport.runtime.EncodedDestination
+Xamarin.Google.Android.DataTransport.Runtime.Time.IClock, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.time.Clock
+Xamarin.Google.Android.DataTransport.Runtime.Time.IClock;com.google.android.datatransport.runtime.time.Clock
+com.google.android.datatransport.runtime.time.Clock;com.google.android.datatransport.runtime.time.Clock
+Xamarin.Google.Android.DataTransport.Runtime.Time.IMonotonic, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.time.Monotonic
+Xamarin.Google.Android.DataTransport.Runtime.Time.IMonotonic;com.google.android.datatransport.runtime.time.Monotonic
+com.google.android.datatransport.runtime.time.Monotonic;com.google.android.datatransport.runtime.time.Monotonic
+Xamarin.Google.Android.DataTransport.Runtime.Time.IWallTime, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.time.WallTime
+Xamarin.Google.Android.DataTransport.Runtime.Time.IWallTime;com.google.android.datatransport.runtime.time.WallTime
+com.google.android.datatransport.runtime.time.WallTime;com.google.android.datatransport.runtime.time.WallTime
+Xamarin.Google.Android.DataTransport.Runtime.Synchronization.ISynchronizationGuardCriticalSection, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection
+Xamarin.Google.Android.DataTransport.Runtime.Synchronization.ISynchronizationGuardCriticalSection;com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection
+com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection;com.google.android.datatransport.runtime.synchronization.SynchronizationGuard$CriticalSection
+Xamarin.Google.Android.DataTransport.Runtime.Synchronization.ISynchronizationGuard, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.synchronization.SynchronizationGuard
+Xamarin.Google.Android.DataTransport.Runtime.Synchronization.ISynchronizationGuard;com.google.android.datatransport.runtime.synchronization.SynchronizationGuard
+com.google.android.datatransport.runtime.synchronization.SynchronizationGuard;com.google.android.datatransport.runtime.synchronization.SynchronizationGuard
+Xamarin.Google.Android.DataTransport.Runtime.Scheduling.IScheduler, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.scheduling.Scheduler
+Xamarin.Google.Android.DataTransport.Runtime.Scheduling.IScheduler;com.google.android.datatransport.runtime.scheduling.Scheduler
+com.google.android.datatransport.runtime.scheduling.Scheduler;com.google.android.datatransport.runtime.scheduling.Scheduler
+Xamarin.Google.Android.DataTransport.Runtime.Scheduling.JobScheduling.IWorkScheduler, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.scheduling.jobscheduling.WorkScheduler
+Xamarin.Google.Android.DataTransport.Runtime.Scheduling.JobScheduling.IWorkScheduler;com.google.android.datatransport.runtime.scheduling.jobscheduling.WorkScheduler
+com.google.android.datatransport.runtime.scheduling.jobscheduling.WorkScheduler;com.google.android.datatransport.runtime.scheduling.jobscheduling.WorkScheduler
+Xamarin.Google.Android.DataTransport.Runtime.Retries.IFunction, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.retries.Function
+Xamarin.Google.Android.DataTransport.Runtime.Retries.IFunction;com.google.android.datatransport.runtime.retries.Function
+com.google.android.datatransport.runtime.retries.Function;com.google.android.datatransport.runtime.retries.Function
+Xamarin.Google.Android.DataTransport.Runtime.Retries.IRetryStrategy, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.retries.RetryStrategy
+Xamarin.Google.Android.DataTransport.Runtime.Retries.IRetryStrategy;com.google.android.datatransport.runtime.retries.RetryStrategy
+com.google.android.datatransport.runtime.retries.RetryStrategy;com.google.android.datatransport.runtime.retries.RetryStrategy
+Xamarin.Google.Android.DataTransport.Runtime.Persistence.IEventStore, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.scheduling.persistence.EventStore
+Xamarin.Google.Android.DataTransport.Runtime.Persistence.IEventStore;com.google.android.datatransport.runtime.scheduling.persistence.EventStore
+com.google.android.datatransport.runtime.scheduling.persistence.EventStore;com.google.android.datatransport.runtime.scheduling.persistence.EventStore
+Xamarin.Google.Android.DataTransport.Runtime.Backends.IBackendFactory, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.backends.BackendFactory
+Xamarin.Google.Android.DataTransport.Runtime.Backends.IBackendFactory;com.google.android.datatransport.runtime.backends.BackendFactory
+com.google.android.datatransport.runtime.backends.BackendFactory;com.google.android.datatransport.runtime.backends.BackendFactory
+Xamarin.Google.Android.DataTransport.Runtime.Backends.IBackendRegistry, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.backends.BackendRegistry
+Xamarin.Google.Android.DataTransport.Runtime.Backends.IBackendRegistry;com.google.android.datatransport.runtime.backends.BackendRegistry
+com.google.android.datatransport.runtime.backends.BackendRegistry;com.google.android.datatransport.runtime.backends.BackendRegistry
+Xamarin.Google.Android.DataTransport.Runtime.Backends.ITransportBackend, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.backends.TransportBackend
+Xamarin.Google.Android.DataTransport.Runtime.Backends.ITransportBackend;com.google.android.datatransport.runtime.backends.TransportBackend
+com.google.android.datatransport.runtime.backends.TransportBackend;com.google.android.datatransport.runtime.backends.TransportBackend
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IBinds, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Binds
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IBinds;com.google.android.datatransport.runtime.dagger.Binds
+com.google.android.datatransport.runtime.dagger.Binds;com.google.android.datatransport.runtime.dagger.Binds
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IBindsInstance, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.BindsInstance
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IBindsInstance;com.google.android.datatransport.runtime.dagger.BindsInstance
+com.google.android.datatransport.runtime.dagger.BindsInstance;com.google.android.datatransport.runtime.dagger.BindsInstance
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IBindsOptionalOf, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.BindsOptionalOf
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IBindsOptionalOf;com.google.android.datatransport.runtime.dagger.BindsOptionalOf
+com.google.android.datatransport.runtime.dagger.BindsOptionalOf;com.google.android.datatransport.runtime.dagger.BindsOptionalOf
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IComponentBuilder, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Component$Builder
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IComponentBuilder;com.google.android.datatransport.runtime.dagger.Component$Builder
+com.google.android.datatransport.runtime.dagger.Component$Builder;com.google.android.datatransport.runtime.dagger.Component$Builder
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IComponentFactory, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Component$Factory
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IComponentFactory;com.google.android.datatransport.runtime.dagger.Component$Factory
+com.google.android.datatransport.runtime.dagger.Component$Factory;com.google.android.datatransport.runtime.dagger.Component$Factory
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IComponent, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Component
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IComponent;com.google.android.datatransport.runtime.dagger.Component
+com.google.android.datatransport.runtime.dagger.Component;com.google.android.datatransport.runtime.dagger.Component
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.ILazy, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Lazy
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.ILazy;com.google.android.datatransport.runtime.dagger.Lazy
+com.google.android.datatransport.runtime.dagger.Lazy;com.google.android.datatransport.runtime.dagger.Lazy
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IMapKey, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.MapKey
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IMapKey;com.google.android.datatransport.runtime.dagger.MapKey
+com.google.android.datatransport.runtime.dagger.MapKey;com.google.android.datatransport.runtime.dagger.MapKey
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IMembersInjector, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.MembersInjector
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IMembersInjector;com.google.android.datatransport.runtime.dagger.MembersInjector
+com.google.android.datatransport.runtime.dagger.MembersInjector;com.google.android.datatransport.runtime.dagger.MembersInjector
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IModule, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Module
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IModule;com.google.android.datatransport.runtime.dagger.Module
+com.google.android.datatransport.runtime.dagger.Module;com.google.android.datatransport.runtime.dagger.Module
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IProvides, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Provides
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IProvides;com.google.android.datatransport.runtime.dagger.Provides
+com.google.android.datatransport.runtime.dagger.Provides;com.google.android.datatransport.runtime.dagger.Provides
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IReusable, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Reusable
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.IReusable;com.google.android.datatransport.runtime.dagger.Reusable
+com.google.android.datatransport.runtime.dagger.Reusable;com.google.android.datatransport.runtime.dagger.Reusable
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.ISubcomponentBuilder, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Subcomponent$Builder
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.ISubcomponentBuilder;com.google.android.datatransport.runtime.dagger.Subcomponent$Builder
+com.google.android.datatransport.runtime.dagger.Subcomponent$Builder;com.google.android.datatransport.runtime.dagger.Subcomponent$Builder
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.ISubcomponentFactory, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Subcomponent$Factory
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.ISubcomponentFactory;com.google.android.datatransport.runtime.dagger.Subcomponent$Factory
+com.google.android.datatransport.runtime.dagger.Subcomponent$Factory;com.google.android.datatransport.runtime.dagger.Subcomponent$Factory
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.ISubcomponent, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.Subcomponent
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.ISubcomponent;com.google.android.datatransport.runtime.dagger.Subcomponent
+com.google.android.datatransport.runtime.dagger.Subcomponent;com.google.android.datatransport.runtime.dagger.Subcomponent
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IClassKey, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.multibindings.ClassKey
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IClassKey;com.google.android.datatransport.runtime.dagger.multibindings.ClassKey
+com.google.android.datatransport.runtime.dagger.multibindings.ClassKey;com.google.android.datatransport.runtime.dagger.multibindings.ClassKey
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IElementsIntoSet, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.multibindings.ElementsIntoSet
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IElementsIntoSet;com.google.android.datatransport.runtime.dagger.multibindings.ElementsIntoSet
+com.google.android.datatransport.runtime.dagger.multibindings.ElementsIntoSet;com.google.android.datatransport.runtime.dagger.multibindings.ElementsIntoSet
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IIntKey, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.multibindings.IntKey
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IIntKey;com.google.android.datatransport.runtime.dagger.multibindings.IntKey
+com.google.android.datatransport.runtime.dagger.multibindings.IntKey;com.google.android.datatransport.runtime.dagger.multibindings.IntKey
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IIntoMap, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.multibindings.IntoMap
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IIntoMap;com.google.android.datatransport.runtime.dagger.multibindings.IntoMap
+com.google.android.datatransport.runtime.dagger.multibindings.IntoMap;com.google.android.datatransport.runtime.dagger.multibindings.IntoMap
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IIntoSet, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.multibindings.IntoSet
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IIntoSet;com.google.android.datatransport.runtime.dagger.multibindings.IntoSet
+com.google.android.datatransport.runtime.dagger.multibindings.IntoSet;com.google.android.datatransport.runtime.dagger.multibindings.IntoSet
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.ILongKey, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.multibindings.LongKey
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.ILongKey;com.google.android.datatransport.runtime.dagger.multibindings.LongKey
+com.google.android.datatransport.runtime.dagger.multibindings.LongKey;com.google.android.datatransport.runtime.dagger.multibindings.LongKey
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IMultibinds, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.multibindings.Multibinds
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IMultibinds;com.google.android.datatransport.runtime.dagger.multibindings.Multibinds
+com.google.android.datatransport.runtime.dagger.multibindings.Multibinds;com.google.android.datatransport.runtime.dagger.multibindings.Multibinds
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IStringKey, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.multibindings.StringKey
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.MultiBindings.IStringKey;com.google.android.datatransport.runtime.dagger.multibindings.StringKey
+com.google.android.datatransport.runtime.dagger.multibindings.StringKey;com.google.android.datatransport.runtime.dagger.multibindings.StringKey
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.Internal.IBeta, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.internal.Beta
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.Internal.IBeta;com.google.android.datatransport.runtime.dagger.internal.Beta
+com.google.android.datatransport.runtime.dagger.internal.Beta;com.google.android.datatransport.runtime.dagger.internal.Beta
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.Internal.IComponentDefinitionType, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.internal.ComponentDefinitionType
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.Internal.IComponentDefinitionType;com.google.android.datatransport.runtime.dagger.internal.ComponentDefinitionType
+com.google.android.datatransport.runtime.dagger.internal.ComponentDefinitionType;com.google.android.datatransport.runtime.dagger.internal.ComponentDefinitionType
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.Internal.IFactory, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.internal.Factory
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.Internal.IFactory;com.google.android.datatransport.runtime.dagger.internal.Factory
+com.google.android.datatransport.runtime.dagger.internal.Factory;com.google.android.datatransport.runtime.dagger.internal.Factory
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.Internal.IGwtIncompatible, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.internal.GwtIncompatible
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.Internal.IGwtIncompatible;com.google.android.datatransport.runtime.dagger.internal.GwtIncompatible
+com.google.android.datatransport.runtime.dagger.internal.GwtIncompatible;com.google.android.datatransport.runtime.dagger.internal.GwtIncompatible
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.Internal.IInjectedFieldSignature, Xamarin.Google.Android.DataTransport.TransportRuntime;com.google.android.datatransport.runtime.dagger.internal.InjectedFieldSignature
+Xamarin.Google.Android.DataTransport.Runtime.Dagger.Internal.IInjectedFieldSignature;com.google.android.datatransport.runtime.dagger.internal.InjectedFieldSignature
+com.google.android.datatransport.runtime.dagger.internal.InjectedFieldSignature;com.google.android.datatransport.runtime.dagger.internal.InjectedFieldSignature
 Google.Android.Material.Transition.IVisibilityAnimatorProvider, Xamarin.Google.Android.Material;com.google.android.material.transition.VisibilityAnimatorProvider
 Google.Android.Material.Transition.IVisibilityAnimatorProvider;com.google.android.material.transition.VisibilityAnimatorProvider
 com.google.android.material.transition.VisibilityAnimatorProvider;com.google.android.material.transition.VisibilityAnimatorProvider
@@ -1777,6 +2443,9 @@ com.google.android.material.transition.platform.MaterialSharedAxis$Axis;com.goog
 Google.Android.Material.Transition.Platform.SlideDistanceProvider+IGravityFlag, Xamarin.Google.Android.Material;com.google.android.material.transition.platform.SlideDistanceProvider$GravityFlag
 Google.Android.Material.Transition.Platform.SlideDistanceProvider.IGravityFlag;com.google.android.material.transition.platform.SlideDistanceProvider$GravityFlag
 com.google.android.material.transition.platform.SlideDistanceProvider$GravityFlag;com.google.android.material.transition.platform.SlideDistanceProvider$GravityFlag
+Google.Android.Material.TimePicker.ITimeFormat, Xamarin.Google.Android.Material;com.google.android.material.timepicker.TimeFormat
+Google.Android.Material.TimePicker.ITimeFormat;com.google.android.material.timepicker.TimeFormat
+com.google.android.material.timepicker.TimeFormat;com.google.android.material.timepicker.TimeFormat
 Google.Android.Material.Slider.IBaseOnChangeListener, Xamarin.Google.Android.Material;com.google.android.material.slider.BaseOnChangeListener
 Google.Android.Material.Slider.IBaseOnChangeListener;com.google.android.material.slider.BaseOnChangeListener
 com.google.android.material.slider.BaseOnChangeListener;com.google.android.material.slider.BaseOnChangeListener
@@ -1831,6 +2500,21 @@ com.google.android.material.shadow.ShadowViewDelegate;com.google.android.materia
 Google.Android.Material.Resources.CancelableFontCallback+IApplyFont, Xamarin.Google.Android.Material;com.google.android.material.resources.CancelableFontCallback$ApplyFont
 Google.Android.Material.Resources.CancelableFontCallback.IApplyFont;com.google.android.material.resources.CancelableFontCallback$ApplyFont
 com.google.android.material.resources.CancelableFontCallback$ApplyFont;com.google.android.material.resources.CancelableFontCallback$ApplyFont
+Google.Android.Material.ProgressIndicator.BaseProgressIndicator+IHideAnimationBehavior, Xamarin.Google.Android.Material;com.google.android.material.progressindicator.BaseProgressIndicator$HideAnimationBehavior
+Google.Android.Material.ProgressIndicator.BaseProgressIndicator.IHideAnimationBehavior;com.google.android.material.progressindicator.BaseProgressIndicator$HideAnimationBehavior
+com.google.android.material.progressindicator.BaseProgressIndicator$HideAnimationBehavior;com.google.android.material.progressindicator.BaseProgressIndicator$HideAnimationBehavior
+Google.Android.Material.ProgressIndicator.BaseProgressIndicator+IShowAnimationBehavior, Xamarin.Google.Android.Material;com.google.android.material.progressindicator.BaseProgressIndicator$ShowAnimationBehavior
+Google.Android.Material.ProgressIndicator.BaseProgressIndicator.IShowAnimationBehavior;com.google.android.material.progressindicator.BaseProgressIndicator$ShowAnimationBehavior
+com.google.android.material.progressindicator.BaseProgressIndicator$ShowAnimationBehavior;com.google.android.material.progressindicator.BaseProgressIndicator$ShowAnimationBehavior
+Google.Android.Material.ProgressIndicator.CircularProgressIndicator+IIndicatorDirection, Xamarin.Google.Android.Material;com.google.android.material.progressindicator.CircularProgressIndicator$IndicatorDirection
+Google.Android.Material.ProgressIndicator.CircularProgressIndicator.IIndicatorDirection;com.google.android.material.progressindicator.CircularProgressIndicator$IndicatorDirection
+com.google.android.material.progressindicator.CircularProgressIndicator$IndicatorDirection;com.google.android.material.progressindicator.CircularProgressIndicator$IndicatorDirection
+Google.Android.Material.ProgressIndicator.LinearProgressIndicator+IIndeterminateAnimationType, Xamarin.Google.Android.Material;com.google.android.material.progressindicator.LinearProgressIndicator$IndeterminateAnimationType
+Google.Android.Material.ProgressIndicator.LinearProgressIndicator.IIndeterminateAnimationType;com.google.android.material.progressindicator.LinearProgressIndicator$IndeterminateAnimationType
+com.google.android.material.progressindicator.LinearProgressIndicator$IndeterminateAnimationType;com.google.android.material.progressindicator.LinearProgressIndicator$IndeterminateAnimationType
+Google.Android.Material.ProgressIndicator.LinearProgressIndicator+IIndicatorDirection, Xamarin.Google.Android.Material;com.google.android.material.progressindicator.LinearProgressIndicator$IndicatorDirection
+Google.Android.Material.ProgressIndicator.LinearProgressIndicator.IIndicatorDirection;com.google.android.material.progressindicator.LinearProgressIndicator$IndicatorDirection
+com.google.android.material.progressindicator.LinearProgressIndicator$IndicatorDirection;com.google.android.material.progressindicator.LinearProgressIndicator$IndicatorDirection
 Google.Android.Material.Navigation.NavigationView+IOnNavigationItemSelectedListener, Xamarin.Google.Android.Material;com.google.android.material.navigation.NavigationView$OnNavigationItemSelectedListener
 Google.Android.Material.Navigation.NavigationView.IOnNavigationItemSelectedListener;com.google.android.material.navigation.NavigationView$OnNavigationItemSelectedListener
 com.google.android.material.navigation.NavigationView$OnNavigationItemSelectedListener;com.google.android.material.navigation.NavigationView$OnNavigationItemSelectedListener
@@ -1897,6 +2581,9 @@ mono.com.google.android.material.behavior.SwipeDismissBehavior_OnDismissListener
 Google.Android.Material.Badge.BadgeDrawable+IBadgeGravity, Xamarin.Google.Android.Material;com.google.android.material.badge.BadgeDrawable$BadgeGravity
 Google.Android.Material.Badge.BadgeDrawable.IBadgeGravity;com.google.android.material.badge.BadgeDrawable$BadgeGravity
 com.google.android.material.badge.BadgeDrawable$BadgeGravity;com.google.android.material.badge.BadgeDrawable$BadgeGravity
+Google.Android.Material.Badge.IExperimentalBadgeUtils, Xamarin.Google.Android.Material;com.google.android.material.badge.ExperimentalBadgeUtils
+Google.Android.Material.Badge.IExperimentalBadgeUtils;com.google.android.material.badge.ExperimentalBadgeUtils
+com.google.android.material.badge.ExperimentalBadgeUtils;com.google.android.material.badge.ExperimentalBadgeUtils
 Google.Android.Material.DatePicker.CalendarConstraints+IDateValidator, Xamarin.Google.Android.Material;com.google.android.material.datepicker.CalendarConstraints$DateValidator
 Google.Android.Material.DatePicker.CalendarConstraints.IDateValidator;com.google.android.material.datepicker.CalendarConstraints$DateValidator
 com.google.android.material.datepicker.CalendarConstraints$DateValidator;com.google.android.material.datepicker.CalendarConstraints$DateValidator
@@ -1948,6 +2635,9 @@ com.google.android.material.tabs.TabLayout$OnTabSelectedListener;com.google.andr
 Google.Android.Material.Tabs.TabLayout+ITabGravity, Xamarin.Google.Android.Material;com.google.android.material.tabs.TabLayout$TabGravity
 Google.Android.Material.Tabs.TabLayout.ITabGravity;com.google.android.material.tabs.TabLayout$TabGravity
 com.google.android.material.tabs.TabLayout$TabGravity;com.google.android.material.tabs.TabLayout$TabGravity
+Google.Android.Material.Tabs.TabLayout+ITabIndicatorAnimationMode, Xamarin.Google.Android.Material;com.google.android.material.tabs.TabLayout$TabIndicatorAnimationMode
+Google.Android.Material.Tabs.TabLayout.ITabIndicatorAnimationMode;com.google.android.material.tabs.TabLayout$TabIndicatorAnimationMode
+com.google.android.material.tabs.TabLayout$TabIndicatorAnimationMode;com.google.android.material.tabs.TabLayout$TabIndicatorAnimationMode
 Google.Android.Material.Tabs.TabLayout+ITabIndicatorGravity, Xamarin.Google.Android.Material;com.google.android.material.tabs.TabLayout$TabIndicatorGravity
 Google.Android.Material.Tabs.TabLayout.ITabIndicatorGravity;com.google.android.material.tabs.TabLayout$TabIndicatorGravity
 com.google.android.material.tabs.TabLayout$TabIndicatorGravity;com.google.android.material.tabs.TabLayout$TabIndicatorGravity
@@ -2023,9 +2713,177 @@ mono.com.google.android.material.appbar.AppBarLayout_OnOffsetChangedListenerImpl
 Google.Android.Material.Animation.ITransformationCallback, Xamarin.Google.Android.Material;com.google.android.material.animation.TransformationCallback
 Google.Android.Material.Animation.ITransformationCallback;com.google.android.material.animation.TransformationCallback
 com.google.android.material.animation.TransformationCallback;com.google.android.material.animation.TransformationCallback
+Google.AutoValue.Extension.ToPrettyString.IToPrettyString, Xamarin.Google.AutoValue.Annotations;com.google.auto.value.extension.toprettystring.ToPrettyString
+Google.AutoValue.Extension.ToPrettyString.IToPrettyString;com.google.auto.value.extension.toprettystring.ToPrettyString
+com.google.auto.value.extension.toprettystring.ToPrettyString;com.google.auto.value.extension.toprettystring.ToPrettyString
+Google.AutoValue.Extension.Serializable.ISerializableAutoValue, Xamarin.Google.AutoValue.Annotations;com.google.auto.value.extension.serializable.SerializableAutoValue
+Google.AutoValue.Extension.Serializable.ISerializableAutoValue;com.google.auto.value.extension.serializable.SerializableAutoValue
+com.google.auto.value.extension.serializable.SerializableAutoValue;com.google.auto.value.extension.serializable.SerializableAutoValue
+Google.AutoValue.Annotations.IAutoAnnotation, Xamarin.Google.AutoValue.Annotations;com.google.auto.value.AutoAnnotation
+Google.AutoValue.Annotations.IAutoAnnotation;com.google.auto.value.AutoAnnotation
+com.google.auto.value.AutoAnnotation;com.google.auto.value.AutoAnnotation
+Google.AutoValue.Annotations.IAutoBuilder, Xamarin.Google.AutoValue.Annotations;com.google.auto.value.AutoBuilder
+Google.AutoValue.Annotations.IAutoBuilder;com.google.auto.value.AutoBuilder
+com.google.auto.value.AutoBuilder;com.google.auto.value.AutoBuilder
+Google.AutoValue.Annotations.IAutoOneOf, Xamarin.Google.AutoValue.Annotations;com.google.auto.value.AutoOneOf
+Google.AutoValue.Annotations.IAutoOneOf;com.google.auto.value.AutoOneOf
+com.google.auto.value.AutoOneOf;com.google.auto.value.AutoOneOf
+Google.AutoValue.Annotations.IAutoValueBuilder, Xamarin.Google.AutoValue.Annotations;com.google.auto.value.AutoValue$Builder
+Google.AutoValue.Annotations.IAutoValueBuilder;com.google.auto.value.AutoValue$Builder
+com.google.auto.value.AutoValue$Builder;com.google.auto.value.AutoValue$Builder
+Google.AutoValue.Annotations.IAutoValueCopyAnnotations, Xamarin.Google.AutoValue.Annotations;com.google.auto.value.AutoValue$CopyAnnotations
+Google.AutoValue.Annotations.IAutoValueCopyAnnotations;com.google.auto.value.AutoValue$CopyAnnotations
+com.google.auto.value.AutoValue$CopyAnnotations;com.google.auto.value.AutoValue$CopyAnnotations
+Google.AutoValue.Annotations.IAutoValue, Xamarin.Google.AutoValue.Annotations;com.google.auto.value.AutoValue
+Google.AutoValue.Annotations.IAutoValue;com.google.auto.value.AutoValue
+com.google.auto.value.AutoValue;com.google.auto.value.AutoValue
+Google.AutoValue.Annotations.IMemoized, Xamarin.Google.AutoValue.Annotations;com.google.auto.value.extension.memoized.Memoized
+Google.AutoValue.Annotations.IMemoized;com.google.auto.value.extension.memoized.Memoized
+com.google.auto.value.extension.memoized.Memoized;com.google.auto.value.extension.memoized.Memoized
+Dagger.IBinds, Xamarin.Google.Dagger;dagger.Binds
+Dagger.IBinds;dagger.Binds
+dagger.Binds;dagger.Binds
+Dagger.IBindsInstance, Xamarin.Google.Dagger;dagger.BindsInstance
+Dagger.IBindsInstance;dagger.BindsInstance
+dagger.BindsInstance;dagger.BindsInstance
+Dagger.IBindsOptionalOf, Xamarin.Google.Dagger;dagger.BindsOptionalOf
+Dagger.IBindsOptionalOf;dagger.BindsOptionalOf
+dagger.BindsOptionalOf;dagger.BindsOptionalOf
+Dagger.IComponentBuilder, Xamarin.Google.Dagger;dagger.Component$Builder
+Dagger.IComponentBuilder;dagger.Component$Builder
+dagger.Component$Builder;dagger.Component$Builder
+Dagger.IComponentFactory, Xamarin.Google.Dagger;dagger.Component$Factory
+Dagger.IComponentFactory;dagger.Component$Factory
+dagger.Component$Factory;dagger.Component$Factory
+Dagger.IComponent, Xamarin.Google.Dagger;dagger.Component
+Dagger.IComponent;dagger.Component
+dagger.Component;dagger.Component
+Dagger.ILazy, Xamarin.Google.Dagger;dagger.Lazy
+Dagger.ILazy;dagger.Lazy
+dagger.Lazy;dagger.Lazy
+Dagger.IMapKey, Xamarin.Google.Dagger;dagger.MapKey
+Dagger.IMapKey;dagger.MapKey
+dagger.MapKey;dagger.MapKey
+Dagger.IMembersInjector, Xamarin.Google.Dagger;dagger.MembersInjector
+Dagger.IMembersInjector;dagger.MembersInjector
+dagger.MembersInjector;dagger.MembersInjector
+Dagger.IModule, Xamarin.Google.Dagger;dagger.Module
+Dagger.IModule;dagger.Module
+dagger.Module;dagger.Module
+Dagger.IProvides, Xamarin.Google.Dagger;dagger.Provides
+Dagger.IProvides;dagger.Provides
+dagger.Provides;dagger.Provides
+Dagger.IReusable, Xamarin.Google.Dagger;dagger.Reusable
+Dagger.IReusable;dagger.Reusable
+dagger.Reusable;dagger.Reusable
+Dagger.ISubcomponentBuilder, Xamarin.Google.Dagger;dagger.Subcomponent$Builder
+Dagger.ISubcomponentBuilder;dagger.Subcomponent$Builder
+dagger.Subcomponent$Builder;dagger.Subcomponent$Builder
+Dagger.ISubcomponentFactory, Xamarin.Google.Dagger;dagger.Subcomponent$Factory
+Dagger.ISubcomponentFactory;dagger.Subcomponent$Factory
+dagger.Subcomponent$Factory;dagger.Subcomponent$Factory
+Dagger.ISubcomponent, Xamarin.Google.Dagger;dagger.Subcomponent
+Dagger.ISubcomponent;dagger.Subcomponent
+dagger.Subcomponent;dagger.Subcomponent
+Dagger.Multibindings.IClassKey, Xamarin.Google.Dagger;dagger.multibindings.ClassKey
+Dagger.Multibindings.IClassKey;dagger.multibindings.ClassKey
+dagger.multibindings.ClassKey;dagger.multibindings.ClassKey
+Dagger.Multibindings.IElementsIntoSet, Xamarin.Google.Dagger;dagger.multibindings.ElementsIntoSet
+Dagger.Multibindings.IElementsIntoSet;dagger.multibindings.ElementsIntoSet
+dagger.multibindings.ElementsIntoSet;dagger.multibindings.ElementsIntoSet
+Dagger.Multibindings.IIntKey, Xamarin.Google.Dagger;dagger.multibindings.IntKey
+Dagger.Multibindings.IIntKey;dagger.multibindings.IntKey
+dagger.multibindings.IntKey;dagger.multibindings.IntKey
+Dagger.Multibindings.IIntoMap, Xamarin.Google.Dagger;dagger.multibindings.IntoMap
+Dagger.Multibindings.IIntoMap;dagger.multibindings.IntoMap
+dagger.multibindings.IntoMap;dagger.multibindings.IntoMap
+Dagger.Multibindings.IIntoSet, Xamarin.Google.Dagger;dagger.multibindings.IntoSet
+Dagger.Multibindings.IIntoSet;dagger.multibindings.IntoSet
+dagger.multibindings.IntoSet;dagger.multibindings.IntoSet
+Dagger.Multibindings.ILongKey, Xamarin.Google.Dagger;dagger.multibindings.LongKey
+Dagger.Multibindings.ILongKey;dagger.multibindings.LongKey
+dagger.multibindings.LongKey;dagger.multibindings.LongKey
+Dagger.Multibindings.IMultibinds, Xamarin.Google.Dagger;dagger.multibindings.Multibinds
+Dagger.Multibindings.IMultibinds;dagger.multibindings.Multibinds
+dagger.multibindings.Multibinds;dagger.multibindings.Multibinds
+Dagger.Multibindings.IStringKey, Xamarin.Google.Dagger;dagger.multibindings.StringKey
+Dagger.Multibindings.IStringKey;dagger.multibindings.StringKey
+dagger.multibindings.StringKey;dagger.multibindings.StringKey
+Dagger.Assisted.IAssisted, Xamarin.Google.Dagger;dagger.assisted.Assisted
+Dagger.Assisted.IAssisted;dagger.assisted.Assisted
+dagger.assisted.Assisted;dagger.assisted.Assisted
+Dagger.Assisted.IAssistedFactory, Xamarin.Google.Dagger;dagger.assisted.AssistedFactory
+Dagger.Assisted.IAssistedFactory;dagger.assisted.AssistedFactory
+dagger.assisted.AssistedFactory;dagger.assisted.AssistedFactory
+Dagger.Assisted.IAssistedInject, Xamarin.Google.Dagger;dagger.assisted.AssistedInject
+Dagger.Assisted.IAssistedInject;dagger.assisted.AssistedInject
+dagger.assisted.AssistedInject;dagger.assisted.AssistedInject
+Dagger.Internal.IBeta, Xamarin.Google.Dagger;dagger.internal.Beta
+Dagger.Internal.IBeta;dagger.internal.Beta
+dagger.internal.Beta;dagger.internal.Beta
+Dagger.Internal.IComponentDefinitionType, Xamarin.Google.Dagger;dagger.internal.ComponentDefinitionType
+Dagger.Internal.IComponentDefinitionType;dagger.internal.ComponentDefinitionType
+dagger.internal.ComponentDefinitionType;dagger.internal.ComponentDefinitionType
+Dagger.Internal.IDaggerGenerated, Xamarin.Google.Dagger;dagger.internal.DaggerGenerated
+Dagger.Internal.IDaggerGenerated;dagger.internal.DaggerGenerated
+dagger.internal.DaggerGenerated;dagger.internal.DaggerGenerated
+Dagger.Internal.IGwtIncompatible, Xamarin.Google.Dagger;dagger.internal.GwtIncompatible
+Dagger.Internal.IGwtIncompatible;dagger.internal.GwtIncompatible
+dagger.internal.GwtIncompatible;dagger.internal.GwtIncompatible
+Dagger.Internal.IInjectedFieldSignature, Xamarin.Google.Dagger;dagger.internal.InjectedFieldSignature
+Dagger.Internal.IInjectedFieldSignature;dagger.internal.InjectedFieldSignature
+dagger.internal.InjectedFieldSignature;dagger.internal.InjectedFieldSignature
 Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
 Google.Common.Util.Concurrent.IListenableFuture;com.google.common.util.concurrent.ListenableFuture
 com.google.common.util.concurrent.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
+Xamarin.Google.MLKit.Common.MlKitException+IErrorCode, Xamarin.Google.MLKit.Common;com.google.mlkit.common.MlKitException$ErrorCode
+Xamarin.Google.MLKit.Common.MlKitException.IErrorCode;com.google.mlkit.common.MlKitException$ErrorCode
+com.google.mlkit.common.MlKitException$ErrorCode;com.google.mlkit.common.MlKitException$ErrorCode
+Xamarin.Google.MLKit.Common.SDKInternal.Cleaner+ICleanable, Xamarin.Google.MLKit.Common;com.google.mlkit.common.sdkinternal.Cleaner$Cleanable
+Xamarin.Google.MLKit.Common.SDKInternal.Cleaner.ICleanable;com.google.mlkit.common.sdkinternal.Cleaner$Cleanable
+com.google.mlkit.common.sdkinternal.Cleaner$Cleanable;com.google.mlkit.common.sdkinternal.Cleaner$Cleanable
+Xamarin.Google.MLKit.Common.SDKInternal.IMLTaskInput, Xamarin.Google.MLKit.Common;com.google.mlkit.common.sdkinternal.MLTaskInput
+Xamarin.Google.MLKit.Common.SDKInternal.IMLTaskInput;com.google.mlkit.common.sdkinternal.MLTaskInput
+com.google.mlkit.common.sdkinternal.MLTaskInput;com.google.mlkit.common.sdkinternal.MLTaskInput
+Xamarin.Google.MLKit.Common.SDKInternal.Model.CustomModelLoader+ICustomModelLoaderHelper, Xamarin.Google.MLKit.Common;com.google.mlkit.common.sdkinternal.model.CustomModelLoader$CustomModelLoaderHelper
+Xamarin.Google.MLKit.Common.SDKInternal.Model.CustomModelLoader.ICustomModelLoaderHelper;com.google.mlkit.common.sdkinternal.model.CustomModelLoader$CustomModelLoaderHelper
+com.google.mlkit.common.sdkinternal.model.CustomModelLoader$CustomModelLoaderHelper;com.google.mlkit.common.sdkinternal.model.CustomModelLoader$CustomModelLoaderHelper
+Xamarin.Google.MLKit.Common.SDKInternal.Model.IModelInfoRetrieverInterop, Xamarin.Google.MLKit.Common;com.google.mlkit.common.sdkinternal.model.ModelInfoRetrieverInterop
+Xamarin.Google.MLKit.Common.SDKInternal.Model.IModelInfoRetrieverInterop;com.google.mlkit.common.sdkinternal.model.ModelInfoRetrieverInterop
+com.google.mlkit.common.sdkinternal.model.ModelInfoRetrieverInterop;com.google.mlkit.common.sdkinternal.model.ModelInfoRetrieverInterop
+Xamarin.Google.MLKit.Common.SDKInternal.Model.IModelValidator, Xamarin.Google.MLKit.Common;com.google.mlkit.common.sdkinternal.model.ModelValidator
+Xamarin.Google.MLKit.Common.SDKInternal.Model.IModelValidator;com.google.mlkit.common.sdkinternal.model.ModelValidator
+com.google.mlkit.common.sdkinternal.model.ModelValidator;com.google.mlkit.common.sdkinternal.model.ModelValidator
+Xamarin.Google.MLKit.Common.SDKInternal.Model.IRemoteModelFileMover, Xamarin.Google.MLKit.Common;com.google.mlkit.common.sdkinternal.model.RemoteModelFileMover
+Xamarin.Google.MLKit.Common.SDKInternal.Model.IRemoteModelFileMover;com.google.mlkit.common.sdkinternal.model.RemoteModelFileMover
+com.google.mlkit.common.sdkinternal.model.RemoteModelFileMover;com.google.mlkit.common.sdkinternal.model.RemoteModelFileMover
+Xamarin.Google.MLKit.Common.SDKInternal.Model.IRemoteModelLoaderHelper, Xamarin.Google.MLKit.Common;com.google.mlkit.common.sdkinternal.model.RemoteModelLoaderHelper
+Xamarin.Google.MLKit.Common.SDKInternal.Model.IRemoteModelLoaderHelper;com.google.mlkit.common.sdkinternal.model.RemoteModelLoaderHelper
+com.google.mlkit.common.sdkinternal.model.RemoteModelLoaderHelper;com.google.mlkit.common.sdkinternal.model.RemoteModelLoaderHelper
+Xamarin.Google.MLKit.Common.SDKInternal.Model.IRemoteModelManagerInterface, Xamarin.Google.MLKit.Common;com.google.mlkit.common.sdkinternal.model.RemoteModelManagerInterface
+Xamarin.Google.MLKit.Common.SDKInternal.Model.IRemoteModelManagerInterface;com.google.mlkit.common.sdkinternal.model.RemoteModelManagerInterface
+com.google.mlkit.common.sdkinternal.model.RemoteModelManagerInterface;com.google.mlkit.common.sdkinternal.model.RemoteModelManagerInterface
+Xamarin.Google.MLKit.Common.SDKInternal.Model.ModelLoader+IModelContentHandler, Xamarin.Google.MLKit.Common;com.google.mlkit.common.sdkinternal.model.ModelLoader$ModelContentHandler
+Xamarin.Google.MLKit.Common.SDKInternal.Model.ModelLoader.IModelContentHandler;com.google.mlkit.common.sdkinternal.model.ModelLoader$ModelContentHandler
+com.google.mlkit.common.sdkinternal.model.ModelLoader$ModelContentHandler;com.google.mlkit.common.sdkinternal.model.ModelLoader$ModelContentHandler
+Xamarin.Google.MLKit.Common.SDKInternal.Model.ModelLoader+IModelLoadingLogger, Xamarin.Google.MLKit.Common;com.google.mlkit.common.sdkinternal.model.ModelLoader$ModelLoadingLogger
+Xamarin.Google.MLKit.Common.SDKInternal.Model.ModelLoader.IModelLoadingLogger;com.google.mlkit.common.sdkinternal.model.ModelLoader$ModelLoadingLogger
+com.google.mlkit.common.sdkinternal.model.ModelLoader$ModelLoadingLogger;com.google.mlkit.common.sdkinternal.model.ModelLoader$ModelLoadingLogger
+Xamarin.Google.MLKit.Vision.Common.IDetector, Xamarin.Google.MLKit.Vision.Common;com.google.mlkit.vision.common.Detector
+Xamarin.Google.MLKit.Vision.Common.IDetector;com.google.mlkit.vision.common.Detector
+com.google.mlkit.vision.common.Detector;com.google.mlkit.vision.common.Detector
+Xamarin.Google.MLKit.Vision.Common.InputImage+IImageFormat, Xamarin.Google.MLKit.Vision.Common;com.google.mlkit.vision.common.InputImage$ImageFormat
+Xamarin.Google.MLKit.Vision.Common.InputImage.IImageFormat;com.google.mlkit.vision.common.InputImage$ImageFormat
+com.google.mlkit.vision.common.InputImage$ImageFormat;com.google.mlkit.vision.common.InputImage$ImageFormat
+Xamarin.Google.MLKit.Vision.Common.Internal.IDetector, Xamarin.Google.MLKit.Vision.Common;com.google.mlkit.vision.common.internal.Detector
+Xamarin.Google.MLKit.Vision.Common.Internal.IDetector;com.google.mlkit.vision.common.internal.Detector
+com.google.mlkit.vision.common.internal.Detector;com.google.mlkit.vision.common.internal.Detector
+Xamarin.Google.MLKit.Vision.Common.Internal.MultiFlavorDetectorCreator+IDetectorCreator, Xamarin.Google.MLKit.Vision.Common;com.google.mlkit.vision.common.internal.MultiFlavorDetectorCreator$DetectorCreator
+Xamarin.Google.MLKit.Vision.Common.Internal.MultiFlavorDetectorCreator.IDetectorCreator;com.google.mlkit.vision.common.internal.MultiFlavorDetectorCreator$DetectorCreator
+com.google.mlkit.vision.common.internal.MultiFlavorDetectorCreator$DetectorCreator;com.google.mlkit.vision.common.internal.MultiFlavorDetectorCreator$DetectorCreator
+Xamarin.Google.MLKit.Vision.Common.Internal.MultiFlavorDetectorCreator+IDetectorOptions, Xamarin.Google.MLKit.Vision.Common;com.google.mlkit.vision.common.internal.MultiFlavorDetectorCreator$DetectorOptions
+Xamarin.Google.MLKit.Vision.Common.Internal.MultiFlavorDetectorCreator.IDetectorOptions;com.google.mlkit.vision.common.internal.MultiFlavorDetectorCreator$DetectorOptions
+com.google.mlkit.vision.common.internal.MultiFlavorDetectorCreator$DetectorOptions;com.google.mlkit.vision.common.internal.MultiFlavorDetectorCreator$DetectorOptions
 Android.Gms.Auth.Api.SignIn.IGoogleSignInOptionsExtension, Xamarin.GooglePlayServices.Base;com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension
 Android.Gms.Auth.Api.SignIn.IGoogleSignInOptionsExtension;com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension
 com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension;com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension
@@ -2068,21 +2926,21 @@ mono.com.google.android.gms.common.api.internal.SignInConnectionListenerImplemen
 Android.Gms.Common.Api.Internal.IStatusCallback, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.IStatusCallback
 Android.Gms.Common.Api.Internal.IStatusCallback;com.google.android.gms.common.api.internal.IStatusCallback
 com.google.android.gms.common.api.internal.IStatusCallback;com.google.android.gms.common.api.internal.IStatusCallback
-Android.Gms.Common.Api.Internal.IZaaw, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zaaw
-Android.Gms.Common.Api.Internal.IZaaw;com.google.android.gms.common.api.internal.zaaw
-com.google.android.gms.common.api.internal.zaaw;com.google.android.gms.common.api.internal.zaaw
-Android.Gms.Common.Api.Internal.IZabn, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zabn
-Android.Gms.Common.Api.Internal.IZabn;com.google.android.gms.common.api.internal.zabn
-com.google.android.gms.common.api.internal.zabn;com.google.android.gms.common.api.internal.zabn
-Android.Gms.Common.Api.Internal.IZabo, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zabo
-Android.Gms.Common.Api.Internal.IZabo;com.google.android.gms.common.api.internal.zabo
-com.google.android.gms.common.api.internal.zabo;com.google.android.gms.common.api.internal.zabo
-Android.Gms.Common.Api.Internal.IZach, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zach
-Android.Gms.Common.Api.Internal.IZach;com.google.android.gms.common.api.internal.zach
-com.google.android.gms.common.api.internal.zach;com.google.android.gms.common.api.internal.zach
-Android.Gms.Common.Api.Internal.IZap, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zap
-Android.Gms.Common.Api.Internal.IZap;com.google.android.gms.common.api.internal.zap
-com.google.android.gms.common.api.internal.zap;com.google.android.gms.common.api.internal.zap
+Android.Gms.Common.Api.Internal.IZaba, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zaba
+Android.Gms.Common.Api.Internal.IZaba;com.google.android.gms.common.api.internal.zaba
+com.google.android.gms.common.api.internal.zaba;com.google.android.gms.common.api.internal.zaba
+Android.Gms.Common.Api.Internal.IZabt, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zabt
+Android.Gms.Common.Api.Internal.IZabt;com.google.android.gms.common.api.internal.zabt
+com.google.android.gms.common.api.internal.zabt;com.google.android.gms.common.api.internal.zabt
+Android.Gms.Common.Api.Internal.IZabu, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zabu
+Android.Gms.Common.Api.Internal.IZabu;com.google.android.gms.common.api.internal.zabu
+com.google.android.gms.common.api.internal.zabu;com.google.android.gms.common.api.internal.zabu
+Android.Gms.Common.Api.Internal.IZacn, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zacn
+Android.Gms.Common.Api.Internal.IZacn;com.google.android.gms.common.api.internal.zacn
+com.google.android.gms.common.api.internal.zacn;com.google.android.gms.common.api.internal.zacn
+Android.Gms.Common.Api.Internal.IZat, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zat
+Android.Gms.Common.Api.Internal.IZat;com.google.android.gms.common.api.internal.zat
+com.google.android.gms.common.api.internal.zat;com.google.android.gms.common.api.internal.zat
 Android.Gms.Common.Api.Internal.ListenerHolder+INotifier, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.ListenerHolder$Notifier
 Android.Gms.Common.Api.Internal.ListenerHolder.INotifier;com.google.android.gms.common.api.internal.ListenerHolder$Notifier
 com.google.android.gms.common.api.internal.ListenerHolder$Notifier;com.google.android.gms.common.api.internal.ListenerHolder$Notifier
@@ -2149,6 +3007,9 @@ com.google.android.gms.security.ProviderInstaller$ProviderInstallListener;com.go
 Android.Gms.Security.ProviderInstaller+IProviderInstallListenerImplementor, Xamarin.GooglePlayServices.Basement;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
 Android.Gms.Security.ProviderInstaller.IProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
 mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+Android.Gms.Internal.Constants.IListAppsActivityContract, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.constants.ListAppsActivityContract
+Android.Gms.Internal.Constants.IListAppsActivityContract;com.google.android.gms.common.internal.constants.ListAppsActivityContract
+com.google.android.gms.common.internal.constants.ListAppsActivityContract;com.google.android.gms.common.internal.constants.ListAppsActivityContract
 Android.Gms.Dynamite.DynamiteModule+IVersionPolicy, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy
 Android.Gms.Dynamite.DynamiteModule.IVersionPolicy;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy
 com.google.android.gms.dynamite.DynamiteModule$VersionPolicy;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy
@@ -2185,6 +3046,9 @@ com.google.android.gms.common.util.RetainForClient;com.google.android.gms.common
 Android.Gms.Common.Util.IVisibleForTesting, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.VisibleForTesting
 Android.Gms.Common.Util.IVisibleForTesting;com.google.android.gms.common.util.VisibleForTesting
 com.google.android.gms.common.util.VisibleForTesting;com.google.android.gms.common.util.VisibleForTesting
+Android.Gms.Common.Stats.StatsEvent+ITypes, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.stats.StatsEvent$Types
+Android.Gms.Common.Stats.StatsEvent.ITypes;com.google.android.gms.common.stats.StatsEvent$Types
+com.google.android.gms.common.stats.StatsEvent$Types;com.google.android.gms.common.stats.StatsEvent$Types
 Android.Gms.Common.Providers.PooledExecutorsProvider+IPooledExecutorFactory, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory
 Android.Gms.Common.Providers.PooledExecutorsProvider.IPooledExecutorFactory;com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory
 com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory;com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory
@@ -2272,9 +3136,27 @@ com.google.android.gms.common.api.internal.LifecycleFragment;com.google.android.
 Android.Gms.Common.Apis.Internal.IStatusExceptionMapper, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.internal.StatusExceptionMapper
 Android.Gms.Common.Apis.Internal.IStatusExceptionMapper;com.google.android.gms.common.api.internal.StatusExceptionMapper
 com.google.android.gms.common.api.internal.StatusExceptionMapper;com.google.android.gms.common.api.internal.StatusExceptionMapper
-Android.Gms.Flags.IFlagSource, Xamarin.GooglePlayServices.Flags;com.google.android.gms.flags.FlagSource
-Android.Gms.Flags.IFlagSource;com.google.android.gms.flags.FlagSource
-com.google.android.gms.flags.FlagSource;com.google.android.gms.flags.FlagSource
+Xamarin.Google.MLKit.Vision.BarCode.Barcode+Address+IAddressType, Xamarin.GooglePlayServices.MLKit.BarcodeScanning;com.google.mlkit.vision.barcode.Barcode$Address$AddressType
+Xamarin.Google.MLKit.Vision.BarCode.Barcode.Address.IAddressType;com.google.mlkit.vision.barcode.Barcode$Address$AddressType
+com.google.mlkit.vision.barcode.Barcode$Address$AddressType;com.google.mlkit.vision.barcode.Barcode$Address$AddressType
+Xamarin.Google.MLKit.Vision.BarCode.Barcode+IBarcodeFormat, Xamarin.GooglePlayServices.MLKit.BarcodeScanning;com.google.mlkit.vision.barcode.Barcode$BarcodeFormat
+Xamarin.Google.MLKit.Vision.BarCode.Barcode.IBarcodeFormat;com.google.mlkit.vision.barcode.Barcode$BarcodeFormat
+com.google.mlkit.vision.barcode.Barcode$BarcodeFormat;com.google.mlkit.vision.barcode.Barcode$BarcodeFormat
+Xamarin.Google.MLKit.Vision.BarCode.Barcode+IBarcodeValueType, Xamarin.GooglePlayServices.MLKit.BarcodeScanning;com.google.mlkit.vision.barcode.Barcode$BarcodeValueType
+Xamarin.Google.MLKit.Vision.BarCode.Barcode.IBarcodeValueType;com.google.mlkit.vision.barcode.Barcode$BarcodeValueType
+com.google.mlkit.vision.barcode.Barcode$BarcodeValueType;com.google.mlkit.vision.barcode.Barcode$BarcodeValueType
+Xamarin.Google.MLKit.Vision.BarCode.Barcode+Email+IFormatType, Xamarin.GooglePlayServices.MLKit.BarcodeScanning;com.google.mlkit.vision.barcode.Barcode$Email$FormatType
+Xamarin.Google.MLKit.Vision.BarCode.Barcode.Email.IFormatType;com.google.mlkit.vision.barcode.Barcode$Email$FormatType
+com.google.mlkit.vision.barcode.Barcode$Email$FormatType;com.google.mlkit.vision.barcode.Barcode$Email$FormatType
+Xamarin.Google.MLKit.Vision.BarCode.Barcode+Phone+IFormatType, Xamarin.GooglePlayServices.MLKit.BarcodeScanning;com.google.mlkit.vision.barcode.Barcode$Phone$FormatType
+Xamarin.Google.MLKit.Vision.BarCode.Barcode.Phone.IFormatType;com.google.mlkit.vision.barcode.Barcode$Phone$FormatType
+com.google.mlkit.vision.barcode.Barcode$Phone$FormatType;com.google.mlkit.vision.barcode.Barcode$Phone$FormatType
+Xamarin.Google.MLKit.Vision.BarCode.Barcode+WiFi+IEncryptionType, Xamarin.GooglePlayServices.MLKit.BarcodeScanning;com.google.mlkit.vision.barcode.Barcode$WiFi$EncryptionType
+Xamarin.Google.MLKit.Vision.BarCode.Barcode.WiFi.IEncryptionType;com.google.mlkit.vision.barcode.Barcode$WiFi$EncryptionType
+com.google.mlkit.vision.barcode.Barcode$WiFi$EncryptionType;com.google.mlkit.vision.barcode.Barcode$WiFi$EncryptionType
+Xamarin.Google.MLKit.Vision.BarCode.IBarcodeScanner, Xamarin.GooglePlayServices.MLKit.BarcodeScanning;com.google.mlkit.vision.barcode.BarcodeScanner
+Xamarin.Google.MLKit.Vision.BarCode.IBarcodeScanner;com.google.mlkit.vision.barcode.BarcodeScanner
+com.google.mlkit.vision.barcode.BarcodeScanner;com.google.mlkit.vision.barcode.BarcodeScanner
 Android.Gms.Tasks.IContinuation, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.Continuation
 Android.Gms.Tasks.IContinuation;com.google.android.gms.tasks.Continuation
 com.google.android.gms.tasks.Continuation;com.google.android.gms.tasks.Continuation
@@ -2314,18 +3196,33 @@ com.google.android.gms.tasks.SuccessContinuation;com.google.android.gms.tasks.Su
 Android.Gms.Extensions.AwaitableTaskCompleteListener`1, Xamarin.GooglePlayServices.Tasks;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
 Android.Gms.Extensions.AwaitableTaskCompleteListener`1;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
 android.gms.extensions.AwaitableTaskCompleteListener_1;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
-Android.Gms.Vision.CameraSource+IPictureCallback, Xamarin.GooglePlayServices.Vision.Common;com.google.android.gms.vision.CameraSource$PictureCallback
-Android.Gms.Vision.CameraSource.IPictureCallback;com.google.android.gms.vision.CameraSource$PictureCallback
-com.google.android.gms.vision.CameraSource$PictureCallback;com.google.android.gms.vision.CameraSource$PictureCallback
-Android.Gms.Vision.CameraSource+IShutterCallback, Xamarin.GooglePlayServices.Vision.Common;com.google.android.gms.vision.CameraSource$ShutterCallback
-Android.Gms.Vision.CameraSource.IShutterCallback;com.google.android.gms.vision.CameraSource$ShutterCallback
-com.google.android.gms.vision.CameraSource$ShutterCallback;com.google.android.gms.vision.CameraSource$ShutterCallback
-Android.Gms.Vision.Detector+IProcessor, Xamarin.GooglePlayServices.Vision.Common;com.google.android.gms.vision.Detector$Processor
-Android.Gms.Vision.Detector.IProcessor;com.google.android.gms.vision.Detector$Processor
-com.google.android.gms.vision.Detector$Processor;com.google.android.gms.vision.Detector$Processor
-Android.Gms.Vision.MultiProcessor+IFactory, Xamarin.GooglePlayServices.Vision.Common;com.google.android.gms.vision.MultiProcessor$Factory
-Android.Gms.Vision.MultiProcessor.IFactory;com.google.android.gms.vision.MultiProcessor$Factory
-com.google.android.gms.vision.MultiProcessor$Factory;com.google.android.gms.vision.MultiProcessor$Factory
-Android.Gms.Vision.Texts.IText, Xamarin.GooglePlayServices.Vision;com.google.android.gms.vision.text.Text
-Android.Gms.Vision.Texts.IText;com.google.android.gms.vision.text.Text
-com.google.android.gms.vision.text.Text;com.google.android.gms.vision.text.Text
+JavaX.Inject.IInject, Xamarin.JavaX.Inject;javax.inject.Inject
+JavaX.Inject.IInject;javax.inject.Inject
+javax.inject.Inject;javax.inject.Inject
+JavaX.Inject.INamed, Xamarin.JavaX.Inject;javax.inject.Named
+JavaX.Inject.INamed;javax.inject.Named
+javax.inject.Named;javax.inject.Named
+JavaX.Inject.IProvider, Xamarin.JavaX.Inject;javax.inject.Provider
+JavaX.Inject.IProvider;javax.inject.Provider
+javax.inject.Provider;javax.inject.Provider
+JavaX.Inject.IQualifier, Xamarin.JavaX.Inject;javax.inject.Qualifier
+JavaX.Inject.IQualifier;javax.inject.Qualifier
+javax.inject.Qualifier;javax.inject.Qualifier
+JavaX.Inject.IScope, Xamarin.JavaX.Inject;javax.inject.Scope
+JavaX.Inject.IScope;javax.inject.Scope
+javax.inject.Scope;javax.inject.Scope
+JavaX.Inject.ISingleton, Xamarin.JavaX.Inject;javax.inject.Singleton
+JavaX.Inject.ISingleton;javax.inject.Singleton
+javax.inject.Singleton;javax.inject.Singleton
+GoogleVisionBarCodeScanner.Renderer.CameraViewRenderer, BarcodeScanner.XF;crc64572abb00d954e03d.CameraViewRenderer
+GoogleVisionBarCodeScanner.Renderer.CameraViewRenderer;crc64572abb00d954e03d.CameraViewRenderer
+googlevisionbarcodescanner.renderer.CameraViewRenderer;crc64572abb00d954e03d.CameraViewRenderer
+GoogleVisionBarCodeScanner.Renderer.CameraViewRenderer+TorchStateObserver, BarcodeScanner.XF;crc64572abb00d954e03d.CameraViewRenderer_TorchStateObserver
+GoogleVisionBarCodeScanner.Renderer.CameraViewRenderer.TorchStateObserver;crc64572abb00d954e03d.CameraViewRenderer_TorchStateObserver
+googlevisionbarcodescanner.renderer.CameraViewRenderer_TorchStateObserver;crc64572abb00d954e03d.CameraViewRenderer_TorchStateObserver
+GoogleVisionBarCodeScanner.Renderer.CameraViewRenderer+BarcodeAnalyzer, BarcodeScanner.XF;crc64572abb00d954e03d.CameraViewRenderer_BarcodeAnalyzer
+GoogleVisionBarCodeScanner.Renderer.CameraViewRenderer.BarcodeAnalyzer;crc64572abb00d954e03d.CameraViewRenderer_BarcodeAnalyzer
+googlevisionbarcodescanner.renderer.CameraViewRenderer_BarcodeAnalyzer;crc64572abb00d954e03d.CameraViewRenderer_BarcodeAnalyzer
+GoogleVisionBarCodeScanner.Renderer.TaskCompleteListener, BarcodeScanner.XF;crc64572abb00d954e03d.TaskCompleteListener
+GoogleVisionBarCodeScanner.Renderer.TaskCompleteListener;crc64572abb00d954e03d.TaskCompleteListener
+googlevisionbarcodescanner.renderer.TaskCompleteListener;crc64572abb00d954e03d.TaskCompleteListener

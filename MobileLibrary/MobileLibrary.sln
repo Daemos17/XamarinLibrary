@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileLibrary.Android", "Mo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobileLibrary", "MobileLibrary\MobileLibrary.csproj", "{6D8C65E3-11E3-4C36-9EDB-2FD764B34053}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleVisionBarCodeScanner", "GoogleVisionBarCodeScanner\GoogleVisionBarCodeScanner.csproj", "{2D7BDF9B-9895-47AD-88DD-56DFC69F2D85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{6D8C65E3-11E3-4C36-9EDB-2FD764B34053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D8C65E3-11E3-4C36-9EDB-2FD764B34053}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6D8C65E3-11E3-4C36-9EDB-2FD764B34053}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2D7BDF9B-9895-47AD-88DD-56DFC69F2D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7BDF9B-9895-47AD-88DD-56DFC69F2D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7BDF9B-9895-47AD-88DD-56DFC69F2D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7BDF9B-9895-47AD-88DD-56DFC69F2D85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

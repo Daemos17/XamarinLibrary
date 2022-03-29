@@ -292,4 +292,3 @@ C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCod
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\stamp\_ConvertResourcesCases.stamp
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\bin\Debug\monoandroid11.0\Xamarin.AndroidX.ConstraintLayout.Core.dll
-C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\GoogleVisionBarCodeScanner.csproj.CopyComplete

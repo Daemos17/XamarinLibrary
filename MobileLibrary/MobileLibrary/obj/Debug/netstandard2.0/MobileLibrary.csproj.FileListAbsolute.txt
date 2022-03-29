@@ -17,3 +17,6 @@ C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\Mono.Android.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\Mono.Android.pdb
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\Views\ScanQrCodePage.xaml.g.cs
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\BarcodeScanner.XF.dll
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\BarcodeScanner.XF.pdb

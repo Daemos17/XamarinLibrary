@@ -2,20 +2,6 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "BarcodeScanner.XF/5.0.9": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "2.0.3",
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
-        },
-        "compile": {
-          "lib/netstandard2.0/BarcodeScanner.XF.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/BarcodeScanner.XF.dll": {}
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -345,25 +331,24 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
+      },
+      "BarcodeScanner.XF/6.2.0-pre": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2125"
+        },
+        "compile": {
+          "bin/placeholder/BarcodeScanner.XF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BarcodeScanner.XF.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "BarcodeScanner.XF/5.0.9": {
-      "sha512": "/eEBv+NrOWQjxK+BJ8fiFz5GUZmmne+gh+CDR8CE/rHbXlVX4lsOhJsyvzK/XIxVuMh1QjJFEZnCxpSvlxOU3g==",
-      "type": "package",
-      "path": "barcodescanner.xf/5.0.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "barcodescanner.xf.5.0.9.nupkg.sha512",
-        "barcodescanner.xf.nuspec",
-        "lib/monoandroid10.0/BarcodeScanner.XF.dll",
-        "lib/monoandroid11.0/BarcodeScanner.XF.dll",
-        "lib/netstandard2.0/BarcodeScanner.XF.dll",
-        "lib/xamarinios10/BarcodeScanner.XF.dll"
-      ]
-    },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "sha512": "UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
       "type": "package",
@@ -1477,6 +1462,11 @@
         "xamarin.forms.5.0.0.2337.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "BarcodeScanner.XF/6.2.0-pre": {
+      "type": "project",
+      "path": "../GoogleVisionBarCodeScanner/GoogleVisionBarCodeScanner.csproj",
+      "msbuildProject": "../GoogleVisionBarCodeScanner/GoogleVisionBarCodeScanner.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1527,7 +1517,11 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\GoogleVisionBarCodeScanner\\GoogleVisionBarCodeScanner.csproj": {
+              "projectPath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\GoogleVisionBarCodeScanner\\GoogleVisionBarCodeScanner.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

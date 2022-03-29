@@ -4,5 +4,6 @@
     <SelectedDevice>Xiaomi M2007J20CG</SelectedDevice>
     <ActiveDebugProfile>Xiaomi M2007J20CG</ActiveDebugProfile>
     <DefaultDevice>pixel_2_pie_9_0_-_api_28</DefaultDevice>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

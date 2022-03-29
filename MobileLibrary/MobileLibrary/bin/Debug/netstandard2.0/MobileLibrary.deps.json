@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "MobileLibrary/1.0.0": {
         "dependencies": {
-          "BarcodeScanner.XF": "5.0.9",
+          "BarcodeScanner.XF": "6.2.0-pre",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Http": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
@@ -23,19 +23,6 @@
         },
         "runtime": {
           "MobileLibrary.dll": {}
-        }
-      },
-      "BarcodeScanner.XF/5.0.9": {
-        "dependencies": {
-          "NETStandard.Library": "2.0.3",
-          "Xamarin.Essentials": "1.7.1",
-          "Xamarin.Forms": "5.0.0.2337"
-        },
-        "runtime": {
-          "lib/netstandard2.0/BarcodeScanner.XF.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -315,6 +302,15 @@
           }
         }
       },
+      "BarcodeScanner.XF/6.2.0-pre": {
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.1",
+          "Xamarin.Forms": "5.0.0.2337"
+        },
+        "runtime": {
+          "BarcodeScanner.XF.dll": {}
+        }
+      },
       "Mono.Android/0.0.0.0": {
         "runtime": {
           "Mono.Android.dll": {
@@ -330,13 +326,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "BarcodeScanner.XF/5.0.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/eEBv+NrOWQjxK+BJ8fiFz5GUZmmne+gh+CDR8CE/rHbXlVX4lsOhJsyvzK/XIxVuMh1QjJFEZnCxpSvlxOU3g==",
-      "path": "barcodescanner.xf/5.0.9",
-      "hashPath": "barcodescanner.xf.5.0.9.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -512,6 +501,11 @@
       "sha512": "sha512-2AYl2V1YHjEDEmA5d+aP382ielCKr8d/jo3zCgPSvLE/4Pw/em7pHBGmN3yZ/WzxIMV16f7wBfoFCHesMud0AA==",
       "path": "xamarin.forms/5.0.0.2337",
       "hashPath": "xamarin.forms.5.0.0.2337.nupkg.sha512"
+    },
+    "BarcodeScanner.XF/6.2.0-pre": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Mono.Android/0.0.0.0": {
       "type": "reference",

@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "dzmdtJDbZwbmtcmSURlCAtN1qX6C7GbXvN2KGFfD+abs56I677KxFh+znID17ykhVKI24odT61mv7KOecXG3FA==",
+  "dgSpecHash": "xowblG/vuW8yvhk7PbYKsKgK2odd9EgS0HUqleATpt3/qtA4aui1Kf189t9dX4SSvJHIkxIbLcxMSbtJ43aBSA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Daniil\\.nuget\\packages\\barcodescanner.xf\\5.0.9\\barcodescanner.xf.5.0.9.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
@@ -29,7 +28,8 @@
     "C:\\Users\\Daniil\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
-    "C:\\Users\\Daniil\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512"
+    "C:\\Users\\Daniil\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512",
+    "C:\\Users\\Daniil\\.nuget\\packages\\barcodescanner.xf\\6.2.0-pre\\barcodescanner.xf.6.2.0-pre.nupkg.sha512"
   ],
   "logs": []
 }

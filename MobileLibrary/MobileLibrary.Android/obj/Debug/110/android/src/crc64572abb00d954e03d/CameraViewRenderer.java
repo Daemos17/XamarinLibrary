@@ -2,7 +2,7 @@ package crc64572abb00d954e03d;
 
 
 public class CameraViewRenderer
-	extends crc643f46942d9dd1fff9.ViewRenderer_2
+	extends crc64720bb2db43a66fe9.ViewRenderer_2
 	implements
 		mono.android.IGCUserPeer
 {
