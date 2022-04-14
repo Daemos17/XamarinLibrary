@@ -25,11 +25,7 @@ namespace MobileLibrary
 
         public async void button_Clicked(object sender,EventArgs e)
         {
-            bool allowed = false;
-            allowed = await GoogleVisionBarCodeScanner.Methods.AskForRequiredPermission();
-            if (allowed)
-               await Navigation.PushModalAsync(new NavigationPage(new ScanQrCodePage()));
-            else await DisplayAlert("Alert", "You have to provide Camera permission", "Ok");
+            await Navigation.PushModalAsync(new NavigationPage(new MenuPage()));
         }
         protected override void OnAppearing()
         {

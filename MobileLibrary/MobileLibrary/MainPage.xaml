@@ -5,7 +5,7 @@
 
     <StackLayout>
         <StackLayout Orientation="Horizontal">
-            <Button Text="Go" Clicked="button_Clicked" VerticalOptions="FillAndExpand" />
+            <Button Text="Меню" Clicked="button_Clicked" VerticalOptions="FillAndExpand" />
            
         </StackLayout>
         <WebView x:Name="webView" Source="http://192.168.1.33:8555" VerticalOptions="FillAndExpand" />

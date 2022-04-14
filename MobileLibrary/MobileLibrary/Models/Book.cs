@@ -12,8 +12,8 @@ namespace MobileLibrary.Models
             Comments = new HashSet<Comment>();
         }
 
-        public int IdBook { get; set; }
-        public int IdAuthorFk { get; set; }
+        public int Id { get; set; }
+       
         public string BookName { get; set; }
         public string Year { get; set; }
         public int? Amount { get; set; }

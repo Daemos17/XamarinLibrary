@@ -23,6 +23,9 @@ namespace MobileLibrary.Views {
         private global::Xamarin.Forms.Button FlashlightButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button SwitchCameraButton;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::GoogleVisionBarCodeScanner.CameraView Camera;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -30,6 +33,7 @@ namespace MobileLibrary.Views {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ScanQrCodePage));
             CancelButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "CancelButton");
             FlashlightButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "FlashlightButton");
+            SwitchCameraButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "SwitchCameraButton");
             Camera = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::GoogleVisionBarCodeScanner.CameraView>(this, "Camera");
         }
     }

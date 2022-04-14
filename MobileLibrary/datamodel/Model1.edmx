@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AccountLogins">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Account_Id" Type="int" />
+          <Property Name="DateLogin" Type="datetime" />
+          <Property Name="DateLogout" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Accounts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Login" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="User_id" Type="int" Nullable="false" />
+          <Property Name="RegistrationDate" Type="datetime" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsAdmin" Type="bit" />
+        </EntityType>
+        <EntityType Name="Authors">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="200" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="100" />
+          <Property Name="SecondName" Type="nvarchar" MaxLength="100" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Books">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Author_id" Type="int" />
+          <Property Name="Maker_id" Type="int" />
+          <Property Name="BookName" Type="nvarchar" MaxLength="300" />
+          <Property Name="Year" Type="date" />
+          <Property Name="Count" Type="int" />
+          <Property Name="Comment" Type="nvarchar" MaxLength="700" />
+          <Property Name="Category_id" Type="int" />
+        </EntityType>
+        <EntityType Name="Groups">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GroupFullName" Type="nvarchar" MaxLength="200" />
+          <Property Name="GroupLittleName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Makers">
+          <Key>
+            <PropertyRef Name="Id_maker" />
+          </Key>
+          <Property Name="Id_maker" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MakerName" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Students">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="SecondName" Type="nvarchar" MaxLength="100" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="100" />
+          <Property Name="Group_id" Type="int" />
+          <Property Name="DateIn" Type="date" />
+        </EntityType>
+        <EntityType Name="Teachers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User_id" Type="int" />
+          <Property Name="Comment" Type="nvarchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="100" />
+          <Property Name="SecondName" Type="nvarchar" MaxLength="100" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "libraryBook1.1.dbo.vAccounts" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+        <EntityType Name="vAccounts">
+          <Key>
+            <PropertyRef Name="Login" />
+            <PropertyRef Name="LastName" />
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Login" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="RegistrationDate" Type="datetime" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="100" />
+          <Property Name="SecondName" Type="nvarchar" MaxLength="100" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="IsAdmin" Type="bit" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "libraryBook1.1.dbo.vStudents" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+        <EntityType Name="vStudents">
+          <Key>
+            <PropertyRef Name="FirstName" />
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="FirstName" Type="nchar" MaxLength="100" Nullable="false" />
+          <Property Name="SecondName" Type="nchar" MaxLength="100" />
+          <Property Name="LastName" Type="nchar" MaxLength="100" />
+          <Property Name="GroupLittleName" Type="nchar" MaxLength="20" />
+          <Property Name="GroupFullName" Type="nchar" MaxLength="200" />
+          <Property Name="Id" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "libraryBook1.1.dbo.vTeacher" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+        <EntityType Name="vTeacher">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="LastName" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Comment" Type="nvarchar" MaxLength="200" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="100" />
+          <Property Name="SecondName" Type="nvarchar" MaxLength="100" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Books_Authors">
+          <End Role="Authors" Type="Self.Authors" Multiplicity="0..1" />
+          <End Role="Books" Type="Self.Books" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Authors">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Books">
+              <PropertyRef Name="Author_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Books_Makers">
+          <End Role="Makers" Type="Self.Makers" Multiplicity="0..1" />
+          <End Role="Books" Type="Self.Books" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Makers">
+              <PropertyRef Name="Id_maker" />
+            </Principal>
+            <Dependent Role="Books">
+              <PropertyRef Name="Maker_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="EditUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="id" Type="int" Mode="In" />
+          <Parameter Name="Firstname" Type="nvarchar" Mode="In" />
+          <Parameter Name="Lastname" Type="nvarchar" Mode="In" />
+          <Parameter Name="Secondname" Type="nvarchar" Mode="In" />
+          <Parameter Name="Login" Type="nvarchar" Mode="In" />
+          <Parameter Name="Email" Type="nvarchar" Mode="In" />
+          <Parameter Name="Phone" Type="nvarchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="Хранилище ModelContainer">
+          <EntitySet Name="AccountLogins" EntityType="Self.AccountLogins" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Accounts" EntityType="Self.Accounts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Authors" EntityType="Self.Authors" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Books" EntityType="Self.Books" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Groups" EntityType="Self.Groups" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Makers" EntityType="Self.Makers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Teachers" EntityType="Self.Teachers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="vAccounts" EntityType="Self.vAccounts" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vAccounts].[Login] AS [Login], 
+    [vAccounts].[RegistrationDate] AS [RegistrationDate], 
+    [vAccounts].[Phone] AS [Phone], 
+    [vAccounts].[FirstName] AS [FirstName], 
+    [vAccounts].[SecondName] AS [SecondName], 
+    [vAccounts].[LastName] AS [LastName], 
+    [vAccounts].[Id] AS [Id], 
+    [vAccounts].[IsAdmin] AS [IsAdmin], 
+    [vAccounts].[Email] AS [Email]
+    FROM [dbo].[vAccounts] AS [vAccounts]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vStudents" EntityType="Self.vStudents" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vStudents].[FirstName] AS [FirstName], 
+    [vStudents].[SecondName] AS [SecondName], 
+    [vStudents].[LastName] AS [LastName], 
+    [vStudents].[GroupLittleName] AS [GroupLittleName], 
+    [vStudents].[GroupFullName] AS [GroupFullName], 
+    [vStudents].[Id] AS [Id]
+    FROM [dbo].[vStudents] AS [vStudents]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vTeacher" EntityType="Self.vTeacher" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vTeacher].[Id] AS [Id], 
+    [vTeacher].[Comment] AS [Comment], 
+    [vTeacher].[FirstName] AS [FirstName], 
+    [vTeacher].[SecondName] AS [SecondName], 
+    [vTeacher].[LastName] AS [LastName]
+    FROM [dbo].[vTeacher] AS [vTeacher]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_Books_Authors" Association="Self.FK_Books_Authors">
+            <End Role="Authors" EntitySet="Authors" />
+            <End Role="Books" EntitySet="Books" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Books_Makers" Association="Self.FK_Books_Makers">
+            <End Role="Makers" EntitySet="Makers" />
+            <End Role="Books" EntitySet="Books" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AccountLogin">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Account_Id" Type="Int32" />
+          <Property Name="DateLogin" Type="DateTime" Precision="3" />
+          <Property Name="DateLogout" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Login" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="User_id" Type="Int32" Nullable="false" />
+          <Property Name="RegistrationDate" Type="DateTime" Precision="3" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="IsAdmin" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Author">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FullName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Books" Relationship="Model.FK_Books_Authors" FromRole="Author" ToRole="Book" />
+        </EntityType>
+        <EntityType Name="Book">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Author_id" Type="Int32" />
+          <Property Name="Maker_id" Type="Int32" />
+          <Property Name="BookName" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="Year" Type="DateTime" Precision="0" />
+          <Property Name="Count" Type="Int32" />
+          <Property Name="Comment" Type="String" MaxLength="700" FixedLength="false" Unicode="true" />
+          <Property Name="Category_id" Type="Int32" />
+          <NavigationProperty Name="Author" Relationship="Model.FK_Books_Authors" FromRole="Book" ToRole="Author" />
+          <NavigationProperty Name="Maker" Relationship="Model.FK_Books_Makers" FromRole="Book" ToRole="Maker" />
+        </EntityType>
+        <EntityType Name="Group">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GroupFullName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="GroupLittleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Group_id" Type="Int32" />
+          <Property Name="DateIn" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Teacher">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User_id" Type="Int32" />
+          <Property Name="Comment" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="vAccount">
+          <Key>
+            <PropertyRef Name="Login" />
+            <PropertyRef Name="LastName" />
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Login" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="RegistrationDate" Type="DateTime" Precision="3" />
+          <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="IsAdmin" Type="Boolean" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="vStudent">
+          <Key>
+            <PropertyRef Name="FirstName" />
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="GroupLittleName" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="GroupFullName" Type="String" MaxLength="200" FixedLength="true" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="Entities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AccountLogins" EntityType="Self.AccountLogin" />
+          <EntitySet Name="Accounts" EntityType="Self.Account" />
+          <EntitySet Name="Authors" EntityType="Self.Author" />
+          <EntitySet Name="Books" EntityType="Self.Book" />
+          <EntitySet Name="Groups" EntityType="Self.Group" />
+          <EntitySet Name="Students" EntityType="Self.Student" />
+          <EntitySet Name="Teachers" EntityType="Self.Teacher" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <EntitySet Name="vAccounts" EntityType="Self.vAccount" />
+          <EntitySet Name="vStudents" EntityType="Self.vStudent" />
+          <FunctionImport Name="EditUser">
+            <Parameter Name="id" Mode="In" Type="Int32" />
+            <Parameter Name="Firstname" Mode="In" Type="String" />
+            <Parameter Name="Lastname" Mode="In" Type="String" />
+            <Parameter Name="Secondname" Mode="In" Type="String" />
+            <Parameter Name="Login" Mode="In" Type="String" />
+            <Parameter Name="Email" Mode="In" Type="String" />
+            <Parameter Name="Phone" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="DeleteAccount">
+          <Parameter Name="Id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="SetLoginDateTime">
+          <Parameter Name="Id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="SetLogOutDateTime">
+          <Parameter Name="Id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <EntitySet Name="Makers" EntityType="Model.Maker" />
+          <AssociationSet Name="FK_Books_Authors" Association="Model.FK_Books_Authors">
+            <End Role="Author" EntitySet="Authors" />
+            <End Role="Book" EntitySet="Books" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Books_Makers" Association="Model.FK_Books_Makers">
+            <End Role="Maker" EntitySet="Makers" />
+            <End Role="Book" EntitySet="Books" />
+          </AssociationSet>
+          <EntitySet Name="vTeachers" EntityType="Model.vTeacher" />
+        </EntityContainer>
+        <EntityType Name="Maker">
+          <Key>
+            <PropertyRef Name="Id_maker" />
+          </Key>
+          <Property Name="Id_maker" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MakerName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Books" Relationship="Model.FK_Books_Makers" FromRole="Maker" ToRole="Book" />
+        </EntityType>
+        <Association Name="FK_Books_Authors">
+          <End Type="Model.Author" Role="Author" Multiplicity="0..1" />
+          <End Type="Model.Book" Role="Book" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Author">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Book">
+              <PropertyRef Name="Author_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Books_Makers">
+          <End Type="Model.Maker" Role="Maker" Multiplicity="0..1" />
+          <End Type="Model.Book" Role="Book" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Maker">
+              <PropertyRef Name="Id_maker" />
+            </Principal>
+            <Dependent Role="Book">
+              <PropertyRef Name="Maker_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="vTeacher">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="LastName" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Comment" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище ModelContainer" CdmEntityContainer="Entities2">
+          <EntitySetMapping Name="AccountLogins">
+            <EntityTypeMapping TypeName="Model.AccountLogin">
+              <MappingFragment StoreEntitySet="AccountLogins">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Account_Id" ColumnName="Account_Id" />
+                <ScalarProperty Name="DateLogin" ColumnName="DateLogin" />
+                <ScalarProperty Name="DateLogout" ColumnName="DateLogout" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Accounts">
+            <EntityTypeMapping TypeName="Model.Account">
+              <MappingFragment StoreEntitySet="Accounts">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="User_id" ColumnName="User_id" />
+                <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Authors">
+            <EntityTypeMapping TypeName="Model.Author">
+              <MappingFragment StoreEntitySet="Authors">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Books">
+            <EntityTypeMapping TypeName="Model.Book">
+              <MappingFragment StoreEntitySet="Books">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Author_id" ColumnName="Author_id" />
+                <ScalarProperty Name="Maker_id" ColumnName="Maker_id" />
+                <ScalarProperty Name="BookName" ColumnName="BookName" />
+                <ScalarProperty Name="Year" ColumnName="Year" />
+                <ScalarProperty Name="Count" ColumnName="Count" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+                <ScalarProperty Name="Category_id" ColumnName="Category_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Groups">
+            <EntityTypeMapping TypeName="Model.Group">
+              <MappingFragment StoreEntitySet="Groups">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="GroupFullName" ColumnName="GroupFullName" />
+                <ScalarProperty Name="GroupLittleName" ColumnName="GroupLittleName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Students">
+            <EntityTypeMapping TypeName="Model.Student">
+              <MappingFragment StoreEntitySet="Students">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Group_id" ColumnName="Group_id" />
+                <ScalarProperty Name="DateIn" ColumnName="DateIn" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Teachers">
+            <EntityTypeMapping TypeName="Model.Teacher">
+              <MappingFragment StoreEntitySet="Teachers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="User_id" ColumnName="User_id" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="Model.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vAccounts">
+            <EntityTypeMapping TypeName="Model.vAccount">
+              <MappingFragment StoreEntitySet="vAccounts">
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vStudents">
+            <EntityTypeMapping TypeName="Model.vStudent">
+              <MappingFragment StoreEntitySet="vStudents">
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="GroupLittleName" ColumnName="GroupLittleName" />
+                <ScalarProperty Name="GroupFullName" ColumnName="GroupFullName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="EditUser" FunctionName="Хранилище Model.EditUser" />
+          <EntitySetMapping Name="Makers">
+            <EntityTypeMapping TypeName="Model.Maker">
+              <MappingFragment StoreEntitySet="Makers">
+                <ScalarProperty Name="MakerName" ColumnName="MakerName" />
+                <ScalarProperty Name="Id_maker" ColumnName="Id_maker" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vTeachers">
+            <EntityTypeMapping TypeName="Model.vTeacher">
+              <MappingFragment StoreEntitySet="vTeacher">
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

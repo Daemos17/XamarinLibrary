@@ -20,3 +20,4 @@ C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\Views\ScanQrCodePage.xaml.g.cs
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\BarcodeScanner.XF.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\bin\Debug\netstandard2.0\BarcodeScanner.XF.pdb
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\MobileLibrary\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs

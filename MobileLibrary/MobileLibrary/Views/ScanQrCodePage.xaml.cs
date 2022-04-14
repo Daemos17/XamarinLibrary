@@ -32,6 +32,14 @@ namespace MobileLibrary.Views
             Camera.TorchOn = !Camera.TorchOn;
 
         }
+        private void SwitchCameraButton_Clicked(object sender, EventArgs e)
+        {
+            Camera.CameraFacing = Camera.CameraFacing == GoogleVisionBarCodeScanner.CameraFacing.Back
+                                      ? GoogleVisionBarCodeScanner.CameraFacing.Front
+                                      : GoogleVisionBarCodeScanner.CameraFacing.Back;
+        }
+
+
 
         private async void CameraView_OnDetected(object sender, GoogleVisionBarCodeScanner.OnDetectedEventArg e)
         {

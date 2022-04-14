@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AccountLogin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Account_Id" Type="Int32" />
+    <Property Name="DateLogin" Type="DateTime" Precision="3" />
+    <Property Name="DateLogout" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="User_id" Type="Int32" Nullable="false" />
+    <Property Name="RegistrationDate" Type="DateTime" Precision="3" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsAdmin" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Books" Relationship="Model.FK_Books_Authors" FromRole="Author" ToRole="Book" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Author_id" Type="Int32" />
+    <Property Name="Maker_id" Type="Int32" />
+    <Property Name="BookName" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Year" Type="DateTime" Precision="0" />
+    <Property Name="Count" Type="Int32" />
+    <Property Name="Comment" Type="String" MaxLength="700" FixedLength="false" Unicode="true" />
+    <Property Name="Category_id" Type="Int32" />
+    <NavigationProperty Name="Author" Relationship="Model.FK_Books_Authors" FromRole="Book" ToRole="Author" />
+    <NavigationProperty Name="Maker" Relationship="Model.FK_Books_Makers" FromRole="Book" ToRole="Maker" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupFullName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="GroupLittleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Group_id" Type="Int32" />
+    <Property Name="DateIn" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_id" Type="Int32" />
+    <Property Name="Comment" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vAccount">
+    <Key>
+      <PropertyRef Name="Login" />
+      <PropertyRef Name="LastName" />
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Login" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RegistrationDate" Type="DateTime" Precision="3" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="IsAdmin" Type="Boolean" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="vStudent">
+    <Key>
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="GroupLittleName" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="GroupFullName" Type="String" MaxLength="200" FixedLength="true" Unicode="true" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AccountLogins" EntityType="Self.AccountLogin" />
+    <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="Authors" EntityType="Self.Author" />
+    <EntitySet Name="Books" EntityType="Self.Book" />
+    <EntitySet Name="Groups" EntityType="Self.Group" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="Teachers" EntityType="Self.Teacher" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="vAccounts" EntityType="Self.vAccount" />
+    <EntitySet Name="vStudents" EntityType="Self.vStudent" />
+    <FunctionImport Name="EditUser">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="Firstname" Mode="In" Type="String" />
+      <Parameter Name="Lastname" Mode="In" Type="String" />
+      <Parameter Name="Secondname" Mode="In" Type="String" />
+      <Parameter Name="Login" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Phone" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteAccount">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SetLoginDateTime">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SetLogOutDateTime">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="Makers" EntityType="Model.Maker" />
+    <AssociationSet Name="FK_Books_Authors" Association="Model.FK_Books_Authors">
+      <End Role="Author" EntitySet="Authors" />
+      <End Role="Book" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Books_Makers" Association="Model.FK_Books_Makers">
+      <End Role="Maker" EntitySet="Makers" />
+      <End Role="Book" EntitySet="Books" />
+    </AssociationSet>
+    <EntitySet Name="vTeachers" EntityType="Model.vTeacher" />
+  </EntityContainer>
+  <EntityType Name="Maker">
+    <Key>
+      <PropertyRef Name="Id_maker" />
+    </Key>
+    <Property Name="Id_maker" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MakerName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Books" Relationship="Model.FK_Books_Makers" FromRole="Maker" ToRole="Book" />
+  </EntityType>
+  <Association Name="FK_Books_Authors">
+    <End Type="Model.Author" Role="Author" Multiplicity="0..1" />
+    <End Type="Model.Book" Role="Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Author">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="Author_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Books_Makers">
+    <End Type="Model.Maker" Role="Maker" Multiplicity="0..1" />
+    <End Type="Model.Book" Role="Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Maker">
+        <PropertyRef Name="Id_maker" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="Maker_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="vTeacher">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="LastName" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SecondName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

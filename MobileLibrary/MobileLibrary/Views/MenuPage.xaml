@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodel="clr-namespace:MobileLibrary.ViewModels"
+             x:Class="MobileLibrary.Views.MenuPage">
+    <ContentPage.BindingContext>
+        <viewmodel:MainPageViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" >
+                <Button Text="Сканировать Qr-код" Clicked="QrCodeButton_Clicked" VerticalOptions="FillAndExpand" HorizontalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Главная страница" Clicked="MainPageButton_Clicked" VerticalOptions="FillAndExpand" HorizontalOptions="Center" />
+            </StackLayout>
+            
+            <ListView x:Name="booksList" ItemsSource="{Binding Books}"
+              SelectedItem="{Binding SelectedFriend, Mode=TwoWay}" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout>
+                                    <Label Text="{Binding BookName}" FontSize="Medium" />
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
