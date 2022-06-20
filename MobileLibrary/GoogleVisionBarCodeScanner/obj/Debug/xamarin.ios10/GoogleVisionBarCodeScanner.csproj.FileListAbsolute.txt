@@ -97,10 +97,11 @@ C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCod
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\coremlc\_PartialAppManifest.items
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\coremlc\_BundleResourceWithLogicalName.items
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\optimized\
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\GoogleVisionBarCodeScanner.csproj.AssemblyReference.cache
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\GoogleVisionBarCodeScanner.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\GoogleVisionBarCodeScanner.AssemblyInfoInputs.cache
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\GoogleVisionBarCodeScanner.AssemblyInfo.cs
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\GoogleVisionBarCodeScanner.csproj.CoreCompileInputs.cache
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\GoogleVisionBarCodeScanner.csproj.CopyComplete
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\BarcodeScanner.XF.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\BarcodeScanner.XF.pdb
-C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\xamarin.ios10\GoogleVisionBarCodeScanner.csproj.AssemblyReference.cache

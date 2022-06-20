@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xowblG/vuW8yvhk7PbYKsKgK2odd9EgS0HUqleATpt3/qtA4aui1Kf189t9dX4SSvJHIkxIbLcxMSbtJ43aBSA==",
+  "dgSpecHash": "2N0vDAdtSuSGH+nD6An0F0efjgV/eGKjsiPH399FM+jLSnvP4Fol1gsz8Bf1OqGCPhgUoT3bfiFnr63yOY1Ljw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary\\MobileLibrary.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\Daniil\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Daniil\\.nuget\\packages\\plugin.permissions\\6.0.1\\plugin.permissions.6.0.1.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

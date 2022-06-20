@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JHKaLpoUrxcmEbjInTVyLb1sePSfpBayV/bXD6gvjETgVGjFdwD8XEvYdFmVI/t/KNshBeDdBO/KNvpkPbBXog==",
+  "dgSpecHash": "ek5QncqtwI8o2GkzkTnTWXP33MTh4SknhqzST5IOLUK/EQlpMlJcURg5wRq4z+1MIK0b49J6RASpZs3Kyt40MA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniil\\Documents\\GitHub\\XamarinLibrary\\MobileLibrary\\MobileLibrary.Android\\MobileLibrary.Android.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,8 @@
     "C:\\Users\\Daniil\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Daniil\\.nuget\\packages\\plugin.currentactivity\\2.1.0.4\\plugin.currentactivity.2.1.0.4.nupkg.sha512",
+    "C:\\Users\\Daniil\\.nuget\\packages\\plugin.permissions\\6.0.1\\plugin.permissions.6.0.1.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
@@ -125,6 +127,7 @@
     "C:\\Users\\Daniil\\.nuget\\packages\\xamarin.firebase.encoders\\117.0.0.3\\xamarin.firebase.encoders.117.0.0.3.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\xamarin.firebase.encoders.json\\118.0.0.3\\xamarin.firebase.encoders.json.118.0.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\Daniil\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2401\\xamarin.forms.visual.material.5.0.0.2401.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\xamarin.google.android.datatransport.transportapi\\3.0.0.1\\xamarin.google.android.datatransport.transportapi.3.0.0.1.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\xamarin.google.android.datatransport.transportbackendcct\\3.0.0.1\\xamarin.google.android.datatransport.transportbackendcct.3.0.0.1.nupkg.sha512",
     "C:\\Users\\Daniil\\.nuget\\packages\\xamarin.google.android.datatransport.transportruntime\\3.0.1.1\\xamarin.google.android.datatransport.transportruntime.3.0.1.1.nupkg.sha512",
@@ -167,6 +170,16 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "Обнаружено понижение версии пакета Xamarin.Google.Android.Material с 1.4.0.4 на 1.3.0.1. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n MobileLibrary.Android -> BarcodeScanner.XF 6.2.1.5-pre -> Xamarin.Google.Android.Material (>= 1.4.0.4) \r\n MobileLibrary.Android -> Xamarin.Google.Android.Material (>= 1.3.0.1)",
+      "libraryId": "Xamarin.Google.Android.Material",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Google.Android.Material с 1.4.0.2 на 1.3.0.1. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n MobileLibrary.Android -> Xamarin.Forms.Visual.Material 5.0.0.2401 -> Xamarin.Google.Android.Material (>= 1.4.0.2 && < 1.5.0) \r\n MobileLibrary.Android -> Xamarin.Google.Android.Material (>= 1.3.0.1)",
       "libraryId": "Xamarin.Google.Android.Material",
       "targetGraphs": [
         "MonoAndroid,Version=v11.0"

@@ -30,6 +30,8 @@ namespace MobileLibrary.ViewModels
 
         public INavigation Navigation { get; set; }
 
+        public int QRId { get; set; }
+
         public bool IsBusy
         {
             get { return isBusy; }
@@ -49,7 +51,7 @@ namespace MobileLibrary.ViewModels
         {
             Books = new ObservableCollection<Book>();
             IsBusy = false;
-
+      
             BackCommand = new Command(Back);
         }
 
@@ -79,17 +81,17 @@ namespace MobileLibrary.ViewModels
             Navigation.PopAsync();
         }
 
-        public async Task GetBooks()
+        public async Task GetBooks(string id)
         {
             if (initialized == true) return;
             IsBusy = true;
             IEnumerable<Book> books = await bookService.Get();
-           
+            int _id = Convert.ToInt32(id);
             // очищаем список
             //Friends.Clear();
             while (Books.Any())
                 Books.RemoveAt(Books.Count - 1);
-
+            books = books.Where(x => x.Id == _id);
             // добавляем загруженные данные
             foreach (Book f in books)
                 Books.Add(f);

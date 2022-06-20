@@ -169,6 +169,7 @@ C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCod
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\bin\Debug\monoandroid11.0\Xamarin.AndroidX.Collection.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\bin\Debug\monoandroid11.0\Xamarin.AndroidX.Concurrent.Futures.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\bin\Debug\monoandroid11.0\Xamarin.AndroidX.ConstraintLayout.dll
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\bin\Debug\monoandroid11.0\Xamarin.AndroidX.ConstraintLayout.Core.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\bin\Debug\monoandroid11.0\Xamarin.AndroidX.CoordinatorLayout.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\bin\Debug\monoandroid11.0\Xamarin.AndroidX.Core.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\bin\Debug\monoandroid11.0\Xamarin.AndroidX.CursorAdapter.dll
@@ -281,6 +282,7 @@ C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCod
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\GoogleVisionBarCodeScanner.AssemblyInfoInputs.cache
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\GoogleVisionBarCodeScanner.AssemblyInfo.cs
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\GoogleVisionBarCodeScanner.csproj.CoreCompileInputs.cache
+C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\GoogleVisionBarCodeScanner.csproj.CopyComplete
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\BarcodeScanner.XF.dll
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\BarcodeScanner.XF.pdb
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\android\bin\BarcodeScanner.XF.apk
@@ -291,4 +293,3 @@ C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCod
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\stamp\_CleanIntermediateIfNeeded.stamp
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\stamp\_ConvertResourcesCases.stamp
 C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\obj\Debug\monoandroid11.0\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Daniil\Documents\GitHub\XamarinLibrary\MobileLibrary\GoogleVisionBarCodeScanner\bin\Debug\monoandroid11.0\Xamarin.AndroidX.ConstraintLayout.Core.dll

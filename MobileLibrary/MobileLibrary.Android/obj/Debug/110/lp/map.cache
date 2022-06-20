@@ -1,6 +1,8 @@
 BarcodeScanner.XF.dll
 FormsViewGroup.dll
+Plugin.CurrentActivity.dll
 Plugin.Media.dll
+Plugin.Permissions.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll
@@ -61,6 +63,7 @@ Xamarin.Firebase.Annotations.dll
 Xamarin.Firebase.Components.dll
 Xamarin.Firebase.Encoders.dll
 Xamarin.Firebase.Encoders.JSON.dll
+Xamarin.Forms.Material.dll
 Xamarin.Forms.Platform.Android.dll
 Xamarin.Forms.Platform.dll
 Xamarin.Google.Android.DataTransport.TransportApi.dll
@@ -113,10 +116,10 @@ androidx.appcompat.appcompat.aar
 androidx.constraintlayout.constraintlayout.aar
 androidx.cardview.cardview.aar
 com.google.android.material.material.aar
+androidx.lifecycle.lifecycle-livedata.aar
 androidx.swiperefreshlayout.swiperefreshlayout.aar
 androidx.slidingpanelayout.slidingpanelayout.aar
 androidx.media.media.aar
-androidx.lifecycle.lifecycle-livedata.aar
 androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar

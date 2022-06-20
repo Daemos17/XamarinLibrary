@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MobileLibrary.Models;
 
 namespace MobileLibrary
 {
@@ -23,7 +24,10 @@ namespace MobileLibrary
 
         public Nullable<int> Category_id { get; set; }
 
+        public virtual Author Author { get; set; }
 
-       
+        public virtual Category Category { get; set; }
+
+        public virtual Maker Maker { get; set; }
     }
 }

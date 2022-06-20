@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:MobileLibrary.ViewModels"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MobileLibrary"
              x:Class="MobileLibrary.MainPage">
-
-    <StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Button Text="Меню" Clicked="button_Clicked" VerticalOptions="FillAndExpand" />
-           
-        </StackLayout>
-        <WebView x:Name="webView" Source="http://192.168.1.33:8555" VerticalOptions="FillAndExpand" />
-    </StackLayout>
+    <ContentPage.Content>
+        <RefreshView x:Name="refView" Refreshing="RefreshView_Refreshing"
+            >
+        <local:MyWebView x:Name="webView" Source="https://library.u1684434.plsk.regruhosting.ru/" VerticalOptions="FillAndExpand"/>
+        </RefreshView>
+    </ContentPage.Content>
 </ContentPage>

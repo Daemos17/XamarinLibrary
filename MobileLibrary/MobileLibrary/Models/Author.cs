@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
-
+using System.Text;
 
 namespace MobileLibrary.Models
 {
@@ -9,12 +8,25 @@ namespace MobileLibrary.Models
     {
         public Author()
         {
-            Books = new HashSet<Book>();
+
+            this.Books = new HashSet<Book>();
+
         }
 
-        public int IdAuthor { get; set; }
-        public string AuthorName { get; set; }
+
+        public int Id { get; set; }
+
+        public string FullName { get; set; }
+
+        public string FirstName { get; set; }
+
+        public string SecondName { get; set; }
+
+        public string LastName { get; set; }
+
 
         public virtual ICollection<Book> Books { get; set; }
+
+
     }
 }

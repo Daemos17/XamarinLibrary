@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:MobileLibrary.ViewModels"
+             x:Class="MobileLibrary.Views.BookPage">
+    <ContentPage.BindingContext>
+        <viewmodels:MainPageViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="booksList" ItemsSource="{Binding Books}"
+              SelectedItem="{Binding SelectedFriend, Mode=TwoWay}" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout>
+                                    <Label Text="{Binding BookName}" FontSize="Large" />
+                                    <Label Text="{Binding Year}" FontSize="Medium" />
+                                    <Label Text="{Binding Author.FullName}" FontSize="Medium" />
+                                    <Label Text="{Binding Maker.MakerName}" FontSize="Medium" />
+                                    <Label Text="{Binding Category.CategoryName}" FontSize="Medium" />
+                                    <Label Text="{Binding Count}" FontSize="Medium" />
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,12 +1,11 @@
-﻿using System;
+﻿using Plugin.Permissions;
+using Plugin.Permissions.Abstractions;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MobileLibrary.Views;
 using Xamarin.Forms;
-using MobileLibrary.ViewModels;
 using Xamarin.Forms.Xaml;
 
 namespace MobileLibrary
@@ -14,25 +13,61 @@ namespace MobileLibrary
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
     {
+       
 
-        MainPageViewModel viewModel;
         public MainPage()
         {
+          
             InitializeComponent();
-
-    
+            
         }
 
-        public async void button_Clicked(object sender,EventArgs e)
+        protected override bool OnBackButtonPressed()
         {
-            await Navigation.PushModalAsync(new NavigationPage(new MenuPage()));
+
+            base.OnBackButtonPressed();
+
+            if (webView.CanGoBack)
+            {
+                webView.GoBack();
+                return true;
+            }
+            else
+            {
+                base.OnBackButtonPressed();
+                return true;
+            }
+
         }
+
+
         protected override void OnAppearing()
         {
            
-            base.OnAppearing();
+            base.OnAppearing();  
+            RunTimePermission();
+          
+         
         }
 
+        public async void RunTimePermission()
+        {
+            var status = PermissionStatus.Unknown;
 
+            status = await CrossPermissions.Current.CheckPermissionStatusAsync(Permission.Camera);
+
+            if (status != PermissionStatus.Granted)
+            {
+
+                status = await Utils.CheckPermissions(Permission.Camera);
+            }
+
+        }
+
+        private void RefreshView_Refreshing(object sender, EventArgs e)
+        { 
+            webView.Reload();
+            refView.IsRefreshing = false;
+        }
     }
 }
